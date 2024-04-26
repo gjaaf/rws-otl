@@ -1,0 +1,446 @@
+@prefix bs: <https://w3id.org/def/basicsemantics-owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix nen2660-term: <https://w3id.org/nen2660/term#> .
+@prefix otl: <https://data.rws.nl/def/otl/> .
+@prefix otlb: <https://data.rws.nl/def/bomr/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+otlb:bomr-object a skos:Concept;
+     skos:broaderTransitive nen2660-term:InformationObject;
+     skos:definition "BedrijfsObject volgens het RWS BOM-R model."@nl ;
+     skos:prefLabel "RWS BedrijfsObject"@nl ;
+     .
+
+otlb:graaf-kennismodel-bomr {
+otlb:Aanleginrichting a otlb:bomr-object ;
+skos:definition "Aanleginrichting"@nl .
+
+otlb:Aanloopgebied a otlb:bomr-object ;
+skos:definition "Aanloopgebied"@nl .
+
+otlb:Afval a otlb:bomr-object ;
+skos:definition "Afval"@nl .
+
+otlb:Ankergebied a otlb:bomr-object ;
+skos:definition "Ankergebied"@nl .
+
+otlb:Aquaduct a otlb:bomr-object ;
+skos:definition "Aquaduct"@nl .
+
+otlb:Archief a otlb:bomr-object ;
+skos:definition "Archief"@nl .
+
+otlb:Areaal a otlb:bomr-object ;
+skos:definition "Areaal"@nl .
+
+otlb:Bedrijfsmiddel a otlb:bomr-object ;
+skos:definition "Bedrijfsmiddel"@nl .
+
+otlb:Begroting a otlb:bomr-object ;
+skos:definition "Begroting"@nl .
+
+otlb:Belanghebbende a otlb:bomr-object ;
+skos:definition "Belanghebbende"@nl .
+
+otlb:Beleid a otlb:bomr-object ;
+skos:definition "Beleid"@nl .
+
+otlb:Besluit a otlb:bomr-object ;
+skos:definition "Besluit"@nl .
+
+otlb:Betaling a otlb:bomr-object ;
+skos:definition "Betaling"@nl .
+
+otlb:Bezinkbassin a otlb:bomr-object ;
+skos:definition "Bezinkbassin"@nl .
+
+otlb:Bodem a otlb:bomr-object ;
+skos:definition "Bodem"@nl .
+
+otlb:Boodschap a otlb:bomr-object ;
+skos:definition "Boodschap"@nl .
+
+otlb:Bosgebied a otlb:bomr-object ;
+skos:definition "Bosgebied"@nl .
+
+otlb:Brug a otlb:bomr-object ;
+skos:definition "Brug"@nl .
+
+otlb:Contract a otlb:bomr-object ;
+skos:definition "Contract"@nl .
+
+otlb:Coupure a otlb:bomr-object ;
+skos:definition "Coupure"@nl .
+
+otlb:Crisis a otlb:bomr-object ;
+skos:definition "Crisis"@nl .
+
+otlb:Dam a otlb:bomr-object ;
+skos:definition "Dam"@nl .
+
+otlb:Data a otlb:bomr-object ;
+skos:definition "Data"@nl .
+
+otlb:Dienst a otlb:bomr-object ;
+skos:definition "Dienst"@nl .
+
+otlb:Dijk a otlb:bomr-object ;
+skos:definition "Dijk"@nl .
+
+otlb:Drinkwaterinlaat a otlb:bomr-object ;
+skos:definition "Drinkwaterinlaat"@nl .
+
+otlb:Duiker a otlb:bomr-object ;
+skos:definition "Duiker"@nl .
+
+otlb:Duin a otlb:bomr-object ;
+skos:definition "Duin"@nl .
+
+otlb:Duingebied a otlb:bomr-object ;
+skos:definition "Duingebied"@nl .
+
+otlb:Ecoduct a otlb:bomr-object ;
+skos:definition "Ecoduct"@nl .
+
+otlb:Energie a otlb:bomr-object ;
+skos:definition "Energie"@nl .
+
+otlb:Factuur a otlb:bomr-object ;
+skos:definition "Factuur"@nl .
+
+otlb:Fauna a otlb:bomr-object ;
+skos:definition "Fauna"@nl .
+
+otlb:Faunatunnel a otlb:bomr-object ;
+skos:definition "Faunatunnel"@nl .
+
+otlb:Faunavoorziening a otlb:bomr-object ;
+skos:definition "Faunavoorziening"@nl .
+
+otlb:Financiën a otlb:bomr-object ;
+skos:definition "Financiën"@nl .
+
+otlb:Flora a otlb:bomr-object ;
+skos:definition "Flora"@nl .
+
+otlb:Fly a otlb:bomr-object ;
+skos:definition "Fly"@nl .
+
+otlb:Formatieplaats a otlb:bomr-object ;
+skos:definition "Formatieplaats"@nl .
+
+otlb:Functie a otlb:bomr-object ;
+skos:definition "Functie"@nl .
+
+otlb:Gebied a otlb:bomr-object ;
+skos:definition "Gebied"@nl .
+
+otlb:Geluid a otlb:bomr-object ;
+skos:definition "Geluid"@nl .
+
+otlb:Gemaal a otlb:bomr-object ;
+skos:definition "Gemaal"@nl .
+
+otlb:Gladheid a otlb:bomr-object ;
+skos:definition "Gladheid"@nl .
+
+otlb:Grondwaterlichaam a otlb:bomr-object ;
+skos:definition "Grondwaterlichaam"@nl .
+
+otlb:Grootboek a otlb:bomr-object ;
+skos:definition "Grootboek"@nl .
+
+otlb:Hardware a otlb:bomr-object ;
+skos:definition "Hardware"@nl .
+
+otlb:Haven a otlb:bomr-object ;
+skos:definition "Haven"@nl .
+
+otlb:Hevel a otlb:bomr-object ;
+skos:definition "Hevel"@nl .
+
+otlb:Hoofdvaarwegennetwerk a otlb:bomr-object ;
+skos:definition "Hoofdvaarwegennetwerk"@nl .
+
+otlb:Hoofdwatersysteem a otlb:bomr-object ;
+skos:definition "Hoofdwatersysteem"@nl .
+
+otlb:Hoofdwegennetwerk a otlb:bomr-object ;
+skos:definition "Hoofdwegennetwerk"@nl .
+
+otlb:Incident a otlb:bomr-object ;
+skos:definition "Incident"@nl .
+
+otlb:Informatieproduct a otlb:bomr-object ;
+skos:definition "Informatieproduct"@nl .
+
+otlb:Inkoop a otlb:bomr-object ;
+skos:definition "Inkoop"@nl .
+
+otlb:Juridisch a otlb:bomr-object ;
+skos:definition "Juridisch"@nl .
+
+otlb:Kabel a otlb:bomr-object ;
+skos:definition "Kabel"@nl .
+
+otlb:Kade a otlb:bomr-object ;
+skos:definition "Kade"@nl .
+
+otlb:Kader a otlb:bomr-object ;
+skos:definition "Kader"@nl .
+
+otlb:Kanaal a otlb:bomr-object ;
+skos:definition "Kanaal"@nl .
+
+otlb:Keersluis a otlb:bomr-object ;
+skos:definition "Keersluis"@nl .
+
+otlb:Klant a otlb:bomr-object ;
+skos:definition "Klant"@nl .
+
+otlb:Klimaat a otlb:bomr-object ;
+skos:definition "Klimaat"@nl .
+
+otlb:Kostenplaats a otlb:bomr-object ;
+skos:definition "Kostenplaats"@nl .
+
+otlb:Kunstwerk a otlb:bomr-object ;
+skos:definition "Kunstwerk"@nl .
+
+otlb:Kust a otlb:bomr-object ;
+skos:definition "Kust"@nl .
+
+otlb:Landbouwgebied a otlb:bomr-object ;
+skos:definition "Landbouwgebied"@nl .
+
+otlb:Leiding a otlb:bomr-object ;
+skos:definition "Leiding"@nl .
+
+otlb:Ligplaats a otlb:bomr-object ;
+skos:definition "Ligplaats"@nl .
+
+otlb:Lucht a otlb:bomr-object ;
+skos:definition "Lucht"@nl .
+
+otlb:Maaiveld a otlb:bomr-object ;
+skos:definition "Maaiveld"@nl .
+
+otlb:Maatregel a otlb:bomr-object ;
+skos:definition "Maatregel"@nl .
+
+otlb:Medewerker a otlb:bomr-object ;
+skos:definition "Medewerker"@nl .
+
+otlb:Meer a otlb:bomr-object ;
+skos:definition "Meer"@nl .
+
+otlb:Meetnet a otlb:bomr-object ;
+skos:definition "Meetnet"@nl .
+
+otlb:Natuurgebied a otlb:bomr-object ;
+skos:definition "Natuurgebied"@nl .
+
+otlb:Netwerk a otlb:bomr-object ;
+skos:definition "Netwerk"@nl .
+
+otlb:Netwerkschakel a otlb:bomr-object ;
+skos:definition "Netwerkschakel"@nl .
+
+otlb:Oever a otlb:bomr-object ;
+skos:definition "Oever"@nl .
+
+otlb:Onderdoorgang a otlb:bomr-object ;
+skos:definition "Onderdoorgang"@nl .
+
+otlb:Oppervlaktewaterlichaam a otlb:bomr-object ;
+skos:definition "Oppervlaktewaterlichaam"@nl .
+
+otlb:Organisatie a otlb:bomr-object ;
+skos:definition "Organisatie"@nl .
+
+otlb:Pand a otlb:bomr-object ;
+skos:definition "Pand"@nl .
+
+otlb:Perceel a otlb:bomr-object ;
+skos:definition "Perceel"@nl .
+
+otlb:Personeel a otlb:bomr-object ;
+skos:definition "Personeel"@nl .
+
+otlb:Primaire a otlb:bomr-object ;
+skos:definition "Primaire"@nl .
+
+otlb:Proces a otlb:bomr-object ;
+skos:definition "Proces"@nl .
+
+otlb:Procesbassin a otlb:bomr-object ;
+skos:definition "Procesbassin"@nl .
+
+otlb:Project a otlb:bomr-object ;
+skos:definition "Project"@nl .
+
+otlb:Rechtspersoon a otlb:bomr-object ;
+skos:definition "Rechtspersoon"@nl .
+
+otlb:Recreatief a otlb:bomr-object ;
+skos:definition "Recreatief"@nl .
+
+otlb:Regionale a otlb:bomr-object ;
+skos:definition "Regionale"@nl .
+
+otlb:Risico a otlb:bomr-object ;
+skos:definition "Risico"@nl .
+
+otlb:Rivier a otlb:bomr-object ;
+skos:definition "Rivier"@nl .
+
+otlb:Ruimte a otlb:bomr-object ;
+skos:definition "Ruimte"@nl .
+
+otlb:Scheepvaartverkeer a otlb:bomr-object ;
+skos:definition "Scheepvaartverkeer"@nl .
+
+otlb:Schutsluis a otlb:bomr-object ;
+skos:definition "Schutsluis"@nl .
+
+otlb:Sifon a otlb:bomr-object ;
+skos:definition "Sifon"@nl .
+
+otlb:Signaalgever a otlb:bomr-object ;
+skos:definition "Signaalgever"@nl .
+
+otlb:Sluis a otlb:bomr-object ;
+skos:definition "Sluis"@nl .
+
+otlb:Software a otlb:bomr-object ;
+skos:definition "Software"@nl .
+
+otlb:Spuisluis a otlb:bomr-object ;
+skos:definition "Spuisluis"@nl .
+
+otlb:Stormvloedkering a otlb:bomr-object ;
+skos:definition "Stormvloedkering"@nl .
+
+otlb:Stuw a otlb:bomr-object ;
+skos:definition "Stuw"@nl .
+
+otlb:Terminal a otlb:bomr-object ;
+skos:definition "Terminal"@nl .
+
+otlb:Terrein a otlb:bomr-object ;
+skos:definition "Terrein"@nl .
+
+otlb:Tunnel a otlb:bomr-object ;
+skos:definition "Tunnel"@nl .
+
+otlb:Uiterwaard a otlb:bomr-object ;
+skos:definition "Uiterwaard"@nl .
+
+otlb:Vaargeul a otlb:bomr-object ;
+skos:definition "Vaargeul"@nl .
+
+otlb:Vaartuig a otlb:bomr-object ;
+skos:definition "Vaartuig"@nl .
+
+otlb:Vaarweg a otlb:bomr-object ;
+skos:definition "Vaarweg"@nl .
+
+otlb:Vaarwegmarkering a otlb:bomr-object ;
+skos:definition "Vaarwegmarkering"@nl .
+
+otlb:Vaarwegmeubilair a otlb:bomr-object ;
+skos:definition "Vaarwegmeubilair"@nl .
+
+otlb:Vacature a otlb:bomr-object ;
+skos:definition "Vacature"@nl .
+
+otlb:Vastgoed a otlb:bomr-object ;
+skos:definition "Vastgoed"@nl .
+
+otlb:Verblijfsobject a otlb:bomr-object ;
+skos:definition "Verblijfsobject"@nl .
+
+otlb:Vergunning a otlb:bomr-object ;
+skos:definition "Vergunning"@nl .
+
+otlb:Verkeer a otlb:bomr-object ;
+skos:definition "Verkeer"@nl .
+
+otlb:Verkeerscentrale a otlb:bomr-object ;
+skos:definition "Verkeerscentrale"@nl .
+
+otlb:Verkeersdetector a otlb:bomr-object ;
+skos:definition "Verkeersdetector"@nl .
+
+otlb:Verzorgingsplaats a otlb:bomr-object ;
+skos:definition "Verzorgingsplaats"@nl .
+
+otlb:Viaduct a otlb:bomr-object ;
+skos:definition "Viaduct"@nl .
+
+otlb:Vis a otlb:bomr-object ;
+skos:definition "Vis"@nl .
+
+otlb:Vogel a otlb:bomr-object ;
+skos:definition "Vogel"@nl .
+
+otlb:Waterbodem a otlb:bomr-object ;
+skos:definition "Waterbodem"@nl .
+
+otlb:Waterbuffer a otlb:bomr-object ;
+skos:definition "Waterbuffer"@nl .
+
+otlb:Waterkering a otlb:bomr-object ;
+skos:definition "Waterkering"@nl .
+
+otlb:Waterlichaam a otlb:bomr-object ;
+skos:definition "Waterlichaam"@nl .
+
+otlb:Waterreguleringswerk a otlb:bomr-object ;
+skos:definition "Waterreguleringswerk"@nl .
+
+otlb:Watersysteem a otlb:bomr-object ;
+skos:definition "Watersysteem"@nl .
+
+otlb:Weg a otlb:bomr-object ;
+skos:definition "Weg"@nl .
+
+otlb:Wegbed a otlb:bomr-object ;
+skos:definition "Wegbed"@nl .
+
+otlb:Wegmarkering a otlb:bomr-object ;
+skos:definition "Wegmarkering"@nl .
+
+otlb:Wegmeubilair a otlb:bomr-object ;
+skos:definition "Wegmeubilair"@nl .
+
+otlb:Wegverkeer a otlb:bomr-object ;
+skos:definition "Wegverkeer"@nl .
+
+otlb:Wegvoertuig a otlb:bomr-object ;
+skos:definition "Wegvoertuig"@nl .
+
+otlb:Werkplek a otlb:bomr-object ;
+skos:definition "Werkplek"@nl .
+
+otlb:Windpark a otlb:bomr-object ;
+skos:definition "Windpark"@nl .
+
+otlb:Wingebied a otlb:bomr-object ;
+skos:definition "Wingebied"@nl .
+
+otlb:Zee a otlb:bomr-object ;
+skos:definition "Zee"@nl .
+
+otlb:Zeezoogdier a otlb:bomr-object ;
+skos:definition "Zeezoogdier"@nl .
+
+otlb:Zwaaikom a otlb:bomr-object ;
+skos:definition "Zwaaikom"@nl .
+
+} 
