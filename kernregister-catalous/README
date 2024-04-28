@@ -2,7 +2,13 @@
 
 # Rijkswaterstaat Kernregistratie Administratie
 
-Pellentesque dapibus suscipit ligula.  Donec posuere augue in quam.  Etiam vel tortor sodales tellus ultricies commodo.  Suspendisse potenti.  Aenean in sem ac leo mollis blandit.  Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.  Phasellus lacus.  Etiam laoreet quam sed arcu.  Phasellus at dui in ligula mollis ultricies.  Integer placerat tristique nisl.  Praesent augue.  Fusce commodo.  Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  Nullam libero mauris, consequat quis, varius et, dictum id, arcu.  Mauris mollis tincidunt felis.  Aliquam feugiat tellus ut neque.  Nulla facilisis, risus a rhoncus fermentum, tellus tellus lacinia purus, et dictum nunc justo sit amet elit.
-
-Aliquam erat volutpat.  Nunc eleifend leo vitae magna.  In id erat non orci commodo lobortis.  Proin neque massa, cursus ut, gravida ut, lobortis eget, lacus.  Sed diam.  Praesent fermentum tempor tellus.  Nullam tempus.  Mauris ac felis vel velit tristique imperdiet.  Donec at pede.  Etiam vel neque nec dui dignissim bibendum.  Vivamus id enim.  Phasellus neque orci, porta a, aliquet quis, semper a, massa.  Phasellus purus.  Pellentesque tristique imperdiet tortor.  Nam euismod tellus id erat.
-
+Catalogus.trig bevat de catalogue record. Nu staat de catalog in
+DEFAULT.  Elke dataset heeft een aparte file. En die staan elke in een
+aparte graaf. Die file bevat de data set. De data service en de data
+distribution hebben elke een aparte file. Dat zorgt voor kleinere
+commits. De dataset, de data service en de data distribution van een
+specifieke KR hebben elke een aparte graaf die alleen ind e default
+graag samen komt. Dat zorgt er voor dat je per
+service/dataset/distribution kan vernieuwen door de graaf te laten
+vervallen en opnieuw te laden, wat dus qua ganulariteit overeenkomt
+met de files.

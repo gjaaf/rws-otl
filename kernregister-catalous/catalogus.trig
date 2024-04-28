@@ -11,13 +11,11 @@
 @prefix digi: <https://digilab.overheid.nl/projecten> .
 @prefix rws-kr: <https://data.rws.nl/kr/> .
 
-rws-kr:catalogus {
 rws-kr:rws-kr-catalogus a dcat:Catalog ;
   dct:title "Rijkswaterstaat Kernregistrie Administratie"@nl ;
-  dct:description "Registrtie van RWS kernregistraties met koppelingen naar het conceptueel datamodel, het bedrijfsobjecten model en de ontsluitingsmechanismes van de kernregistratie. Daarnaast de registraie van de kwalitetisspecificaties van de kernregistraties, de data eigenaren en de doelbindingen."@nl ;
+  dct:description "Registratie van RWS kernregistraties met koppelingen naar het conceptueel datamodel, het bedrijfsobjecten model en de ontsluitingsmechanismes van de kernregistratie. Daarnaast de registraie van de kwalitetisspecificaties van de kernregistraties, de data eigenaren en de doelbindingen."@nl ;
   dct:language <http://publications.europa.eu/resource/authority/language/NLD> ;
-  foaf:homepage <https://gitlab.com/digilab.overheid.nl/ecosystem/fds-catalogus/digilab-catalog> ;
+  foaf:homepage <https://github.com/gjaaf/rws-otl/tree/main/kernregister-catalous> ;
   dct:modified "2023-11-22"^^xsd:date;
-  dcat:keyword "NLx-Fieldlab-API"
+  dcat:keyword "Kernregistratie" ,"Masterdata", "stamdata", "datakwaliteit", "RWS Rijkswaterstaat";
 .
-}

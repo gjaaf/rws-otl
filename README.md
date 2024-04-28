@@ -26,3 +26,5 @@ De OTL is een actueel en praktisch toepasbaar informatiemodel dat is opgebouwd d
     - Uniforme Technische Decompositie (UTD)
     
 	**- [linksets](./ontology/def/linksets):** Linksets beschrijven de mapping tussen klassen in een extern model en klassen in de OTL. Zo kan de OTL bekeken worden met een specifiekere view, zoals de NEN2767 of de Algemene Begrippen en Definitielijst van Rijkswaterstaat.  
+
+    **- [kernregistraties]( ./ontology/kernregister-catalous ):** Kernregistraties beschrijven de datasets die Rijkswaterstaat beschouwt als centrale datasets.  De kernregistratie worden beschreven inclusief de ontsluitingsmechanismes. In de [kernregistratiebeschrijving](./kernregister-catalous/kr-beschrijving.html) wordt op toegangkelijke manier toegang gegeven tot de kernregistraties en de er mee samennhangende modellen zoals de OTL en het RWS bedrijfsobjecten model.
