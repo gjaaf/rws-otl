@@ -18,6 +18,7 @@
 @prefix rws-kr: <https://data.rws.nl/kr/> .
 
 rws-kr:belanghebbende-dataset {
+#rws-kr:dataset {
 rws-kr:belanghebbende-dataset-001
   a dcat:Dataset ;
   dcterms:title "Belanghebbenden"@nl ;

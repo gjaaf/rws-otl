@@ -29,7 +29,7 @@ rws-kr:belanghebbende-dataservice-001
 
 rws-kr:belanghebbende-dataservice-002
   a dcat:DataService ;
-  dcterms:title "Alle id's van belanghebbenden"@nl ;
+  dcterms:title "Belanghebbendengegevens per id"@nl ;
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/nl> ;
   dcterms:conformsTo <https://spec.openapis.org/oas/latest.html> ;
   dcat:endpointDescription <http://localhost:8000/docs> ;
