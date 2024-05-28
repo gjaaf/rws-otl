@@ -1,4 +1,4 @@
-from rdflib import Dataset, URIRef, Namespace
+from rdflib import Dataset, URIRef, Namespace, ConjunctiveGraph
 from urllib.parse import quote, unquote
 import sys
 import time
@@ -54,13 +54,20 @@ def wrap_td(wrap_str):
         wrap_str = ""
     return_str = "<td style=\"padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);\">\n" + wrap_str + "</td>\n"
     return return_str
-    
-run_type="shortened" # or "normal"
-print ("Reading")
-print ("...Initials")
+
+def wrap_tdfc(wrap_str):
+    if not isinstance(wrap_str, str):
+        wrap_str = ""
+    return_str = "<td style=\"padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);\">\n" + wrap_str + "</td>\n"
+    return return_str
+
+run_type = "shortened" # or "normal"
+# run_type = "normal"
+mode = "verbose"
+print("Reading")
+print("...Initials")
 
 # Create an empty ConjunctiveGraph
-#ds = Dataset()
 ds = ConjunctiveGraph()
 
 # Parse multiple .trig files into the graph
@@ -74,9 +81,8 @@ if run_type == "shortened":
               '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/belanghebbende-linkset.trig', \
               '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/creator.trig', \
               '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/publisher.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/linksets/CIMObject-otl.trig'
-              #         '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-kennismodel-bomr.trig', \
-              #         '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-informatiemodel.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/linksets/CIMObject-otl.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-kennismodel-bomr.trig' \
             ]
 else:
     files = [ \
@@ -87,9 +93,8 @@ else:
               '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/belanghebbende-linkset.trig', \
               '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/creator.trig', \
               '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/publisher.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/linksets/CIMObject-otl.trig'
-              #         '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-kennismodel-bomr.trig', \
-              #         '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-informatiemodel.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/linksets/CIMObject-otl.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-kennismodel-bomr.trig' \
             ]
 
 for file in files:
@@ -248,6 +253,7 @@ for row in krs_results:
                    'endpointdescr': row['endpointdescr'], \
                    'conformsto': row['conformsto'] }
     krs_results_array.append(result_dict)
+krs_results_sorted = sorted (krs_results_array, key=lambda x: (x['service'], x['title']))
 
 lineNo = 0    
 for entry in krs_results_array:
@@ -288,7 +294,7 @@ with open ('/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catal
         else:
             file.write(line)
 
-print("- Stage 2")
+print("- Stage 2") 
 with open('/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/respec-documentatie/templates/Elements.template', 'r') as elements_template:
     for char in distinct_initials:
         print("Writing file: " + char)
@@ -307,39 +313,90 @@ with open('/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalo
                             section = section + wrap_h2(entry_str)
                             section = section + wrap_p(defi)
                             section = section + "Breder begrip: " + brdr
-                            print("famous resource: " + get_last_word(entry['resource'].toPython()))
+                            if mode == "verbose":
+                                print("Resource: " + get_last_word(entry['resource'].toPython()))
                             patroon_data = ""
                             row_data = ""
                             for pattern in patroon_results_sorted:
                                 if get_last_word(pattern['res']) == get_last_word(entry['resource'].toPython()):
                                     patroon_data = ""
                                     patroon_data = patroon_data + wrap_td (pattern['name'])
-                                    patroon_data = patroon_data + wrap_td (unquote(quote (pattern['datatype'])))
+                                    if mode == "verbose":
+                                        print ("patroon: " + pattern['name'])
+                                    if not pattern['datatype']:
+                                        datatype = ""
+                                    else:
+                                        datatype = pattern['datatype']
+                                    patroon_data = patroon_data + wrap_td (unquote(quote (datatype)))
                                     patroon_data = patroon_data + wrap_td (pattern['minexclusive'])
                                     patroon_data = patroon_data + wrap_td (pattern['maxexclusive'])
                                     patroon_data = patroon_data + wrap_td  (unquote (quote(pattern['nodekind'])))
                                     patroon_data = patroon_data + wrap_td ("") # Keuzelijst
                                     patroon_data = wrap_tr (patroon_data)
                                     row_data = row_data + patroon_data
-                            header = wrap_th ("Kenmerk")
-                            header = header + wrap_th ("Gegevenstype")
-                            header = header + wrap_th ("Max. waarde")
-                            header = header + wrap_th ("Min. waarde")
-                            header = header + wrap_th ("Waardetype")
-                            header = header + wrap_th ("Keuzelijst")
+                            header = wrap_th("Kenmerk")
+                            header = header + wrap_th("Gegevenstype")
+                            header = header + wrap_th("Max. waarde")
+                            header = header + wrap_th("Min. waarde")
+                            header = header + wrap_th("Waardetype")
+                            header = header + wrap_th("Keuzelijst")
                             header = wrap_tr (header)
                             table_data = header + row_data
-                            table_data = wrap_table (table_data)
+                            table_data = wrap_table(table_data)
                             section = section + wrap_h3("Kenmerken")
                             section = section + table_data
                             output.write(section) # Kenmerken
-                            
+                            # start of kernregistratie
+                            row_data = ""
+                            section = ""
+                            row = ""
+                            for kr in kr_results_sorted:
+                                if entry['resource'].toPython() == kr['otl']:
+                                    print ("found: " + kr['otl'] + " = " + entry['resource'].toPython())
+                                    row = row + wrap_tdfc("Registratie beschijving")
+                                    row = row + wrap_td(kr['title'])
+                                    row_data = row_data +wrap_tr(row)
+                                    row = ""
+                                    row = row + wrap_tdfc("Gemaakt door")
+                                    row = row + wrap_td(kr['creatorname'])
+                                    row_data = row_data +wrap_tr(row)
+                                    row = ""
+                                    row = row + wrap_tdfc("Gepubliceerd door")
+                                    row = row + wrap_td(kr['publishername'])
+                                    row_data = row_data +wrap_tr(row)
+                                    row = ""
+                                    row = row + wrap_tdfc("Service resource")
+                                    krs_row_data = ""
+                                    service_block = ""
+                                    serviceuri = ""
+                                    for krs in krs_results_sorted:
+                                        if krs['kr'].toPython() == kr['kr']:
+                                            row = "<td> </td>"
+                                            row = wrap_tdfc("service endpoint") + wrap_td("<a href=\"" + krs['endpoint'] + "\">"  + krs['endpoint'] + "</a>" )
+                                            krs_row_data = krs_row_data + wrap_tr(row)
+                                            row = "<td> </td>"
+                                            row = row + wrap_tdfc("service Naam") + wrap_td(krs['title'])
+                                            krs_row_data = krs_row_data + wrap_tr(row)
+                                            row = "<td> </td>"
+                                            row = row + wrap_tdfc("service Beschrijving") + wrap_td( "<a href=\"" + krs['endpointdescr'] + "\">" +  krs['endpointdescr'] + "</a>")
+                                            krs_row_data = krs_row_data + wrap_tr(row)
+                                            row = "<td> </td>"
+                                            row = row + wrap_tdfc("service volgt standaard") + wrap_td(krs['conformsto'])
+                                            krs_row_data = krs_row_data + wrap_tr(row)
+                                            service_block = wrap_table(krs_row_data)
+                                    row = row + service_block        
+                                    row_data = row_data + wrap_tr(row)
+                                    row = ""
+                                    table_data = wrap_table(row_data)
+                                    section = section + wrap_h3("Kernregistraties")
+                                    section = section + table_data
+                                    output.write(section)
                 else:
                     output.write(line)
+print ("- Stage 3")
 
-                    
+
 end_time = time.time()
 run_time = end_time - start_time
 print (f"Complete run in {run_time} seconds")
-print ("\n")
-
+print("\n")
