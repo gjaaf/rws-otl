@@ -1,78 +1,79 @@
 prefix skos: <http://www.w3.org/2004/02/skos/core#>
 prefix otlb: <https://data.rws.nl/def/bomr/>
+prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> 
 
 otlb:graaf-kennismodel-bomr {
-otlb:Haven skos:definition "Verzameling van (kleinste) ligplaatsen behorend tot een af te bakenen geografisch gebied." .
-otlb:Gemaal skos:definition "Kunstwerk of installatie dat (afval) water transporteert door verpomping of op te schroeven." .
-otlb:Schutsluis skos:definition "Kunstwerk waarmee schepen een waterstandsverschil kunnen overbruggen door aanpassing van het niveauverschil in de schutlsuis. Tevens dient de schutsluis voor het keren van buitenwater" .
-otlb:Kanaal skos:definition "Gegraven grote waterloop die dient voor scheepvaart en/of watertransport." .
-otlb:Tunnel skos:definition "Kunstmatig aangelegde geboorde, afgezonken of in het droge gebouwde koker of buisvormige gang onder maaiveldniveau, dat aan beide zijdes is voorzien van een open bakconstructie, met als doel om spoor- en/ of wegverkeer tussen twee punten over een grote afstand mogelijk te maken." .
-otlb:Tunnel skos:definition "Kunstmatig aangelegde geboorde, afgezonken of in het droge gebouwde koker of buisvormige gang onder maaiveldniveau, dat aan beide zijdes is voorzien van een open bakconstructie, met als doel om spoor- en/ of wegverkeer tussen twee punten over een grote afstand mogelijk te maken." .
-otlb:Rechtspersoon skos:definition "Rol van een abstracte entiteit of organisatie, zodanig dat deze op kan treden als een volwaardig en handelingsbekwaam persoon in het rechtsverkeer behept met rechten en plichten zoals een natuurlijk persoon dat kan doen. Een rechtspersoon heeft rechtspersoonlijkheid." .
-otlb:Watersysteem skos:definition "Verzameling van objecten, bestemd voor het verplaatsen en bergen van water." .
-otlb:Spuisluis skos:definition "Uitwateringssluis om een overvloed aan water op het binnenwater gereguleerd naar een lager gelegen buitenwater te laten afvloeien. Tevens dient de spuisluis voor het keren van buitenwater." .
-otlb:Hardware skos:definition "Aanduiding van de hardware van het systeem bestaande uit het merk en type van het systeem." .
-otlb:Terrein skos:definition "Door een type landgebruik gekarakteriseerd, zichtbaar begrensd stuk grond." .
-otlb:Dam skos:definition "Dwars op het water opgeworpen waterbouwkundige constructie om water te keren, te beheersen, te leiden of te verdelen." .
-otlb:Waterbodem skos:definition "Onder de waterspiegel gelegen grondvlak van een rivier, kanaal, meer, haven, etc., exclusief de overgangtaluds naar de oevers." .
-otlb:Meer skos:definition "Een met land omringde watervlakte die een massa stilstaand landoppervlaktewater bevat." .
-otlb:Coupure skos:definition "Onderbreking in een waterkering veelal voor de doorvoer van een weg of spoorweg, die bij hoogwater afsluitbaar is" .
-otlb:Hardware skos:definition "Aanduiding van de hardware van het systeem bestaande uit het merk en type van het systeem." .
-otlb:Functie skos:definition "Toestandsverandering gericht op een bepaald doel." .
-otlb:Rivier skos:definition "Brede natuurlijke waterloop die de afwatering van een stroomgebied verzorgt" .
-otlb:Faunatunnel skos:definition "Ondertunneling van een weg of spoorlijn middels een buis, duiker of tunnel waar kleine tot middelgrote zoogdieren, reptielen, amfibieën en ongewervelden veilig doorheen kunnen." .
-otlb:Waterkering skos:definition "Kunstmatige hoogten en die (gedeelten van) natuurlijke hoogten of hooggelegen gronden, met inbegrip van daarin of daaraan aangebrachte werken, die een waterkerende of mede een waterkerende functie hebben, en die als zodanig in de legger zijn aangegeven (Hydraulische Randvoorwaarden 2001)." .
-otlb:Aquaduct skos:definition "Kunstwerk waarmee een watergang doormiddel van een bakvormige constructie over een (spoor)weg of terrein wordt geleid" .
-otlb:Duiker skos:definition "Waterdoorgang onder een weg of dijk welke zorg draagt voor een wederzijdse verbinding van twee wateren of waterlopen." .
-otlb:Stuw skos:definition "Waterbouwkundige constructie die het water in een loop, beek of rivier opstuwt zodat het waterpeil bovenstrooms kan worden verhoogd en/ of geregeld." .
-otlb:Kabel skos:definition "Een geleider die is voorzien van een ommanteling en bestemd is voor transport van energie of data." .
-otlb:Sluis skos:definition "Door middel van deuren te openen waterkering, die de verbinding vormt tussen twee wateren met een ongelijk waterniveau of met verschillende waterkwaliteit. Een sluis is opgebouwd uit onder andere sluishoofden, kolk en sluisdeuren." .
-otlb:Dijk skos:definition "Aangelegd grondlichaam dat het land beschermt tegen overstroming" .
-otlb:Duin skos:definition "Waterkerende aansluitende zandheuvel aan de kust die door de natuur opgeworpen is door wind of stromend water." .
-otlb:Keersluis skos:definition "Sluis die het (buiten)water tot iedere ter plaatse bekende hoogte moet kunnen keren." .
-otlb:Netwerk skos:definition "Verzameling van netwerkelementen, waaronder nodes en hun onderlinge relaties (links)." .
-otlb:Onderdoorgang skos:definition "Korte ongelijkvloerse verbinding die bestemd is voor wegverkeer onder een weg of spoorweg door." .
-otlb:Aanloopgebied skos:definition "Gebied, voorafgaand aan de toegangsgeul, dat onderdeel is van de toegang naar grote zeehavens" .
-otlb:Verzorgingsplaats skos:definition "Langs de weg gelegen parkeergelegenheid, met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en/of voertuigen." .
-otlb:Viaduct skos:definition "Kunstwerk dat een vaste overbrugging vormt over een weg, spoorweg of terrein." .
-otlb:Sifon skos:definition "Kunstwerk om een rivier, beek of poldertocht onder een andere waterloop (watergang) door te leiden die een ander waterpeil heeft. Omdat sifons tevens een waterkerende functie hebben moeten ze aan beide zijden afsluitbaar zijn." .
-otlb:Aanleginrichting skos:definition "Faciliteit voor het aanleggen van vaartuigen." .
-otlb:Waterreguleringswerk skos:definition "Vaste overlaat of inlaat die voorziet in een vrije afvoer of aanvoer van water wanneer een bepaald peil wordt bereikt (BON NAT)." .
-otlb:Ligplaats skos:definition "Vaarweg (een stuk oppervlaktewater) bedoeld c.q. bestemd om een of meer vaartuigen (of casco&#39;s) stil te leggen." .
-otlb:Ecoduct skos:definition "Vaste verbinding in de vorm van een viaduct voor passages van dieren over een weg of spoorweg" .
-otlb:Drinkwaterinlaat skos:definition "Locatie om drinkwater in een systeem in te kunnen laten." .
-otlb:Vaargeul skos:definition "Deel van de vaarweg dat voor de scheepvaart door te baggeren op een bepaalde minimale diepte wordt gehouden zodat scheepvaartverkeer mogelijk is" .
-otlb:Uiterwaard skos:definition "Strook grond langs een rivier gesitueerd tussen de lagere zomerdijk en de hogere winterdijk die bij een hoge waterstand onder water loopt en fungeert als waterbergingsgebied en in droge perioden veelal wordt gebruikt voor veeteelt en recreatie." .
-otlb:Zee skos:definition "Mariene (zoute) wateren, met uitzondering van de binnenwateren van staten, met inbegrip van de zeebodem en ondergrond daarvan" .
-otlb:Hevel skos:definition "Duiker, bestaand uit een gebogen buisconstructie, die water bij een bepaald niveau van het ene water in het andere laat stromen." .
-otlb:Procesbassin skos:definition "Bassin waarin zuivering van influent (afvalwater) wordt gerealiseerd met door processen in gang te zetten diverse actieve- en monitoringsinstallaties." .
-otlb:Ankergebied skos:definition "Geografisch gebied dat is aangewezen door bevoegd gezag waar vaartuigen voor een bepaalde tijd voor anker kunnen gaan." .
-otlb:Stormvloedkering skos:definition "Waterbouwkundige constructie die verhindert dat water bij stormvloed of springtij de monding van een rivier instroomt en stroomopwaarts tot overstromingen leidt." .
-otlb:Brug skos:definition "Verbinding voor verkeer tussen twee landhoofden die gescheiden wordt door water." .
-otlb:Bezinkbassin skos:definition "Bijzondere vorm van een riooloverstort, om het onder bepaalde omstandigheden geloosde afvalwater te verminderen en/of de samenstelling van dit afvalwater te wijzigen." .
-otlb:Vaarweg skos:definition "Voor het openbaar scheepvaartverkeer openstaand, aaneengesloten stuk oppervlaktewater dat in doorvaart tenminste voldoet of zal gaan voldoen aan een vrije doorvaarthoogte van 2,45 meter en een diepte van 1,10 meter, beide ten opzichte van het ter plaatse geldende zomerstreefpeil, de gemiddelde waterstand, of in getijdegebieden het NAP." .
-otlb:Bodem skos:definition "Gedeelte van de ondergrond waarin zich bodemvormende processen afspelen (Soilpedia). Deze bodemvormende processen bepalen de samenstelling van de bodem, die op zijn beurt bepalend is voor gebruik en functie van de bodem." .
-otlb:Oever skos:definition "Aanduiding van het schuine vlak langs een watergang boven het wateroppervlak, het grensvlak tussen de ondergrond en de lucht" .
-otlb:Natuurgebied skos:definition "Gebied dat wegens natuurschoon en/of natuurlijke historie in stand wordt gehouden." .
-otlb:Wegverkeer skos:definition "Geheel van verplaatsingen van voertuigen met hun bestuurder, voetgangers, ruiters en geleiders met rij- of trekdieren of vee." .
-otlb:Verkeer skos:definition "Geheel van verplaatsingen van transportmiddelen op een transportinfrastructuur." .
-otlb:Verblijfsobject skos:definition "Kleinste binnen &#233;&#233;n of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is." .
-otlb:Perceel skos:definition "Onroerende zaak, kadastraal ge&#239;dentificeerd en met kadastrale grenzen begrensd deel van het Nederlands grondgebied. (Definitie is ontleend aan art 1, Kadasterwet). Als onderdeel van het Nederlands grondgebied is het een driedimensionaal ruimtelijk object." .
-otlb:Landbouwgebied skos:definition "Gebied primair in gebruik voor land- en tuinbouwproductie." .
-otlb:Signaalgever skos:definition "Installatiedeel die het gedrag van één of meerdere personen beïnvloed (informeren, waarschuwen, adviseren, gebieden of verbieden) door middel van het geven van een signaal." .
-otlb:Maaiveld skos:definition "Hoogteligging van het grondoppervlak, het grensvlak tussen ondergrond en de lucht." .
-otlb:Hoofdwatersysteem skos:definition "Verzameling van alle watersystemen, waarvan het beheer op wettelijk gronden aan een bepaalde organisatie is toegewezen." .
-otlb:Archief skos:definition "Ruimte ten behoeve van bewaren archiefstukken." .
-otlb:Hardware skos:definition "Aanduiding van de hardware van het systeem bestaande uit het merk en type van het systeem." .
-otlb:Vergunning skos:definition "Beschikking waarbij iets wordt toegestaan wat voordien verboden was." .
-otlb:Scheepvaartverkeer skos:definition "Geheel van vaarreizen." .
-otlb:Gebied skos:definition "Begrensd ruimtelijk object dat een op- of indeling van het aardoppervlak vormt op basis van een functioneel criterium." .
-otlb:Wingebied skos:definition "Gebied waar waterwinning plaatsvindt ten behoeve van drinkwater" .
-otlb:Faunavoorziening skos:definition "Voorziening die het passeren door dieren van infrastructuur geleidt, bevordert of juist voorkomt (bron: Leidraad Faunavoorzieningen bij Infrastructuur)." .
-otlb:Factuur skos:definition "Staat van verschuldigde kosten wegens geleverde goederen, diensten of werkzaamheden. Toelichting: Aldaar zijn de begrippen ‘declaratie’, ‘nota’ en ‘rekening’ synoniemen van ‘factuur’." .
-otlb:Begroting skos:definition "Raming, voorlopige berekening van de kosten van of inspanningen voor een te maken product of in te richten project." .
-otlb:Besluit skos:definition "Beslissing van een persoon of organisatie die van algemene strekking is, inhoudende een publiek- of privaatrechtelijke rechtshandeling." .
-otlb:Bosgebied skos:definition "Gebied begroeid met bos." .
-otlb:Vaartuig skos:definition "Vervoermiddel over water, dat bestaat uit een of meer casco's, en dat bedoeld is om zelfstandig vaarreizen te ondernemen." .
+otlb:Haven rdfs:comment "Verzameling van (kleinste) ligplaatsen behorend tot een af te bakenen geografisch gebied." .
+otlb:Gemaal rdfs:comment "Kunstwerk of installatie dat (afval) water transporteert door verpomping of op te schroeven." .
+otlb:Schutsluis rdfs:comment "Kunstwerk waarmee schepen een waterstandsverschil kunnen overbruggen door aanpassing van het niveauverschil in de schutlsuis. Tevens dient de schutsluis voor het keren van buitenwater" .
+otlb:Kanaal rdfs:comment "Gegraven grote waterloop die dient voor scheepvaart en/of watertransport." .
+otlb:Tunnel rdfs:comment "Kunstmatig aangelegde geboorde, afgezonken of in het droge gebouwde koker of buisvormige gang onder maaiveldniveau, dat aan beide zijdes is voorzien van een open bakconstructie, met als doel om spoor- en/ of wegverkeer tussen twee punten over een grote afstand mogelijk te maken." .
+otlb:Tunnel rdfs:comment "Kunstmatig aangelegde geboorde, afgezonken of in het droge gebouwde koker of buisvormige gang onder maaiveldniveau, dat aan beide zijdes is voorzien van een open bakconstructie, met als doel om spoor- en/ of wegverkeer tussen twee punten over een grote afstand mogelijk te maken." .
+otlb:Rechtspersoon rdfs:comment "Rol van een abstracte entiteit of organisatie, zodanig dat deze op kan treden als een volwaardig en handelingsbekwaam persoon in het rechtsverkeer behept met rechten en plichten zoals een natuurlijk persoon dat kan doen. Een rechtspersoon heeft rechtspersoonlijkheid." .
+otlb:Watersysteem rdfs:comment "Verzameling van objecten, bestemd voor het verplaatsen en bergen van water." .
+otlb:Spuisluis rdfs:comment "Uitwateringssluis om een overvloed aan water op het binnenwater gereguleerd naar een lager gelegen buitenwater te laten afvloeien. Tevens dient de spuisluis voor het keren van buitenwater." .
+otlb:Hardware rdfs:comment "Aanduiding van de hardware van het systeem bestaande uit het merk en type van het systeem." .
+otlb:Terrein rdfs:comment "Door een type landgebruik gekarakteriseerd, zichtbaar begrensd stuk grond." .
+otlb:Dam rdfs:comment "Dwars op het water opgeworpen waterbouwkundige constructie om water te keren, te beheersen, te leiden of te verdelen." .
+otlb:Waterbodem rdfs:comment "Onder de waterspiegel gelegen grondvlak van een rivier, kanaal, meer, haven, etc., exclusief de overgangtaluds naar de oevers." .
+otlb:Meer rdfs:comment "Een met land omringde watervlakte die een massa stilstaand landoppervlaktewater bevat." .
+otlb:Coupure rdfs:comment "Onderbreking in een waterkering veelal voor de doorvoer van een weg of spoorweg, die bij hoogwater afsluitbaar is" .
+otlb:Hardware rdfs:comment "Aanduiding van de hardware van het systeem bestaande uit het merk en type van het systeem." .
+otlb:Functie rdfs:comment "Toestandsverandering gericht op een bepaald doel." .
+otlb:Rivier rdfs:comment "Brede natuurlijke waterloop die de afwatering van een stroomgebied verzorgt" .
+otlb:Faunatunnel rdfs:comment "Ondertunneling van een weg of spoorlijn middels een buis, duiker of tunnel waar kleine tot middelgrote zoogdieren, reptielen, amfibieën en ongewervelden veilig doorheen kunnen." .
+otlb:Waterkering rdfs:comment "Kunstmatige hoogten en die (gedeelten van) natuurlijke hoogten of hooggelegen gronden, met inbegrip van daarin of daaraan aangebrachte werken, die een waterkerende of mede een waterkerende functie hebben, en die als zodanig in de legger zijn aangegeven (Hydraulische Randvoorwaarden 2001)." .
+otlb:Aquaduct rdfs:comment "Kunstwerk waarmee een watergang doormiddel van een bakvormige constructie over een (spoor)weg of terrein wordt geleid" .
+otlb:Duiker rdfs:comment "Waterdoorgang onder een weg of dijk welke zorg draagt voor een wederzijdse verbinding van twee wateren of waterlopen." .
+otlb:Stuw rdfs:comment "Waterbouwkundige constructie die het water in een loop, beek of rivier opstuwt zodat het waterpeil bovenstrooms kan worden verhoogd en/ of geregeld." .
+otlb:Kabel rdfs:comment "Een geleider die is voorzien van een ommanteling en bestemd is voor transport van energie of data." .
+otlb:Sluis rdfs:comment "Door middel van deuren te openen waterkering, die de verbinding vormt tussen twee wateren met een ongelijk waterniveau of met verschillende waterkwaliteit. Een sluis is opgebouwd uit onder andere sluishoofden, kolk en sluisdeuren." .
+otlb:Dijk rdfs:comment "Aangelegd grondlichaam dat het land beschermt tegen overstroming" .
+otlb:Duin rdfs:comment "Waterkerende aansluitende zandheuvel aan de kust die door de natuur opgeworpen is door wind of stromend water." .
+otlb:Keersluis rdfs:comment "Sluis die het (buiten)water tot iedere ter plaatse bekende hoogte moet kunnen keren." .
+otlb:Netwerk rdfs:comment "Verzameling van netwerkelementen, waaronder nodes en hun onderlinge relaties (links)." .
+otlb:Onderdoorgang rdfs:comment "Korte ongelijkvloerse verbinding die bestemd is voor wegverkeer onder een weg of spoorweg door." .
+otlb:Aanloopgebied rdfs:comment "Gebied, voorafgaand aan de toegangsgeul, dat onderdeel is van de toegang naar grote zeehavens" .
+otlb:Verzorgingsplaats rdfs:comment "Langs de weg gelegen parkeergelegenheid, met inbegrip van de daarbij behorende verharde en onverharde banen en een of meer voorzieningen ten behoeve van reizigers en/of voertuigen." .
+otlb:Viaduct rdfs:comment "Kunstwerk dat een vaste overbrugging vormt over een weg, spoorweg of terrein." .
+otlb:Sifon rdfs:comment "Kunstwerk om een rivier, beek of poldertocht onder een andere waterloop (watergang) door te leiden die een ander waterpeil heeft. Omdat sifons tevens een waterkerende functie hebben moeten ze aan beide zijden afsluitbaar zijn." .
+otlb:Aanleginrichting rdfs:comment "Faciliteit voor het aanleggen van vaartuigen." .
+otlb:Waterreguleringswerk rdfs:comment "Vaste overlaat of inlaat die voorziet in een vrije afvoer of aanvoer van water wanneer een bepaald peil wordt bereikt (BON NAT)." .
+otlb:Ligplaats rdfs:comment "Vaarweg (een stuk oppervlaktewater) bedoeld c.q. bestemd om een of meer vaartuigen (of casco&#39;s) stil te leggen." .
+otlb:Ecoduct rdfs:comment "Vaste verbinding in de vorm van een viaduct voor passages van dieren over een weg of spoorweg" .
+otlb:Drinkwaterinlaat rdfs:comment "Locatie om drinkwater in een systeem in te kunnen laten." .
+otlb:Vaargeul rdfs:comment "Deel van de vaarweg dat voor de scheepvaart door te baggeren op een bepaalde minimale diepte wordt gehouden zodat scheepvaartverkeer mogelijk is" .
+otlb:Uiterwaard rdfs:comment "Strook grond langs een rivier gesitueerd tussen de lagere zomerdijk en de hogere winterdijk die bij een hoge waterstand onder water loopt en fungeert als waterbergingsgebied en in droge perioden veelal wordt gebruikt voor veeteelt en recreatie." .
+otlb:Zee rdfs:comment "Mariene (zoute) wateren, met uitzondering van de binnenwateren van staten, met inbegrip van de zeebodem en ondergrond daarvan" .
+otlb:Hevel rdfs:comment "Duiker, bestaand uit een gebogen buisconstructie, die water bij een bepaald niveau van het ene water in het andere laat stromen." .
+otlb:Procesbassin rdfs:comment "Bassin waarin zuivering van influent (afvalwater) wordt gerealiseerd met door processen in gang te zetten diverse actieve- en monitoringsinstallaties." .
+otlb:Ankergebied rdfs:comment "Geografisch gebied dat is aangewezen door bevoegd gezag waar vaartuigen voor een bepaalde tijd voor anker kunnen gaan." .
+otlb:Stormvloedkering rdfs:comment "Waterbouwkundige constructie die verhindert dat water bij stormvloed of springtij de monding van een rivier instroomt en stroomopwaarts tot overstromingen leidt." .
+otlb:Brug rdfs:comment "Verbinding voor verkeer tussen twee landhoofden die gescheiden wordt door water." .
+otlb:Bezinkbassin rdfs:comment "Bijzondere vorm van een riooloverstort, om het onder bepaalde omstandigheden geloosde afvalwater te verminderen en/of de samenstelling van dit afvalwater te wijzigen." .
+otlb:Vaarweg rdfs:comment "Voor het openbaar scheepvaartverkeer openstaand, aaneengesloten stuk oppervlaktewater dat in doorvaart tenminste voldoet of zal gaan voldoen aan een vrije doorvaarthoogte van 2,45 meter en een diepte van 1,10 meter, beide ten opzichte van het ter plaatse geldende zomerstreefpeil, de gemiddelde waterstand, of in getijdegebieden het NAP." .
+otlb:Bodem rdfs:comment "Gedeelte van de ondergrond waarin zich bodemvormende processen afspelen (Soilpedia). Deze bodemvormende processen bepalen de samenstelling van de bodem, die op zijn beurt bepalend is voor gebruik en functie van de bodem." .
+otlb:Oever rdfs:comment "Aanduiding van het schuine vlak langs een watergang boven het wateroppervlak, het grensvlak tussen de ondergrond en de lucht" .
+otlb:Natuurgebied rdfs:comment "Gebied dat wegens natuurschoon en/of natuurlijke historie in stand wordt gehouden." .
+otlb:Wegverkeer rdfs:comment "Geheel van verplaatsingen van voertuigen met hun bestuurder, voetgangers, ruiters en geleiders met rij- of trekdieren of vee." .
+otlb:Verkeer rdfs:comment "Geheel van verplaatsingen van transportmiddelen op een transportinfrastructuur." .
+otlb:Verblijfsobject rdfs:comment "Kleinste binnen &#233;&#233;n of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is." .
+otlb:Perceel rdfs:comment "Onroerende zaak, kadastraal ge&#239;dentificeerd en met kadastrale grenzen begrensd deel van het Nederlands grondgebied. (Definitie is ontleend aan art 1, Kadasterwet). Als onderdeel van het Nederlands grondgebied is het een driedimensionaal ruimtelijk object." .
+otlb:Landbouwgebied rdfs:comment "Gebied primair in gebruik voor land- en tuinbouwproductie." .
+otlb:Signaalgever rdfs:comment "Installatiedeel die het gedrag van één of meerdere personen beïnvloed (informeren, waarschuwen, adviseren, gebieden of verbieden) door middel van het geven van een signaal." .
+otlb:Maaiveld rdfs:comment "Hoogteligging van het grondoppervlak, het grensvlak tussen ondergrond en de lucht." .
+otlb:Hoofdwatersysteem rdfs:comment "Verzameling van alle watersystemen, waarvan het beheer op wettelijk gronden aan een bepaalde organisatie is toegewezen." .
+otlb:Archief rdfs:comment "Ruimte ten behoeve van bewaren archiefstukken." .
+otlb:Hardware rdfs:comment "Aanduiding van de hardware van het systeem bestaande uit het merk en type van het systeem." .
+otlb:Vergunning rdfs:comment "Beschikking waarbij iets wordt toegestaan wat voordien verboden was." .
+otlb:Scheepvaartverkeer rdfs:comment "Geheel van vaarreizen." .
+otlb:Gebied rdfs:comment "Begrensd ruimtelijk object dat een op- of indeling van het aardoppervlak vormt op basis van een functioneel criterium." .
+otlb:Wingebied rdfs:comment "Gebied waar waterwinning plaatsvindt ten behoeve van drinkwater" .
+otlb:Faunavoorziening rdfs:comment "Voorziening die het passeren door dieren van infrastructuur geleidt, bevordert of juist voorkomt (bron: Leidraad Faunavoorzieningen bij Infrastructuur)." .
+otlb:Factuur rdfs:comment "Staat van verschuldigde kosten wegens geleverde goederen, diensten of werkzaamheden. Toelichting: Aldaar zijn de begrippen ‘declaratie’, ‘nota’ en ‘rekening’ synoniemen van ‘factuur’." .
+otlb:Begroting rdfs:comment "Raming, voorlopige berekening van de kosten van of inspanningen voor een te maken product of in te richten project." .
+otlb:Besluit rdfs:comment "Beslissing van een persoon of organisatie die van algemene strekking is, inhoudende een publiek- of privaatrechtelijke rechtshandeling." .
+otlb:Bosgebied rdfs:comment "Gebied begroeid met bos." .
+otlb:Vaartuig rdfs:comment "Vervoermiddel over water, dat bestaat uit een of meer casco's, en dat bedoeld is om zelfstandig vaarreizen te ondernemen." .
 otlb:Organisatie skos:defintion "Organisatie" .
 }

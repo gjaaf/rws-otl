@@ -1,9 +1,42 @@
+# process bom, otl and kr. Create Respec files.
+
 from rdflib import Dataset, URIRef, Namespace, ConjunctiveGraph
 from urllib.parse import quote, unquote
 import sys
 import time
 
 start_time = time.time()
+
+#run_type = "shortened"
+run_type = "normal"
+mode = "verbose"
+
+if run_type == "shortened":
+    files = [ \
+              '/home/gja/Development/rws-kernregistratie/rws-otl-shortened/ontology/def/otl/graaf-kennismodel.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl-shortened/ontology/def/otl/graaf-informatiemodel.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/belanghebbende-dataservice.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/belanghebbende-dataset.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/belanghebbende-linkset.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/creator.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/publisher.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/linksets/CIMObject-otl.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-kennismodel-bomr.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-kennismodel-bomr-v23.trig'\
+            ]
+else:
+    files = [ \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-kennismodel.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-informatiemodel.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/belanghebbende-dataservice.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/belanghebbende-dataset.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/belanghebbende-linkset.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/creator.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/publisher.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/linksets/CIMObject-otl.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-kennismodel-bomr.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-kennismodel-bomr-v23.trig'\
+            ]
 
 def get_first_initial_last_word(input_str):
     last_word = get_last_word (input_str)
@@ -61,9 +94,6 @@ def wrap_tdfc(wrap_str):
     return_str = "<td style=\"padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);\">\n" + wrap_str + "</td>\n"
     return return_str
 
-run_type = "shortened" # or "normal"
-# run_type = "normal"
-mode = "verbose"
 print("Reading")
 print("...Initials")
 
@@ -72,35 +102,9 @@ ds = ConjunctiveGraph()
 
 # Parse multiple .trig files into the graph
 
-if run_type == "shortened":
-    files = [ \
-              '/home/gja/Development/rws-kernregistratie/rws-otl-shortened/ontology/def/otl/graaf-kennismodel.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl-shortened/ontology/def/otl/graaf-informatiemodel.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/belanghebbende-dataservice.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/belanghebbende-dataset.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/belanghebbende-linkset.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/creator.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/publisher.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/linksets/CIMObject-otl.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-kennismodel-bomr.trig' \
-            ]
-else:
-    files = [ \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-kennismodel.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-informatiemodel.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/belanghebbende-dataservice.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/belanghebbende-dataset.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/belanghebbende-linkset.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/creator.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/publisher.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/linksets/CIMObject-otl.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-kennismodel-bomr.trig' \
-            ]
-
 for file in files:
     ds.parse(file, format='trig')
 
-# if run_what == 1:
 query = """
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -395,7 +399,74 @@ with open('/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalo
                     output.write(line)
 print ("- Stage 3")
 
+query = """
+   PREFIX owl: <http://www.w3.org/2002/07/owl#>
+   PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+   PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+   PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+   PREFIX sh: <http://www.w3.org/ns/shacl#>
+   PREFIX otl: <https://data.rws.nl/def/otl/> 
+   PREFIX otlb: <https://data.rws.nl/def/bomr/> 
+   SELECT ?bomr ?comment ?otl ?definition
+   WHERE {
+       ?bomr a otlb:bomr-object .
+       ?bomr skos:definition ?definition .
+       OPTIONAL {?bomr rdfs:comment ?comment .}
+       OPTIONAL {?bomr rdfs:isDefinedBy ?otl .}
+       FILTER(LANG(?comment) = "")
+   } 
+"""
 
+results_array = []
+results = ds.query(query)
+
+for row in results:
+    result_dict = {'bomr': row['bomr'], 'comment': row['comment'], 'otl': row['otl'], 'definition': row['definition']}
+    results_array.append(result_dict)
+results_sorted = sorted (results_array, key=lambda x: (x['definition']))
+    
+lineNo = 0    
+for entry in results_array:
+    lineNo += 1
+print("Aantal BOMR-entries:" + str(lineNo))
+
+print("Writing")
+print(">> Processing bomr.template\n")
+
+initials = ""
+with open ('/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/respec-documentatie/templates/bomr.template', 'r') \
+     as bomr_template, \
+     open('/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/respec-documentatie/bomr.html', 'w') as file:
+    for line in bomr_template:
+        if line == "[INSERT-BOMR-OBJECTS]\n":
+            prev_initial = ''
+            section = ""
+            for entry in results_sorted:
+                entry_str = entry['definition']
+                initial = entry_str[0:1]
+                initials = initials + initial
+                if initial != prev_initial:
+                    skip_initial_comma = 1
+                    if section != "":
+                        section = wrap_h3(prev_initial) + section
+                        section = wrap_section(section)
+                        file.write(section)
+                        section = ""
+                if skip_initial_comma == 1:
+                    skip_initial_comma = 0
+                # else:
+                #     section = section + (", ")
+                section = section + wrap_href (entry_str, initial)
+                section = section +"<br>" + entry['comment']   + "<br><br>"
+                prev_initial = initial
+            section = wrap_h3(prev_initial) + section
+            section = wrap_section (section)
+            file.write(section)
+        else:
+            file.write(line)
+
+
+    
 end_time = time.time()
 run_time = end_time - start_time
 print (f"Complete run in {run_time} seconds")
