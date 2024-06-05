@@ -7,7 +7,7 @@ In dit document ziet u de OTL elementen gecombineerd met de kernregistraties.
 
 ## 2. OTL-elementen
 Hier komt per letter van het alfabet de lijst van OTL-elementen.  
-[INSERT-OTL-OBJECTS]
+{% include_relative otl-list.md %}
 
 ## 3. Feedback
 We krijgen graag feedback. Maak een issue aan op [GitHub](https://github.com/gjaaf/rws-otl) als u opmerkingen heeft.
