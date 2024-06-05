@@ -16,14 +16,11 @@
 @prefix vcard:	<http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix rws-kr: <https://data.rws.nl/kr/> .
+@prefix otl: <https://data.rws.nl/def/otl/> .
+@prefix otlb: <https://data.rws.nl/def/bomr/> .
 
-rws-kr:publisher {
-rws-kr:rws-cio-office
-  a foaf:Organization ;
-  rdfs:label "RWS CIO Office"@nl .
-}
 
-rws-kr:rws-wvl
-  a foaf:Organization ;
-  rdfs:label "RWS WVL"@nl .
+rws-kr:netwerkschakel-linkset {
+rws-kr:netwerkschakel-dataset-001
+	dc:hasPart otl:Netwerkschakel, otlb:Netwerkschakel .
 }
