@@ -1,5 +1,8 @@
-RWS OTL-documentatie
-==============
+---
+title: "RWS OTL-documentatie"
+toc: true
+---
+# RWS OTL-documentatie
 Dit is de RWS OTL-documentatie met verwijzingen naar de kernregistraties.
 
 ## 1. Introductie

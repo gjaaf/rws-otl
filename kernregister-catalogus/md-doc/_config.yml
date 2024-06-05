@@ -2,3 +2,8 @@
 title: RWS OTL-documentatie
 description: >-
   Dit is de RWS OTL-documentatie met verwijzingen naar de kernregistraties.
+plugins:
+  - jekyll-toc
+toc:
+  min_level: 2
+  max_level: 3
