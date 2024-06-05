@@ -24,7 +24,7 @@ rws-kr:netwerkschakel-dataservice-001
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/nl> ;
   dcterms:conformsTo <https://spec.openapis.org/oas/latest.html> ;
   dcat:endpointDescription <file://ad.rws.nl/p-dfs01/appsdata/GeoDataRuimte/fileshare/systeemdelen_netwerkschakels/HWN/>;
-  dcat:servesDataset rws-kr:netwerkschakel-dataset-001 ;
+  dcat:servesDataset rws-kr:netwerkschakel-dataset-001 .
 
 rws-kr:netwerkschakel-dataservice-002
   a dcat:DataService ;
@@ -32,8 +32,8 @@ rws-kr:netwerkschakel-dataservice-002
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/nl> ;
   dcterms:conformsTo <https://spec.openapis.org/oas/latest.html> ;
   dcat:endpointDescription <https://geo.intranet.rijkswaterstaat.nl/portal/apps/webappviewer/index.html?id=4dff8e8a85ef4c69bd4db278bc006835>;
-  dcat:servesDataset rws-kr:netwerkschakel-dataset-001 ;
-}
+  dcat:servesDataset rws-kr:netwerkschakel-dataset-001 .
+
 
 rws-kr:netwerkschakel-dataservice-003
   a dcat:DataService ;
@@ -41,7 +41,7 @@ rws-kr:netwerkschakel-dataservice-003
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/nl> ;
   dcterms:conformsTo <https://spec.openapis.org/oas/latest.html> ;
   dcat:endpointDescription <https://centraaltoegangspuntdata.rws.nl/?t=wegvakken&d=719>;
-  dcat:servesDataset rws-kr:netwerkschakel-dataset-003 ;
+  dcat:servesDataset rws-kr:netwerkschakel-dataset-001 .
 }
 
 
