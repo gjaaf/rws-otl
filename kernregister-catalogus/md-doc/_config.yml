@@ -1,7 +1,5 @@
 ---
 title: RWS OTL-documentatie
-description: >-
-  Dit is de RWS OTL-documentatie met verwijzingen naar de kernregistraties.
 plugins:
   - jekyll-toc
 toc:
