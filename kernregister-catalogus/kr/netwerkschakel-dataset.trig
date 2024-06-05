@@ -30,6 +30,7 @@ rws-kr:netwerkschakel-dataset-001
   dcterms:publisher rws-kr:rws-wvl ;
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/nl> ;
   dcterms:accrualPeriodicity <http://purl.org/linked-data/sdmx/2009/code#freq-W>  ;
+  dcat:DataService  rws-kr:netwerkschakel-dataservice-003 ;
   dcat:DataService  rws-kr:netwerkschakel-dataservice-002 ;
   dcat:DataService  rws-kr:netwerkschakel-dataservice-001 .
 }
