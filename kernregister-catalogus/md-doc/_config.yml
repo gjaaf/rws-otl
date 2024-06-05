@@ -1,7 +1,2 @@
 ---
 title: RWS OTL-documentatie
-plugins:
-  - jekyll-toc
-toc:
-  min_level: 2
-  max_level: 3
