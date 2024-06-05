@@ -1,0 +1,4 @@
+# Negeer gegenereerde bestanden
+kernregister-catalogus/md-doc/otl-list.md
+kernregister-catalogus/respec-documentatie/Elements_*.html
+mapping.json

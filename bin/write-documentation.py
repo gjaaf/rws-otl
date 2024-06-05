@@ -7,6 +7,8 @@ from urllib.parse import quote, unquote
 import time
 import argparse
 import os
+import json
+
 
 def main():
     """
@@ -129,6 +131,10 @@ def main():
         }
         patroon_results_array.append(result_dict)
     patroon_results_sorted = sorted(patroon_results_array, key=lambda x: (x["res"], x["resource"]))
+
+    #print("!" + str(patroon_results_sorted[0]))
+    #import sys
+    #sys.exit(0)
 
     lineNo = 0
     for entry in patroon_results_sorted:
@@ -264,6 +270,10 @@ def main():
             else:
                 file.write(line)
 
+    # Laad mapping data
+    with open(f"{args['root']}/mapping.json", "r", encoding="utf-8") as mapping_file:
+        mapping_data = json.load(mapping_file)
+
     print("- Stage 2")
     with open(
         f'{args["root"]}/kernregister-catalogus/respec-documentatie/templates/Elements.template', "r"
@@ -304,6 +314,19 @@ def main():
                                         patroon_data = patroon_data + wrap_td(pattern["maxexclusive"])
                                         patroon_data = patroon_data + wrap_td(unquote(quote(pattern["nodekind"])))
                                         patroon_data = patroon_data + wrap_td("")  # Keuzelijst
+
+                                        try:
+                                            bms_data = []
+                                            bms_props = mapping_data[str(entry_str)][pattern["resource"][36:]]
+                                            for bms in bms_props:
+                                                if bms_props[bms]['datatype-bms'] == bms_props[bms]['datatype-otl']:
+                                                    bms_data.append(f"<font color=\"green\"><b>{bms}</b>: {bms_props[bms]['datatype-bms']}</font>")
+                                                else:
+                                                    bms_data.append(f"<font color=\"red\"><b>{bms}</b>: {bms_props[bms]['datatype-bms']}</font>")
+                                            patroon_data = patroon_data + wrap_td("<br>".join(bms_data))
+                                        except:
+                                            patroon_data = patroon_data + wrap_td("")
+
                                         patroon_data = wrap_tr(patroon_data)
                                         row_data = row_data + patroon_data
                                 header = wrap_th("Kenmerk")
@@ -312,6 +335,7 @@ def main():
                                 header = header + wrap_th("Min. waarde")
                                 header = header + wrap_th("Waardetype")
                                 header = header + wrap_th("Keuzelijst")
+                                header = header + wrap_th("BMS")
                                 header = wrap_tr(header)
                                 table_data = header + row_data
                                 table_data = wrap_table(table_data)
