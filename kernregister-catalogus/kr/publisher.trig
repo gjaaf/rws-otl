@@ -21,7 +21,6 @@ rws-kr:publisher {
 rws-kr:rws-cio-office
   a foaf:Organization ;
   rdfs:label "RWS CIO Office"@nl .
-}
 
 rws-kr:rws-wvl
   a foaf:Organization ;

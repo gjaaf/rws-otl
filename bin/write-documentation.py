@@ -8,7 +8,6 @@ import time
 import argparse
 import os
 
-
 def main():
     """
     Verwerk BOM, OTL en kernregistratie tot een documentatie in de vorm van een set Respec-bestanden.
@@ -228,11 +227,14 @@ def main():
     print(">> otl_bom_kr_template\n")
 
     initials = ""
+
     with open(
         f'{args["root"]}/kernregister-catalogus/respec-documentatie/templates/otl-bomr-kr.template', "r"
     ) as otl_bom_kr_template, open(
         f'{args["root"]}/kernregister-catalogus/respec-documentatie/otl-bom-kr.html', "w"
-    ) as file:
+    ) as file, open(
+        f'{args["root"]}/kernregister-catalogus/md-doc/otl-list.md', "w"
+    ) as md_otl_list:
         for line in otl_bom_kr_template:
             if line == "[INSERT-OTL-OBJECTS]\n":
                 prev_initial = ""
@@ -244,6 +246,8 @@ def main():
                     if initial != prev_initial:
                         skip_initial_comma = 1
                         if section != "":
+                            md_otl_list.write(f"### {prev_initial}\n")
+                            md_otl_list.write(f"{section}\n")
                             section = wrap_h3(prev_initial) + section
                             section = wrap_section(section)
                             file.write(section)
