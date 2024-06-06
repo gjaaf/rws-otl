@@ -7,9 +7,10 @@ import time
 
 start_time = time.time()
 
-#run_type = "shortened"
-run_type = "normal"
-mode = "verbose"
+run_type = "shortened"
+#run_type = "normal"
+# mode = "verbose"
+mode = "not-verbose"
 
 if run_type == "shortened":
     files = [ \
@@ -22,8 +23,11 @@ if run_type == "shortened":
               '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/publisher.trig', \
               '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/linksets/CIMObject-otl.trig', \
               '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-kennismodel-bomr.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-kennismodel-bomr-v23.trig'\
-            ]
+              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-kennismodel-bomr-v23.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/netwerkschakel-dataservice.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/netwerkschakel-dataset.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/netwerkschakel-linkset.trig' \
+             ]
 else:
     files = [ \
               '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-kennismodel.trig', \
@@ -35,7 +39,10 @@ else:
               '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/publisher.trig', \
               '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/linksets/CIMObject-otl.trig', \
               '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-kennismodel-bomr.trig', \
-              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-kennismodel-bomr-v23.trig'\
+              '/home/gja/Development/rws-kernregistratie/rws-otl/ontology/def/otl/graaf-kennismodel-bomr-v23.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/netwerkschakel-dataservice.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/netwerkschakel-dataset.trig', \
+              '/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/kr/netwerkschakel-linkset.trig' \
             ]
 
 def get_first_initial_last_word(input_str):
@@ -465,8 +472,55 @@ with open ('/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catal
         else:
             file.write(line)
 
+print('Stage 4')
 
-    
+print("... Kernregistraties met OTL Link")
+
+kr_query = """
+# KR's
+# ?keywords is multiple
+# ?conformsto is multiple
+PREFIX dcat:	<http://www.w3.org/ns/dcat#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX otl: <https://data.rws.nl/def/otl/> 
+PREFIX otlb: <https://data.rws.nl/def/bomr/>
+PREFIX dcterms:	<http://purl.org/dc/> 
+SELECT ?dataset ?title ?keyword ?dataservice ?servicename ?conformsto ?endpdescr
+WHERE {
+  ?dataset a dcat:Dataset .
+  ?dataset dcterms:title ?title .
+  ?dataset dcat:keyword ?keyword .
+  ?dataset dcat:DataService ?dataservice .
+  ?dataservice dcterms:title ?servicename .
+  ?dataservice dcterms:conformsTo ?conformsto .
+  ?dataservice dcat:endpointDescription ?endpdescr .
+} 
+"""
+
+kr_otl_results_array = []
+kr_otl_results = ds.query(kr_query)
+
+for row in kr_otl_results:
+    result_dict = {'dataset': row['dataset'].toPython(), \
+                   'title': row['title'].toPython(), \
+                   'keyword': row['keyword'], \
+                   'dataservice': row['dataservice'], \
+                   'servicename': row['servicename'], \
+                   'conformsto': row['conformsto'].toPython(), \
+                   'endpdescr': row['endpdescr'].toPython() }
+    kr_otl_results_array.append(result_dict)
+kr_otl_results_sorted = sorted (kr_otl_results_array, key=lambda x: (x['title']))
+
+lineNo = 0    
+for entry in kr_otl_results_array:
+    lineNo += 1
+print("Aantal Kernregistratie records met OTL verwijzing:" + str(lineNo))
+
+
 end_time = time.time()
 run_time = end_time - start_time
 print (f"Complete run in {run_time} seconds")

@@ -22,19 +22,19 @@
   </head>
   <body>
     <section id="abstract">
-      <p>De RWS OTL documentatie met verwijzing naar de kernregistraties.</p>
+      <p>De RWS kernregistraties.</p>
     </section>
     <section id="sotd">
       <p>STATUS: Dit is een <i>proof of technology</i>.</p>
     </section>
     <section class="informative">
       <h2>Introduction</h2>
-      <p>In dit document ziet u de OTL elementen gecombineerd met de kernregistraties</p>
+      <p>In dit document ziet u de Kernregistraties zoals vaastgesteld door DMC, gecombineerd met de OTL (=CIM) objecten en de BOMR objecten</p>
     </section>
     <section>
-      <h2>OTL elementen</h2>
+      <h2>Kernregistraties</h2>
         <p>Hier komt, per letter van het alphabet de hele lijst van OTL elementen</p>
-[INSERT-OTL-OBJECTS]
+[INSERT-KR-OBJECTS]
     </section>
     <section>
       <h2>Feedback</h2>

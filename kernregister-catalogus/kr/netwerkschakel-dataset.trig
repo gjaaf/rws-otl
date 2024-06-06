@@ -18,7 +18,6 @@
 @prefix rws-kr: <https://data.rws.nl/kr/> .
 
 rws-kr:netwerkschakel-dataset {
-#rws-kr:dataset {
 rws-kr:netwerkschakel-dataset-001
   a dcat:Dataset ;
   dcterms:title "Netwerkschakels"@nl ;

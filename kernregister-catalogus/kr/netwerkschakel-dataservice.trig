@@ -20,9 +20,10 @@
 rws-kr:netwerkschakel-dataservice {
 rws-kr:netwerkschakel-dataservice-001
   a dcat:DataService ;
-  dcterms:title "Alle id's van netwerkschakelnDe netwerkschakeldata van WVL"@nl ;
+  dcterms:title "De netwerkschakeldata van WVL"@nl ;
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/nl> ;
-  dcterms:conformsTo <https://spec.openapis.org/oas/latest.html> ;
+  dcterms:conformsTo "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" ;
+  dcterms:conformsTo "application/vnd.openxmlformats-officedocument.wordprocessingml.document" ;
   dcat:endpointDescription <file://ad.rws.nl/p-dfs01/appsdata/GeoDataRuimte/fileshare/systeemdelen_netwerkschakels/HWN/>;
   dcat:servesDataset rws-kr:netwerkschakel-dataset-001 .
 
@@ -30,16 +31,16 @@ rws-kr:netwerkschakel-dataservice-002
   a dcat:DataService ;
   dcterms:title "Netwerkschakelgegevens per geo viewer"@nl ;
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/nl> ;
-  dcterms:conformsTo <https://spec.openapis.org/oas/latest.html> ;
+  dcterms:conformsTo "text/html" ;
   dcat:endpointDescription <https://geo.intranet.rijkswaterstaat.nl/portal/apps/webappviewer/index.html?id=4dff8e8a85ef4c69bd4db278bc006835>;
   dcat:servesDataset rws-kr:netwerkschakel-dataset-001 .
 
 
 rws-kr:netwerkschakel-dataservice-003
   a dcat:DataService ;
-  dcterms:title "Netwerkschakelngegevens vanuit CTD"@nl ;
+  dcterms:title "Netwerkschakelgegevens vanuit CTD"@nl ;
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/nl> ;
-  dcterms:conformsTo <https://spec.openapis.org/oas/latest.html> ;
+  dcterms:conformsTo "text/html";
   dcat:endpointDescription <https://centraaltoegangspuntdata.rws.nl/?t=wegvakken&d=719>;
   dcat:servesDataset rws-kr:netwerkschakel-dataset-001 .
 }
