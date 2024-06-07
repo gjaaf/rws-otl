@@ -3,6 +3,7 @@ title: Alfabetisch overzicht
 nav_order: 4
 has_children: true
 has_toc: false
+nav_exclude: true
 ---
 
 <details open markdown="block">

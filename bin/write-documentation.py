@@ -288,7 +288,7 @@ def main():
         for char in distinct_initials:
             print("Writing file: " + char)
             filename = f'{args["root"]}/kernregister-catalogus/respec-documentatie/Elements_' + char + ".html"
-            md_filename = f'{args["root"]}/kernregister-catalogus/respec-documentatie/concepten-' + char + ".md"
+            md_filename = f'{args["root"]}/kernregister-catalogus/md-doc/concepten-' + char + ".md"
             with open(filename, "w") as output, open(md_filename, "w") as md_output:
                 # Voorbereiding markdown file
                 md_output.write(f"---\ntitle: OTL-concepten ({char})\nparent: Alfabetisch overzicht\n---\n")
