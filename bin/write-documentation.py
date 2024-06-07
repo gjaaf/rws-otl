@@ -308,9 +308,9 @@ def main():
                             md_section = ""
 
                             if initial == char:
-                                md_section += f"## {entry_str}\n"
-                                md_section += f"{defi}  \n"
-                                md_section += f"Breder begrip: {brdr}  \n"
+                                md_section += f"## {entry_str}\n\n"
+                                md_section += f"{defi}  \n\n"
+                                md_section += f"Breder begrip: [{brdr}]({brdr})  \n\n"
                                 section = section + wrap_h2(entry_str)
                                 section = section + wrap_p(defi)
                                 section = section + "Breder begrip: " + brdr
