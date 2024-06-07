@@ -291,7 +291,7 @@ def main():
             md_filename = f'{args["root"]}/kernregister-catalogus/md-doc/concepten-' + char + ".md"
             with open(filename, "w") as output, open(md_filename, "w") as md_output:
                 # Voorbereiding markdown file
-                md_output.write(f"---\ntitle: OTL-concepten ({char})\nparent: Alfabetisch overzicht\n---\n")
+                md_output.write(f"---\ntitle: OTL-concepten ({char})\nparent: Alfabetisch overzicht\nnav_order: 1\n---\n")
                 md_output.write('<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n- Inhoudsopgave\n{:toc}\n</details>\n')
                 md_output.write(f"\n## Introductie\nDeze pagina bevat een overzicht van alle OTL-concepten beginnend met de letter '{char}'.\n## Overzicht\n")
 
@@ -474,7 +474,7 @@ def main():
         f'{args["root"]}/kernregister-catalogus/md-doc/bomr-list.md', "w"
     ) as md_bomr_list:
         # Voorbereiding bomr-list.md
-        md_bomr_list.write("---\ntitle: BOM-R-elementen (alfabetisch)\nparent: RWS Kernregistraties\n---\n")
+        md_bomr_list.write("---\ntitle: BOM-R-elementen (alfabetisch)\nparent: RWS Kernregistraties\nnav_order: 2\n---\n")
         md_bomr_list.write('<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n- Inhoudsopgave\n{:toc}\n</details>\n')
         md_bomr_list.write("\n## Introductie\nDeze pagina bevat een alfabetisch overzicht van alle BOM-R-elementen.\n## Alfabetisch overzicht\n")
 
