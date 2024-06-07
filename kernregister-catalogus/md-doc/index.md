@@ -1,6 +1,8 @@
 ---
 title: "RWS OTL-documentatie"
 description: "Dit is de RWS OTL-documentatie met verwijzingen naar de kernregistraties."
+nav_order: 1
+has_children: true
 ---
 ## 1. Introductie
 In dit document ziet u de OTL elementen gecombineerd met de kernregistraties.
