@@ -243,7 +243,7 @@ def main():
     ) as md_otl_list:
         
         # Voorbereiding otl-list.md
-        md_otl_list.write("---\ntitle: OTL-concepten (alfabetisch)\nparent: RWS Kernregistratie\n---\n")
+        md_otl_list.write("---\ntitle: OTL-concepten (alfabetisch)\nparent: RWS Kernregistraties\n---\n")
 
         for line in otl_bom_kr_template:
             if line == "[INSERT-OTL-OBJECTS]\n":
@@ -453,7 +453,12 @@ def main():
     initials = ""
     with open(
         f'{args["root"]}/kernregister-catalogus/respec-documentatie/templates/bomr.template', "r"
-    ) as bomr_template, open(f'{args["root"]}/kernregister-catalogus/respec-documentatie/bomr.html', "w") as file:
+    ) as bomr_template, open(f'{args["root"]}/kernregister-catalogus/respec-documentatie/bomr.html', "w") as file, open(
+        f'{args["root"]}/kernregister-catalogus/md-doc/bomr-list.md', "w"
+    ) as md_bomr_list:
+        # Voorbereiding bomr-list.md
+        md_bomr_list.write("---\ntitle: BOM-R-elementen (alfabetisch)\nparent: RWS Kernregistraties\n---\n")
+
         for line in bomr_template:
             if line == "[INSERT-BOMR-OBJECTS]\n":
                 prev_initial = ""
@@ -465,6 +470,9 @@ def main():
                     if initial != prev_initial:
                         skip_initial_comma = 1
                         if section != "":
+                            md_bomr_list.write(f"### {prev_initial}\n")
+                            md_bomr_list.write(f"{section}\n")
+
                             section = wrap_h3(prev_initial) + section
                             section = wrap_section(section)
                             file.write(section)

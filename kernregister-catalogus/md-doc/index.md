@@ -1,6 +1,6 @@
 ---
-title: RWS Kernregistratie
-description: Dit is de documentatie voor de RWS OTL met verwijzingen naar de kernregistraties.
+title: RWS Kernregistraties
+description: Dit is de documentatie voor de RWS Kernregistraties op basis van de RWS OTL.
 nav_order: 1
 has_children: true
 has_toc: false
@@ -17,10 +17,16 @@ has_toc: false
 
 
 ## Introductie
-Deze documentatie bevat de OTL-elementen gecombineerd met de kernregistraties.
+Deze documentatie bevat de RWS OTL uitgebreid met de BOM-R en de kernregistraties.
 
-## OTL-elementen
-Klik links in het navigatiemenu op ['OTL-concepten (alfabetisch)'](otl-list.html) om een alfabetisch overzicht van OTL-elementen te zien.
+## Tijdigheid
+De informatie die hier getoond wordt is de meest recente officiele documentatie, welke bij elk pull request op de OTL master bijgewerkt wordt. 
+
+## OTL-concepten
+Klik links in het navigatiemenu op ['OTL-concepten (alfabetisch)'](otl-list.html) om een alfabetisch overzicht van OTL-concepten te zien.
+
+## BOM-R-elementen
+Klik links in het navigatiemenu op ['BOM-R-elementen (alfabetisch)'](bomr-list.html) om een alfabetisch overzicht van BOM-R-elementen te zien.
 
 ## Feedback
 We ontvangen graag feedback. Maak een issue aan op [GitHub](https://github.com/gjaaf/rws-otl) als u opmerkingen heeft.
