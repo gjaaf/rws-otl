@@ -4,14 +4,24 @@ description: "Dit is de RWS OTL-documentatie met verwijzingen naar de kernregist
 nav_order: 1
 has_children: true
 ---
-## 1. Introductie
-In dit document ziet u de OTL elementen gecombineerd met de kernregistraties.
 
-## 2. OTL-elementen
-Hier komt per letter van het alfabet de lijst van OTL-elementen.  
-{% include_relative otl-list.md %}
+<details open markdown="block">
+  <summary>
+    Inhoudsopgave
+  </summary>
+  {: .text-delta }
+Inhoudsopgave
+{:toc}
+</details>
 
-## 3. Feedback
+
+## Introductie
+Deze documentatie bevat de OTL elementen gecombineerd met de kernregistraties.
+
+## OTL-elementen
+Klik links in het navigatiemenu op ['OTL-concepten (alfabetisch)'](otl-list.html) om een alfabetisch overzicht van OTL-elementen te zien.
+
+## Feedback
 We krijgen graag feedback. Maak een issue aan op [GitHub](https://github.com/gjaaf/rws-otl) als u opmerkingen heeft.
 
 ## Documenteigenschappen
