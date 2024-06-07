@@ -11,7 +11,7 @@ has_toc: false
     Inhoudsopgave
   </summary>
   {: .text-delta }
-Inhoudsopgave
+1. Inhoudsopgave
 {:toc}
 </details>
 
