@@ -1,7 +1,24 @@
+$color-scheme: light !default;
+$body-background-color: $white !default;
+$body-heading-color: $grey-dk-300 !default;
+$body-text-color: $grey-dk-100 !default;
+$link-color: #007BC7 !default;
+$nav-child-link-color: $grey-dk-100 !default;
+$sidebar-color: $grey-lt-000 !default;
+$base-button-color: #000000 !default;
+$btn-primary-color: #F9E11E !default;
+$code-background-color: $grey-lt-000 !default;
+$feedback-color: darken($sidebar-color, 3%) !default;
+$table-background-color: $white !default;
+$search-background-color: $white !default;
+$search-result-preview-color: $grey-dk-000 !default;
+
+
 @media (min-width: 50rem) {
     .site-header {
-      height: 5rem;
-      max-height: 5rem;
+      height: 7rem;
+      max-height: 7rem;
+      width: 25rem;
     }
   }
   
