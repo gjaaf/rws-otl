@@ -244,7 +244,7 @@ def main():
         
         # Voorbereiding otl-list.md
         md_otl_list.write("---\ntitle: OTL-concepten (alfabetisch)\nparent: RWS Kernregistraties\n---\n")
-        md_otl_list.write('<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n1. Inhoudsopgave\n{:toc}\n</details>\n')
+        md_otl_list.write('<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n- Inhoudsopgave\n{:toc}\n</details>\n')
         md_otl_list.write("\n## Introductie\nDeze pagina bevat een alfabetisch overzicht van alle OTL-concepten.\n## Alfabetisch overzicht\n")
 
 
@@ -288,7 +288,8 @@ def main():
         for char in distinct_initials:
             print("Writing file: " + char)
             filename = f'{args["root"]}/kernregister-catalogus/respec-documentatie/Elements_' + char + ".html"
-            with open(filename, "w") as output:
+            md_filename = f'{args["root"]}/kernregister-catalogus/respec-documentatie/concepten-' + char + ".md"
+            with open(filename, "w") as output, open(md_filename, "w") as md_output:
                 elements_template.seek(0)
                 for line in elements_template:
                     if line == "[INSERT-OTL-OBJECTS]\n":
@@ -298,7 +299,11 @@ def main():
                             brdr = entry["broader"].toPython()
                             initial = entry_str[0:1]
                             section = ""
+                            md_section = ""
                             if initial == char:
+                                md_section += f"## {entry_str}\n"
+                                md_section += f"{defi}\n"
+                                md_section += f"Breder begrip: {brdr}\n"
                                 section = section + wrap_h2(entry_str)
                                 section = section + wrap_p(defi)
                                 section = section + "Breder begrip: " + brdr
@@ -348,7 +353,9 @@ def main():
                                 table_data = wrap_table(table_data)
                                 section = section + wrap_h3("Kenmerken")
                                 section = section + table_data
+                                md_section += f"### Kenmerken\n{table_data}\n"
                                 output.write(section)  # Kenmerken
+                                md_output.write(md_section)
                                 # start of kernregistratie
                                 row_data = ""
                                 section = ""
@@ -461,7 +468,7 @@ def main():
     ) as md_bomr_list:
         # Voorbereiding bomr-list.md
         md_bomr_list.write("---\ntitle: BOM-R-elementen (alfabetisch)\nparent: RWS Kernregistraties\n---\n")
-        md_bomr_list.write('<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n1. Inhoudsopgave\n{:toc}\n</details>\n')
+        md_bomr_list.write('<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n- Inhoudsopgave\n{:toc}\n</details>\n')
         md_bomr_list.write("\n## Introductie\nDeze pagina bevat een alfabetisch overzicht van alle BOM-R-elementen.\n## Alfabetisch overzicht\n")
 
         for line in bomr_template:
