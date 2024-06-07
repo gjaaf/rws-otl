@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>RWS OTL documentatie</title>
+    <script
+      src="https://www.w3.org/Tools/respec/respec-w3c"
+      class="remove"
+      defer
+    ></script>
+    <script class="remove">
+      // All config options at https://respec.org/docs/
+      var respecConfig = {
+        specStatus: "ED",
+        editors: [{ name: "Gert-Jan Aaftink", url: "https://gjaaf.github.io" }],
+        github: "https://github.com/gjaaf/rws-otl",
+        shortName: "RWS OTL",
+        xref: "web-platform",
+        group: "RWS CIO Office",
+      };
+    </script>
+  </head>
+  <body>
+    <section id="abstract">
+      <p>De RWS Kernrewgistratie documentatie met verwijzing naar de OTL-entries.</p>
+    </section>
+    <section id="sotd">
+      <p>STATUS: Dit is een <i>proof of technology</i>.</p>
+    </section>
+    <section class="informative">
+      <h2>Introduction</h2>
+      <p>In dit document ziet u de Kernregistratie elementen gecombineerd met de OTL-entries</p>
+    </section>
+    <section>
+      <h2>Kernregistraties</h2>
+        <p>Hier komt, de hele lijst van Kerngeristraties</p>
+[INSERT-KR-OBJECTS]
+    </section>
+    <section>
+      <h2>Feedback</h2>
+      <p>We krijgen graag feedback. Maak een issue aan als u opmerkingen heeft HIER NOG EEN LINK</p>
+    </section>
+    <section id="conformance">
+      <p>
+        This is required for specifications that contain normative material.
+      </p>
+    </section>
+  </body>
+</html>
+
