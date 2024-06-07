@@ -3,6 +3,7 @@ title: "RWS OTL-documentatie"
 description: "Dit is de RWS OTL-documentatie met verwijzingen naar de kernregistraties."
 nav_order: 1
 has_children: true
+has_toc: false
 ---
 
 <details open markdown="block">
