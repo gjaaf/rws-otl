@@ -35,9 +35,9 @@ We ontvangen graag feedback. Maak een issue aan op [GitHub](https://github.com/g
 *Status:*  
 &nbsp;&nbsp;&nbsp;&nbsp;Proof of technology  
 *Meest recente gepubliceerde versie*:  
-&nbsp;&nbsp;&nbsp;&nbsp;https://www.w3.org/RWS%20OTL/  
+&nbsp;&nbsp;&nbsp;&nbsp;[https://www.w3.org/RWS%20OTL/](https://www.w3.org/RWS%20OTL/)  
 *Meest recente ontwikkelversie*:  
-&nbsp;&nbsp;&nbsp;&nbsp;https://gjaaf.github.io/rws-otl/  
+&nbsp;&nbsp;&nbsp;&nbsp;[https://gjaaf.github.io/rws-otl/](https://gjaaf.github.io/rws-otl/)  
 *Historie*:  
 &nbsp;&nbsp;&nbsp;&nbsp;[Commit-historie](https://github.com/gjaaf/rws-otl/commits/)  
 *Ontwikkelaar*:  
