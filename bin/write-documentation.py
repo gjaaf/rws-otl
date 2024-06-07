@@ -290,6 +290,12 @@ def main():
             filename = f'{args["root"]}/kernregister-catalogus/respec-documentatie/Elements_' + char + ".html"
             md_filename = f'{args["root"]}/kernregister-catalogus/respec-documentatie/concepten-' + char + ".md"
             with open(filename, "w") as output, open(md_filename, "w") as md_output:
+                # Voorbereiding markdown file
+                md_output.write(f"---\ntitle: OTL-concepten ({char})\nparent: Alfabetisch overzicht\n---\n")
+                md_output.write('<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n- Inhoudsopgave\n{:toc}\n</details>\n')
+                md_output.write(f"\n## Introductie\nDeze pagina bevat een overzicht van alle OTL-concepten beginnend met de letter '{char}'.\n## Overzicht\n")
+
+
                 elements_template.seek(0)
                 for line in elements_template:
                     if line == "[INSERT-OTL-OBJECTS]\n":
@@ -300,6 +306,7 @@ def main():
                             initial = entry_str[0:1]
                             section = ""
                             md_section = ""
+
                             if initial == char:
                                 md_section += f"## {entry_str}\n"
                                 md_section += f"{defi}\n"
