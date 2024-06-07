@@ -291,7 +291,7 @@ def main():
             md_filename = f'{args["root"]}/kernregister-catalogus/md-doc/concepten-' + char + ".md"
             with open(filename, "w") as output, open(md_filename, "w") as md_output:
                 # Voorbereiding markdown file
-                md_output.write(f"---\ntitle: OTL-concepten ({char})\nparent: Alfabetisch overzicht\nnav_order: 1\n---\n")
+                md_output.write(f"---\ntitle: OTL-concepten ({char})\nparent: OTL-concepten (alfabetisch)\nnav_order: 1\n---\n")
                 md_output.write('<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n- Inhoudsopgave\n{:toc}\n</details>\n')
                 md_output.write(f"\n## Introductie\nDeze pagina bevat een overzicht van alle OTL-concepten beginnend met de letter '{char}'.\n## Overzicht\n")
 
@@ -309,8 +309,8 @@ def main():
 
                             if initial == char:
                                 md_section += f"## {entry_str}\n"
-                                md_section += f"{defi}\n"
-                                md_section += f"Breder begrip: {brdr}\n"
+                                md_section += f"{defi}  \n"
+                                md_section += f"Breder begrip: {brdr}  \n"
                                 section = section + wrap_h2(entry_str)
                                 section = section + wrap_p(defi)
                                 section = section + "Breder begrip: " + brdr
@@ -360,7 +360,7 @@ def main():
                                 table_data = wrap_table(table_data)
                                 section = section + wrap_h3("Kenmerken")
                                 section = section + table_data
-                                md_section += f"### Kenmerken\n{table_data}\n"
+                                md_section += f"### Kenmerken\n{{:.no_toc}}\n{table_data}\n"
                                 output.write(section)  # Kenmerken
                                 md_output.write(md_section)
                                 # start of kernregistratie
@@ -570,7 +570,7 @@ def wrap_anchor(wrapstr):
 
 
 def wrap_href(wrapstr, initial):
-    return_str = '<a href="Elements_' + initial + ".html#" + wrapstr.replace(" ", "_") + '"> ' + wrapstr + "</a>\n"
+    return_str = '<a href="concepten-' + initial + ".html#" + wrapstr.replace(" ", "_") + '"> ' + wrapstr + "</a>\n"
     return return_str
 
 
