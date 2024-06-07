@@ -1,9 +1,9 @@
 ---
-title: "RWS Kernregistratie"
-description: "Dit is de documentatie voor de RWS OTL met verwijzingen naar de kernregistraties."
+title: RWS Kernregistratie
+description: Dit is de documentatie voor de RWS OTL met verwijzingen naar de kernregistraties.
 nav_order: 1
 has_children: true
-#has_toc: false
+has_toc: false
 ---
 
 <details open markdown="block">

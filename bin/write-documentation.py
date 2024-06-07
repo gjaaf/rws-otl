@@ -243,7 +243,7 @@ def main():
     ) as md_otl_list:
         
         # Voorbereiding otl-list.md
-        md_otl_list.write("---\ntitle: OTL-concepten (alfabetisch)\nparent: RWS OTL-documentatie\n---\n")
+        md_otl_list.write("---\ntitle: OTL-concepten (alfabetisch)\nparent: RWS Kernregistratie\n---\n")
 
         for line in otl_bom_kr_template:
             if line == "[INSERT-OTL-OBJECTS]\n":
