@@ -251,9 +251,6 @@ def main():
         # Voorbereiding otl-list.md
         md_otl_list.write("---\ntitle: OTL-concepten (alfabetisch)\nparent: RWS Kernregistraties\nnav_order: 1\n---\n")
         md_otl_list.write(
-            '<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n- Inhoudsopgave\n{:toc}\n</details>\n'
-        )
-        md_otl_list.write(
             "\n## Introductie\nDeze pagina bevat een alfabetisch overzicht van alle OTL-concepten.\n## Alfabetisch overzicht\n"
         )
 
@@ -302,9 +299,6 @@ def main():
                 # Voorbereiding markdown file
                 md_output.write(
                     f"---\ntitle: OTL-concepten ({char})\nparent: OTL-concepten (alfabetisch)\nnav_order: 1\n---\n"
-                )
-                md_output.write(
-                    '<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n- Inhoudsopgave\n{:toc}\n</details>\n'
                 )
                 md_output.write(
                     f"\n## Introductie\nDeze pagina bevat een overzicht van alle OTL-concepten beginnend met de letter '{char}'.\n## Overzicht\n"
@@ -499,9 +493,6 @@ def main():
             "---\ntitle: BOM-R-elementen (alfabetisch)\nparent: RWS Kernregistraties\nnav_order: 2\n---\n"
         )
         md_bomr_list.write(
-            '<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n- Inhoudsopgave\n{:toc}\n</details>\n'
-        )
-        md_bomr_list.write(
             "\n## Introductie\nDeze pagina bevat een alfabetisch overzicht van alle BOM-R-elementen.\n## Alfabetisch overzicht\n"
         )
 
@@ -601,9 +592,6 @@ def main():
 
                 # Voorbereiding otl-list.md
                 md_kr_list.write("---\ntitle: Kernregistraties\nparent: RWS Kernregistraties\nnav_order: 3\n---\n")
-                md_kr_list.write(
-                    '<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n- Inhoudsopgave\n{:toc}\n</details>\n'
-                )
                 md_kr_list.write(
                     "\n## Introductie\nDeze pagina bevat de kernregistraties gecombineerd met de OTL-elementen.\n## Alfabetisch overzicht\n"
                 )
