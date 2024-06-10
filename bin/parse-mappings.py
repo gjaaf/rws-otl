@@ -46,6 +46,9 @@ def main():
                         # Zo niet, sla de regel dan over
                         continue
 
+                    # Veld 4 bevat de naam uit het BMS
+                    name_bms = row[3]
+
                     # Velden 12 en 13 bevatten de BMS- en OTL-datatypen
                     datatype_bms = row[11]
                     datatype_otl = row[12]
@@ -60,7 +63,7 @@ def main():
                             f"Bronsysteem '{bms}': Concept '{concept}', Kenmerk '{kenmerk}' komt meerdere keren voor in mapping."
                         )
                         continue
-                    mapping_data[concept][kenmerk][bms] = {"datatype-bms": datatype_bms, "datatype-otl": datatype_otl}
+                    mapping_data[concept][kenmerk][bms] = {"datatype-bms": datatype_bms, "datatype-otl": datatype_otl, "name-bms": name_bms}
 
                     bms_row_count += 1
 
