@@ -5,3 +5,5 @@ favicon_ico: "/assets/favicon.ico"
 remote_theme: just-the-docs/just-the-docs
 markdown: kramdown
 color_scheme: rws
+plugins:
+  - jekyll-toc
