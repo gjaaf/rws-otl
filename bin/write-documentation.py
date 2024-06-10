@@ -352,7 +352,7 @@ def main():
                                             bms_data = []
                                             bms_props = mapping_data[str(entry_str)][pattern["resource"][36:]]
                                             for bms in bms_props:
-                                                bms_data.append(f"<b>{bms}</b>: {bms_props[bms]['datatype-bms']}<br>")
+                                                bms_data.append(f"<b>{bms}</b>: {bms_props[bms]['name-bms']}<br>")
                                                 if bms_props[bms]["datatype-bms"] == bms_props[bms]["datatype-otl"]:
                                                     bms_data.append(
                                                         f"<font color=\"green\">{bms_props[bms]['datatype-bms']}</font>"
