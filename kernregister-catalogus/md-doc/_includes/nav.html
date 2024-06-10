@@ -30,6 +30,7 @@
 <ul class="nav-list">
 {%- for node in first_level_pages -%}
   <li class="nav-list-item">
+    <!-- CUSTOM NAV WORKS -->
     {% if page.url == node.url %}
         {{ content | toc_only }}
     {% endif %}
