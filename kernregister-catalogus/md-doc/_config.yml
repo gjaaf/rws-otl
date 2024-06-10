@@ -7,3 +7,6 @@ markdown: kramdown
 color_scheme: rws
 plugins:
   - jekyll-toc
+toc:
+  min_level: 2
+  max_level: 3
