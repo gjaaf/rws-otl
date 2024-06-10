@@ -28,6 +28,10 @@ Klik links in het navigatiemenu op ['OTL-concepten (alfabetisch)'](otl-list.html
 ## BOM-R-elementen
 Klik links in het navigatiemenu op ['BOM-R-elementen (alfabetisch)'](bomr-list.html) om een alfabetisch overzicht van BOM-R-elementen te zien.
 
+## Kernregistraties
+Klik links in het navigatiemenu op ['Kernregistraties'](kr-list.html) om een overzicht van Kernregistraties te zien.
+
+
 ## Feedback
 We ontvangen graag feedback. Maak een issue aan op [GitHub](https://github.com/gjaaf/rws-otl) als u opmerkingen heeft.
 
