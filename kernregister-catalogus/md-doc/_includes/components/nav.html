@@ -37,7 +37,7 @@
     {%- endif -%}
     <a href="{{ node.url | relative_url }}" class="nav-list-link">{{ node.title }}</a>
     {% if page.url == node.url %}
-      {% include liquid_toc.html html=content h_min=2 h_max=3 %}
+      {% include liquid_toc.html html=content h_min=2 h_max=3 id="toc" %}
     {% endif %}
     {%- if node.has_children -%}
       {%- assign children_list = second_level_pages
@@ -55,7 +55,7 @@
           {%- endif -%}
           <a href="{{ child.url | relative_url }}" class="nav-list-link">{{ child.title }}</a>
           {% if page.url == child.url %}
-            {% include liquid_toc.html html=content h_min=2 h_max=3 %}
+            {% include liquid_toc.html html=content h_min=2 h_max=3 id="toc" %}
           {% endif %}
           {%- if child.has_children -%}
             {%- assign grand_children_list = third_level_pages
@@ -69,7 +69,7 @@
               <li class="nav-list-item">
                 <a href="{{ grand_child.url | relative_url }}" class="nav-list-link">{{ grand_child.title }}</a>
                 {% if page.url == grand_child.url %}
-                  {% include liquid_toc.html html=content h_min=2 h_max=3 %}
+                  {% include liquid_toc.html html=content h_min=2 h_max=3 id="toc" %}
                 {% endif %}
               </li>
             {%- endfor -%}
