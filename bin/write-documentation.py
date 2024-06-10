@@ -352,14 +352,14 @@ def main():
                                             bms_data = []
                                             bms_props = mapping_data[str(entry_str)][pattern["resource"][36:]]
                                             for bms in bms_props:
-                                                bms_data.append(f"<b>{bms}</b>: {bms_props[bms]['name-bms']}<br>")
+                                                bms_data.append(f"<b>{bms}</b>: {bms_props[bms]['name-bms']} (")
                                                 if bms_props[bms]["datatype-bms"] == bms_props[bms]["datatype-otl"]:
                                                     bms_data.append(
-                                                        f"<font color=\"green\">{bms_props[bms]['datatype-bms']}</font>"
+                                                        f"<font color=\"green\">{bms_props[bms]['datatype-bms']}</font>)"
                                                     )
                                                 else:
                                                     bms_data.append(
-                                                        f"<font color=\"red\">{bms_props[bms]['datatype-bms']}</font>"
+                                                        f"<font color=\"red\">{bms_props[bms]['datatype-bms']}</font>)"
                                                     )
                                             patroon_data = patroon_data + wrap_td("<br>".join(bms_data))
                                         except:
@@ -594,9 +594,21 @@ def main():
 
     with open(
         f'{args["root"]}/kernregister-catalogus/respec-documentatie/templates/kr.template', "r"
-    ) as bomr_template, open(f'{args["root"]}/kernregister-catalogus/respec-documentatie/kr.html', "w") as file:
+    ) as bomr_template, open(f'{args["root"]}/kernregister-catalogus/respec-documentatie/kr.html', "w") as file, open(
+        f'{args["root"]}/kernregister-catalogus/md-doc/kr-list.md', "w"
+    ) as md_kr_list:
         for line in bomr_template:
             if line == "[INSERT-KR-OBJECTS]\n":
+
+                # Voorbereiding otl-list.md
+                md_kr_list.write("---\ntitle: Kernregistraties\nparent: RWS Kernregistraties\nnav_order: 3\n---\n")
+                md_kr_list.write(
+                    '<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n- Inhoudsopgave\n{:toc}\n</details>\n'
+                )
+                md_kr_list.write(
+                    "\n## Introductie\nDeze pagina bevat de kernregistraties gecombineerd met de OTL-elementen.\n## Alfabetisch overzicht\n"
+                )
+
                 for entry in kr_otl_results_sorted:
                     dataset = entry["dataset"]
                     title = entry["title"]
@@ -604,6 +616,8 @@ def main():
                         prev_dataset = dataset
                         prev_serv = ""
                         services = ""
+                        md_kr_list.write(f"### {title}\n")
+                        md_kr_list.write(f"{section}\n")
                         section = wrap_h3(title) + section
                         file.write(section)
                         keyword_row = wrap_td("Keywords")
@@ -623,6 +637,7 @@ def main():
                                 services = services + service_row
                         section = wrap_table(keyword_row + services)
                     section = wrap_section(section)
+                    md_kr_list.write(f"{section}\n")
                     file.write(section)
                     section = ""
             else:
