@@ -29,6 +29,9 @@ def main():
             f'{args["root"]}/ontology/def/linksets/CIMObject-otl.trig',
             f'{args["root"]}/ontology/def/otl/graaf-kennismodel-bomr.trig',
             f'{args["root"]}/ontology/def/otl/graaf-kennismodel-bomr-v23.trig',
+            f'{args["root"]}/kernregister-catalogus/kr/netwerkschakel-dataservice.trig',
+            f'{args["root"]}/kernregister-catalogus/kr/netwerkschakel-dataset.trig',
+            f'{args["root"]}/kernregister-catalogus/kr/netwerkschakel-linkset.trig',
         ]
     else:
         files = [
@@ -42,6 +45,9 @@ def main():
             f'{args["root"]}/ontology/def/linksets/CIMObject-otl.trig',
             f'{args["root"]}/ontology/def/otl/graaf-kennismodel-bomr.trig',
             f'{args["root"]}/ontology/def/otl/graaf-kennismodel-bomr-v23.trig',
+            f'{args["root"]}/kernregister-catalogus/kr/netwerkschakel-dataservice.trig',
+            f'{args["root"]}/kernregister-catalogus/kr/netwerkschakel-dataset.trig',
+            f'{args["root"]}/kernregister-catalogus/kr/netwerkschakel-linkset.trig',
         ]
 
     print("Reading")
@@ -132,9 +138,9 @@ def main():
         patroon_results_array.append(result_dict)
     patroon_results_sorted = sorted(patroon_results_array, key=lambda x: (x["res"], x["resource"]))
 
-    #print("!" + str(patroon_results_sorted[0]))
-    #import sys
-    #sys.exit(0)
+    # print("!" + str(patroon_results_sorted[0]))
+    # import sys
+    # sys.exit(0)
 
     lineNo = 0
     for entry in patroon_results_sorted:
@@ -241,12 +247,15 @@ def main():
     ) as file, open(
         f'{args["root"]}/kernregister-catalogus/md-doc/otl-list.md', "w"
     ) as md_otl_list:
-        
+
         # Voorbereiding otl-list.md
         md_otl_list.write("---\ntitle: OTL-concepten (alfabetisch)\nparent: RWS Kernregistraties\n---\n")
-        md_otl_list.write('<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n- Inhoudsopgave\n{:toc}\n</details>\n')
-        md_otl_list.write("\n## Introductie\nDeze pagina bevat een alfabetisch overzicht van alle OTL-concepten.\n## Alfabetisch overzicht\n")
-
+        md_otl_list.write(
+            '<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n- Inhoudsopgave\n{:toc}\n</details>\n'
+        )
+        md_otl_list.write(
+            "\n## Introductie\nDeze pagina bevat een alfabetisch overzicht van alle OTL-concepten.\n## Alfabetisch overzicht\n"
+        )
 
         for line in otl_bom_kr_template:
             if line == "[INSERT-OTL-OBJECTS]\n":
@@ -291,10 +300,15 @@ def main():
             md_filename = f'{args["root"]}/kernregister-catalogus/md-doc/concepten-' + char + ".md"
             with open(filename, "w") as output, open(md_filename, "w") as md_output:
                 # Voorbereiding markdown file
-                md_output.write(f"---\ntitle: OTL-concepten ({char})\nparent: OTL-concepten (alfabetisch)\nnav_order: 1\n---\n")
-                md_output.write('<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n- Inhoudsopgave\n{:toc}\n</details>\n')
-                md_output.write(f"\n## Introductie\nDeze pagina bevat een overzicht van alle OTL-concepten beginnend met de letter '{char}'.\n## Overzicht\n")
-
+                md_output.write(
+                    f"---\ntitle: OTL-concepten ({char})\nparent: OTL-concepten (alfabetisch)\nnav_order: 1\n---\n"
+                )
+                md_output.write(
+                    '<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n- Inhoudsopgave\n{:toc}\n</details>\n'
+                )
+                md_output.write(
+                    f"\n## Introductie\nDeze pagina bevat een overzicht van alle OTL-concepten beginnend met de letter '{char}'.\n## Overzicht\n"
+                )
 
                 elements_template.seek(0)
                 for line in elements_template:
@@ -338,10 +352,14 @@ def main():
                                             bms_data = []
                                             bms_props = mapping_data[str(entry_str)][pattern["resource"][36:]]
                                             for bms in bms_props:
-                                                if bms_props[bms]['datatype-bms'] == bms_props[bms]['datatype-otl']:
-                                                    bms_data.append(f"<font color=\"green\"><b>{bms}</b>: {bms_props[bms]['datatype-bms']}</font>")
+                                                if bms_props[bms]["datatype-bms"] == bms_props[bms]["datatype-otl"]:
+                                                    bms_data.append(
+                                                        f"<font color=\"green\"><b>{bms}</b>: {bms_props[bms]['datatype-bms']}</font>"
+                                                    )
                                                 else:
-                                                    bms_data.append(f"<font color=\"red\"><b>{bms}</b>: {bms_props[bms]['datatype-bms']}</font>")
+                                                    bms_data.append(
+                                                        f"<font color=\"red\"><b>{bms}</b>: {bms_props[bms]['datatype-bms']}</font>"
+                                                    )
                                             patroon_data = patroon_data + wrap_td("<br>".join(bms_data))
                                         except:
                                             patroon_data = patroon_data + wrap_td("")
@@ -474,9 +492,15 @@ def main():
         f'{args["root"]}/kernregister-catalogus/md-doc/bomr-list.md', "w"
     ) as md_bomr_list:
         # Voorbereiding bomr-list.md
-        md_bomr_list.write("---\ntitle: BOM-R-elementen (alfabetisch)\nparent: RWS Kernregistraties\nnav_order: 2\n---\n")
-        md_bomr_list.write('<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n- Inhoudsopgave\n{:toc}\n</details>\n')
-        md_bomr_list.write("\n## Introductie\nDeze pagina bevat een alfabetisch overzicht van alle BOM-R-elementen.\n## Alfabetisch overzicht\n")
+        md_bomr_list.write(
+            "---\ntitle: BOM-R-elementen (alfabetisch)\nparent: RWS Kernregistraties\nnav_order: 2\n---\n"
+        )
+        md_bomr_list.write(
+            '<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n- Inhoudsopgave\n{:toc}\n</details>\n'
+        )
+        md_bomr_list.write(
+            "\n## Introductie\nDeze pagina bevat een alfabetisch overzicht van alle BOM-R-elementen.\n## Alfabetisch overzicht\n"
+        )
 
         for line in bomr_template:
             if line == "[INSERT-BOMR-OBJECTS]\n":
@@ -506,6 +530,97 @@ def main():
                 section = wrap_h3(prev_initial) + section
                 section = wrap_section(section)
                 file.write(section)
+            else:
+                file.write(line)
+
+    print("Stage 4")
+
+    print("... Kernregistraties met OTL Link")
+
+    kr_query = """
+    # KR's
+    # ?keywords is multiple
+    # ?conformsto is multiple
+    PREFIX dcat:	<http://www.w3.org/ns/dcat#> 
+    PREFIX owl: <http://www.w3.org/2002/07/owl#>
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+    PREFIX sh: <http://www.w3.org/ns/shacl#>
+    PREFIX otl: <https://data.rws.nl/def/otl/> 
+    PREFIX otlb: <https://data.rws.nl/def/bomr/>
+    PREFIX dcterms:	<http://purl.org/dc/> 
+    SELECT ?dataset ?title ?keyword ?dataservice ?servicename ?conformsto ?endpdescr
+    WHERE {
+    ?dataset a dcat:Dataset .
+    ?dataset dcterms:title ?title .
+    ?dataset dcat:keyword ?keyword .
+    ?dataset dcat:DataService ?dataservice .
+    ?dataservice dcterms:title ?servicename .
+    ?dataservice dcterms:conformsTo ?conformsto .
+    ?dataservice dcat:endpointDescription ?endpdescr .
+    } 
+    """
+
+    kr_otl_results_array = []
+    kr_otl_results = ds.query(kr_query)
+
+    for row in kr_otl_results:
+        result_dict = {
+            "dataset": row["dataset"].toPython(),
+            "title": row["title"].toPython(),
+            "keyword": row["keyword"],
+            "dataservice": row["dataservice"],
+            "servicename": row["servicename"],
+            "conformsto": row["conformsto"].toPython(),
+            "endpdescr": row["endpdescr"].toPython(),
+        }
+        kr_otl_results_array.append(result_dict)
+    kr_otl_results_sorted = sorted(kr_otl_results_array, key=lambda x: (x["title"]))
+
+    lineNo = 0
+    for entry in kr_otl_results_array:
+        lineNo += 1
+    print("Aantal Kernregistratie records met OTL verwijzing:" + str(lineNo))
+
+    print(">> Processing kr.template\n")
+
+    prev_dataset = ""
+    section = ""
+
+    with open ('/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/respec-documentatie/templates/kr.template', 'r') \
+        as bomr_template, \
+        open('/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/respec-documentatie/kr.html', 'w') as file:
+        for line in bomr_template:
+            if line == "[INSERT-KR-OBJECTS]\n":
+                for entry in kr_otl_results_sorted:
+                    dataset = entry['dataset']
+                    title = entry['title']
+                    if dataset != prev_dataset:
+                        prev_dataset = dataset
+                        prev_serv = ""
+                        services = ""
+                        section = wrap_h3(title) + section
+                        file.write(section)
+                        keyword_row = wrap_td ("Keywords")
+                        keyword_str = ""
+                        for keyw in get_all_keywords(dataset, kr_otl_results_array):
+                            keyword_str = keyword_str + " " + keyw
+                        keyword_row = keyword_row + wrap_td (keyword_str)
+                        keyword_row = wrap_tr(keyword_row)
+                        for serv in get_all_dataservices (dataset, kr_otl_results_array):
+                            if prev_serv != serv:
+                                prev_serv = serv
+                                serv_name = get_dataservice_name (serv, kr_otl_results_array)
+                                serv_url  = get_dataservice_url (serv, kr_otl_results_array)
+                                service_row = wrap_td (serv_name)
+                                service_row = service_row + wrap_td(wrap_href_simple(serv, serv_url))
+                                service_row = wrap_tr (service_row)
+                                services = services + service_row
+                        section = wrap_table(keyword_row + services)
+                    section = wrap_section(section)
+                    file.write(section)
+                    section = ""
             else:
                 file.write(line)
 
@@ -539,6 +654,46 @@ def parse_args():
     }
 
 
+def get_all_keywords(current_kr, kr_dict):
+    # current_kr is de URI van de KR waarvan we de keywords willen hebben
+    ret = []
+    seen = set()
+    kw_seen = []
+    for kr in kr_dict:
+        kw = ""
+        if kr["dataset"] == current_kr:
+            kw = kr["keyword"]
+            if kw not in seen:
+                seen.add(kw)
+                ret.append(kw)
+    return ret
+
+
+def get_all_dataservices(current_kr, kr_dict):
+    ret = []
+    seen = set()
+    service_seen = []
+    for kr in kr_dict:
+        if kr["dataset"] == current_kr:
+            service = kr["dataservice"]
+            if service not in service_seen:
+                seen.add(service)
+                ret.append(service)
+    return ret
+
+
+def get_dataservice_name(service, kr_dict):
+    for row in kr_dict:
+        if row["dataservice"] == service:
+            return row["servicename"]
+
+
+def get_dataservice_url(service, kr_dict):
+    for row in kr_dict:
+        if row["dataservice"] == service:
+            return row["endpdescr"]
+
+
 def get_first_initial_last_word(input_str):
     last_word = get_last_word(input_str)
     return last_word[0].upper()
@@ -570,7 +725,14 @@ def wrap_anchor(wrapstr):
 
 
 def wrap_href(wrapstr, initial):
-    return_str = '<a href="concepten-' + initial + ".html#" + wrapstr.replace(" ", "-").lower() + '"> ' + wrapstr + "</a>\n"
+    return_str = (
+        '<a href="concepten-' + initial + ".html#" + wrapstr.replace(" ", "-").lower() + '"> ' + wrapstr + "</a>\n"
+    )
+    return return_str
+
+
+def wrap_href_simple(wrapstr, url):
+    return_str = '<a href="' + url + '"> ' + wrapstr + "</a>\n"
     return return_str
 
 
