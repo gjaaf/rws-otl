@@ -709,7 +709,6 @@ def get_dataservice_url(service, kr_dict):
         if row["dataservice"] == service:
             return row["endpdescr"]
 
-
 def get_first_initial_last_word(input_str):
     last_word = get_last_word(input_str)
     return last_word[0].upper()
@@ -751,8 +750,11 @@ def wrap_href_simple(wrapstr, url):
     return_str = '<a href="' + url + '"> ' + wrapstr + "</a>\n"
     return return_str
 
+def wrap_href_simple (wrapstr, url):
+    return_str = "<a href=\"" + url + "\"> " + wrapstr + "</a>\n"
+    return return_str
 
-def wrap_p(wrap_str):
+def wrap_p (wrap_str):
     return_str = "<p>" + wrap_str + "</p>"
     return return_str
 
@@ -797,6 +799,45 @@ def wrap_tdfc(wrap_str):
     )
     return return_str
 
+def get_all_keywords (current_kr, kr_dict):
+    # current_kr is de URI van de KR waarvan we de keywords willen hebben
+    ret = []
+    seen = set()
+    kw_seen = []
+    for kr in kr_dict:
+        kw=""
+        if  kr['dataset'] == current_kr:
+            kw = kr['keyword']
+            if kw not in seen:
+                seen.add(kw)
+                ret.append(kw)
+    return ret           
+
+
+def get_all_dataservices(current_kr, kr_dict):
+    ret = []
+    seen = set()
+    service_seen = []
+    for kr in kr_dict:
+        if kr['dataset'] == current_kr:
+            service = kr['dataservice']
+            if service not in service_seen:
+                seen.add(service)
+                ret.append(service)
+    return ret
+  
+
+def get_dataservice_name (service, kr_dict):
+    for row in kr_dict:
+        if row['dataservice'] == service:
+            return row['servicename']
+
+
+def get_dataservice_url(service, kr_dict):
+    for row in kr_dict:
+        if row['dataservice'] == service:
+            return row['endpdescr']
 
 if __name__ == "__main__":
     main()
+
