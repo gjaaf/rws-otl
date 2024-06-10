@@ -249,7 +249,7 @@ def main():
     ) as md_otl_list:
 
         # Voorbereiding otl-list.md
-        md_otl_list.write("---\ntitle: OTL-concepten (alfabetisch)\nparent: RWS Kernregistraties\n---\n")
+        md_otl_list.write("---\ntitle: OTL-concepten (alfabetisch)\nparent: RWS Kernregistraties\nnav_order: 1\n---\n")
         md_otl_list.write(
             '<details open markdown="block">\n  <summary>\n    Inhoudsopgave\n  </summary>\n  {: .text-delta }\n- Inhoudsopgave\n{:toc}\n</details>\n'
         )
