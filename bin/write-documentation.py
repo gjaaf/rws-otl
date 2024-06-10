@@ -346,13 +346,23 @@ def main():
                                             bms_data = []
                                             bms_props = mapping_data[str(entry_str)][pattern["resource"][36:]]
                                             for bms in bms_props:
+                                                name = bms_props[bms]['name-bms']
+                                                if name == "ultimo":
+                                                    name = "ultimo"
+                                                elif name == "disk":
+                                                    name = "Disk"
+                                                elif name == "bkn":
+                                                    name = "BKN"
+                                                elif name == "kerngis":
+                                                    name = "Kerngis"
+
                                                 if bms_props[bms]["datatype-bms"] == bms_props[bms]["datatype-otl"]:
                                                     bms_data.append(
-                                                        f"<b>{bms}</b>: {bms_props[bms]['name-bms']} (<font color=\"green\">{bms_props[bms]['datatype-bms']}</font>)"
+                                                        f"<b>{bms}</b>: {name} (<font color=\"green\">{bms_props[bms]['datatype-bms']}</font>)"
                                                     )
                                                 else:
                                                     bms_data.append(
-                                                        f"<b>{bms}</b>: {bms_props[bms]['name-bms']} (<font color=\"red\">{bms_props[bms]['datatype-bms']}</font>)"
+                                                        f"<b>{bms}</b>: {name} (<font color=\"red\">{bms_props[bms]['datatype-bms']}</font>)"
                                                     )
                                             patroon_data = patroon_data + wrap_td("<br>".join(bms_data))
                                         except:
