@@ -36,6 +36,9 @@
     </button>
     {%- endif -%}
     <a href="{{ node.url | relative_url }}" class="nav-list-link">{{ node.title }}</a>
+    {% if page.url == node.url %}
+      {% include liquid_toc.html html=content h_min=2 h_max=3 %}
+    {% endif %}
     {%- if node.has_children -%}
       {%- assign children_list = second_level_pages
             | where: "parent", node.title -%}
@@ -51,6 +54,9 @@
           </button>
           {%- endif -%}
           <a href="{{ child.url | relative_url }}" class="nav-list-link">{{ child.title }}</a>
+          {% if page.url == child.url %}
+            {% include liquid_toc.html html=content h_min=2 h_max=3 %}
+          {% endif %}
           {%- if child.has_children -%}
             {%- assign grand_children_list = third_level_pages
                   | where: "parent", child.title
@@ -62,6 +68,9 @@
             {%- for grand_child in grand_children_list -%}
               <li class="nav-list-item">
                 <a href="{{ grand_child.url | relative_url }}" class="nav-list-link">{{ grand_child.title }}</a>
+                {% if page.url == grand_child.url %}
+                  {% include liquid_toc.html html=content h_min=2 h_max=3 %}
+                {% endif %}
               </li>
             {%- endfor -%}
             </ul>
@@ -73,7 +82,3 @@
   </li>
 {%- endfor -%}
 </ul>
-
-<div style="width: 100%; border-bottom: 1px solid #eeebee;">
-{% include liquid_toc.html html=content h_min=2 h_max=3 %}
-</div>
