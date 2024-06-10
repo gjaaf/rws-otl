@@ -406,7 +406,10 @@ def main():
                                         serviceuri = ""
                                         for krs in krs_results_sorted:
                                             if krs["kr"].toPython() == kr["kr"]:
+                                                print(krs)
                                                 row = "<td> </td>"
+                                                if krs["endpoint"] == None:
+                                                    continue
                                                 row = wrap_tdfc("service endpoint") + wrap_td(
                                                     '<a href="' + krs["endpoint"] + '">' + krs["endpoint"] + "</a>"
                                                 )
@@ -588,34 +591,34 @@ def main():
     prev_dataset = ""
     section = ""
 
-    with open ('/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/respec-documentatie/templates/kr.template', 'r') \
-        as bomr_template, \
-        open('/home/gja/Development/rws-kernregistratie/rws-otl/kernregister-catalogus/respec-documentatie/kr.html', 'w') as file:
+    with open(
+        f'{args["root"]}/kernregister-catalogus/respec-documentatie/templates/kr.template', "r"
+    ) as bomr_template, open(f'{args["root"]}/kernregister-catalogus/respec-documentatie/kr.html', "w") as file:
         for line in bomr_template:
             if line == "[INSERT-KR-OBJECTS]\n":
                 for entry in kr_otl_results_sorted:
-                    dataset = entry['dataset']
-                    title = entry['title']
+                    dataset = entry["dataset"]
+                    title = entry["title"]
                     if dataset != prev_dataset:
                         prev_dataset = dataset
                         prev_serv = ""
                         services = ""
                         section = wrap_h3(title) + section
                         file.write(section)
-                        keyword_row = wrap_td ("Keywords")
+                        keyword_row = wrap_td("Keywords")
                         keyword_str = ""
                         for keyw in get_all_keywords(dataset, kr_otl_results_array):
                             keyword_str = keyword_str + " " + keyw
-                        keyword_row = keyword_row + wrap_td (keyword_str)
+                        keyword_row = keyword_row + wrap_td(keyword_str)
                         keyword_row = wrap_tr(keyword_row)
-                        for serv in get_all_dataservices (dataset, kr_otl_results_array):
+                        for serv in get_all_dataservices(dataset, kr_otl_results_array):
                             if prev_serv != serv:
                                 prev_serv = serv
-                                serv_name = get_dataservice_name (serv, kr_otl_results_array)
-                                serv_url  = get_dataservice_url (serv, kr_otl_results_array)
-                                service_row = wrap_td (serv_name)
+                                serv_name = get_dataservice_name(serv, kr_otl_results_array)
+                                serv_url = get_dataservice_url(serv, kr_otl_results_array)
+                                service_row = wrap_td(serv_name)
                                 service_row = service_row + wrap_td(wrap_href_simple(serv, serv_url))
-                                service_row = wrap_tr (service_row)
+                                service_row = wrap_tr(service_row)
                                 services = services + service_row
                         section = wrap_table(keyword_row + services)
                     section = wrap_section(section)
