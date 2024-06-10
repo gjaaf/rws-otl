@@ -31,7 +31,7 @@
 {%- for node in first_level_pages -%}
   <li class="nav-list-item">
     {% if page.url == node.url %}
-        {{ content | toc_only }}
+      {% include liquid_toc.html html=content %}
     {% endif %}
     {%- if node.has_children -%}
     <button class="nav-list-expander btn-reset" aria-label="toggle items in {{ node.title }} category" aria-pressed="false">
@@ -49,7 +49,7 @@
       {%- for child in children_list -%}
         <li class="nav-list-item">
           {% if page.url == child.url %}
-            {{ content | toc_only }}
+            {% include liquid_toc.html html=content %}
           {% endif %}
           {%- if child.has_children -%}
           <button class="nav-list-expander btn-reset" aria-label="toggle items in {{ child.title }} category" aria-pressed="false">
@@ -69,7 +69,7 @@
               <li class="nav-list-item">
                 <a href="{{ grand_child.url | relative_url }}" class="nav-list-link">{{ grand_child.title }}</a>
                 {% if page.url == grand_child.url %}
-                  {{ content | toc_only }}
+                  {% include liquid_toc.html html=content %}
                 {% endif %}
               </li>
             {%- endfor -%}
