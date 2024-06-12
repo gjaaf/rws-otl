@@ -647,13 +647,12 @@ def main():
 
 
 def parse_args():
-
     parser = argparse.ArgumentParser(description="Genereer documentatie voor de kernregistratie.")
     parser.add_argument(
         "root",
         help="Pad naar de root directory van de kernregistratie-repository. Indien niet gegeven wordt de bovenliggende directory ('..') gebruikt.",
         nargs="?",
-        default=os.path.dirname(os.getcwd()),
+        default=os.getcwd(),
     )
     parser.add_argument(
         "-v", "--verbose", help="Geef extra output ter ondersteuning van ontwikkelen of debuggen.", action="store_true"

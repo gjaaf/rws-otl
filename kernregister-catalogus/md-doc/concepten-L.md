@@ -1,377 +1,20 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>RWS kernregistraties</title>
-    <script
-      src="https://www.w3.org/Tools/respec/respec-w3c"
-      class="remove"
-      defer
-    ></script>
-    <script class="remove">
-      // All config options at https://respec.org/docs/
-      var respecConfig = {
-        specStatus: "ED",
-        editors: [{ name: "Gert-Jan Aaftink", url: "https://gjaaf.github.io" }],
-        github: "https://github.com/gjaaf/rws-otl",
-        shortName: "RWS OTL",
-        xref: "web-platform",
-        group: "RWS CIO Office",
-      };
-    </script>
-  </head>
-  <body>
-    <section id="abstract">
-      <p>Dit is de RWS OTL documentatie met verwijzing naar de BOM-R entries en de kernregistraties.</p>
-    </section>
-    <section id="sotd">
-      <p>STATUS: Dit is een <i>proof of technology</i>.</p>
-    </section>
-    <section class="informative">
-      <h2>OTL objecten per initiaal</h2>
-      <p>Dit is de OTL documentatie voor elementen beginnend met een bepaalde Initiaal</p>
-      <aside class="note" title="A useful note">
-        <p>Dit document maakt deel uit van de totale OTL documentatie. Alle <a href="otl-bom-kr.html">OTL elementen</a>, de BOM-R elemenenten en de Kernregistraties hebben elke een aparte overzichtspagina.</p>
-      </aside>
-    </section>
+---
+title: OTL-concepten (L)
+parent: OTL-concepten (alfabetisch)
+nav_order: 1
+---
 
-<h2>Waaiervlotdeur</h2>
-<p>Sluisdeur toegepast in een waaiersluis en als voornaamste eigenschap heeft dat hij door zijn waaiervorm tegen de waterdruk in geopend en gesloten kan worden.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
+## Introductie
+Deze pagina bevat een overzicht van alle OTL-concepten beginnend met de letter 'L'.
+## Overzicht
+## Laadpaal elektrische voertuigen
 
-<h2>Waarneming</h2>
-<p>Iets dat (via de zintuigen) wordt waargenomen en gemeld.</p>Breder begrip: https://data.rws.nl/def/otl/Feit
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-advies</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bron</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/conditionflawpresent-conflpempid>/<https://data.rws.nl/def/ultimo/employee-empprofid>/<https://data.rws.nl/def/ultimo/profession-profdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datumtijd geconstateerd</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#dateTime</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/conditionflawpresent-conflpdate> (<font color="red">http://www.w3.org/2001/XMLSchema#date</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/conditionflawpresent-conflpdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-</table>
+Een laadpaal is een infrastructuurelement dat in elektrische energie voorziet om elektrische plug-invoertuigen op te laden.  
 
-<h2>Waarschuwings- en alarmeringssysteem</h2>
-<p>Verzameling van sirenes die draadloos en onafhankelijk van elkaar aangezet kunnen worden vanuit de alarmcentrale van de regionale brandweer.</p>Breder begrip: https://data.rws.nl/def/otl/Installatie
-<h3>Kenmerken</h3>
+Breder begrip: [https://data.rws.nl/def/otl/Installatie](https://data.rws.nl/def/otl/Installatie)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -512,822 +155,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Waarschuwingslicht</h2>
-<p>Verkeerslicht dat telkens aan en uit gaat en dient ter waarschuwing van het wegverkeer.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS-concept</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal1</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal2</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
+## Laagspanningsinstallatie
 
-<h2>Wadi</h2>
-<p>Verlaging in een begroeid terreindeel om het hemelwater tijdelijk te bergen en in de bodem te laten infiltreren.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
+Installatie voor het afnemen en gebruiken van elektrische energie onder de 1000 Volt (wisselspanning) of 1500 volt (gelijkspanning)  
 
-<h2>Wagen</h2>
-<p>Voertuig, met uitzondering van een motorvoertuig, aanhangwagen, niet-gemotoriseerd gehandicaptenvoertuig, fiets en zijspanwagen, doch met inbegrip van een handwagen met motorvermogen.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
+Breder begrip: [https://data.rws.nl/def/otl/Installatie](https://data.rws.nl/def/otl/Installatie)  
 
-<h2>Wals</h2>
-<p>Installatiedeel in de vorm van een cilinder dat over iets heen rolt om dit platter te maken</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -1337,5142 +172,6 @@ http://www.w3.org/ns/shacl#Literal</td>
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Wand</h2>
-<p>Scheidingsconstructie met een overwegend verticaal karakter</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS-concept</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-constructievorm</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal1</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal2</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Wandafwerking</h2>
-<p>Geheel van beschermende en decoratieve middelen die mogelijk gebruikt kunnen worden voor de afwerking van een wand</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS-concept</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal1</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal2</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Wandconstructie</h2>
-<p>Samenstel van bouwdelen die gezamenlijk de wand vormen bijvoorbeeld de wand zelf en de wandafwerking</p>Breder begrip: https://data.rws.nl/def/otl/Hoofdconstructie
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS-concept</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwjaar</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#gYear</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufyear> (<font color="red">http://www.w3.org/2001/XMLSchema#long</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal1</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal2</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Wapeningstekening</h2>
-<p>Tekening die de vorm en constructie van de staalwapening in een betonconstructie beschrijft</p>Breder begrip: https://data.rws.nl/def/otl/Constructietekening-doc
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-</table>
-
-<h2>Warmte-kracht koppelingsinstallatie</h2>
-<p>Installatie die zorgt voor het tegelijktijdig opwekken van warmte en kracht (elektriciteit) door de restwarmte die vrijkomt bij de aandrijving van een generator om te zetten in warmte</p>Breder begrip: https://data.rws.nl/def/otl/Installatie
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwjaar</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#gYear</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum oplevering</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is internet facing</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Warmtewisselaar</h2>
-<p>Apparaat dat warmte van het ene vloeistof en/of gas gescheiden overbrengt naar het andere</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Wastafel</h2>
-<p>Bak met kraan en afvoer waarin personen zich of iets anders mee kunnen wassen</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Water en watergang lijnvormig</h2>
-<p>NEN 2767-4 elementnaam die wordt toegepast om lijnvormige wateren en watergangen te benoemen die niet zijn gedefinieerd binnen de NEN 2767-4</p>Breder begrip: https://data.rws.nl/def/otl/Watersysteem
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-beheerregime</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-lengte vaarweg</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-0.0</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-naam</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-oppervlakte</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vaarwegtype</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Water en watergang niet lijnvormig</h2>
-<p>NEN 2767-4 elementnaam die wordt toegepast om wateren en watergangen te benoemen die niet lijnvormig zijn en geen onderdeel zijn van de NEN 2767-4</p>Breder begrip: https://data.rws.nl/def/otl/Watersysteem
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-beheerregime</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-lengte vaarweg</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-0.0</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-naam</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-oppervlakte</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vaarwegtype</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Waterbodem</h2>
-<p>Onderkant, ondergrond of bedding van waterwegen, watervlaktes en objecten.</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS-concept</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-beheerregime</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-constructievorm</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-functionele eigenschap</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal1</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal2</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-muteerder</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-oppervlakte</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-subcategorie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Waterbuffer</h2>
-<p>Gebied voor het bergen van water</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_beheerobject-omschrijving> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Waterlichaam</h2>
-<p>Een oppervlaktewaterlichaam en/of grondwaterlichaam.</p>Breder begrip: https://data.rws.nl/def/otl/HoeveelheidVloeibareMaterie
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-</table>
-
-<h2>Watermistinstallatie</h2>
-<p>Installatie gebruikt in tunnels, voor het blussen van eventuele branden doormiddel van zeer fijn verneveld water en speciale sproeiers die werken met een hoge druk</p>Breder begrip: https://data.rws.nl/def/otl/Installatie
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwjaar</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#gYear</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufyear> (<font color="red">http://www.w3.org/2001/XMLSchema#long</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum oplevering</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is internet facing</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Waternetwerk</h2>
-<p>Verzameling van samenhangende watersysteemlinks en -nodes.</p>Breder begrip: https://data.rws.nl/def/otl/Netwerk
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-</table>
-
-<h2>Waterplant</h2>
-<p>Plant die haar natuurlijke standplaats in het water heeft (drijvend), en die kenmerken vertoond, welke op een aanpassing aan dit medium wijzen.</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS-concept</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal1</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal2</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Waterplant ondergedoken</h2>
-<p>Plant die haar natuurlijke standplaats in het water heeft (ondergedoken), en die kenmerken vertoond, welke op een aanpassing aan dit medium wijzen.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Waterreguleringswerk</h2>
-<p>Vaste overlaat of inlaat die voorziet in een vrije afvoer of aanvoer van water wanneer een bepaald peil wordt bereikt (BON NAT).</p>Breder begrip: https://data.rws.nl/def/otl/Kunstwerk
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-CEMT-klasse</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_beheerobject-vaarweg_id>/<https://data.rws.nl/def/disk/tbl_vaarweg-cemt> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-KwaliteitDatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-aanleiding technisch einde levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-alias</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-belastingsklasse</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwjaar</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#gYear</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>bkn</b>: <https://data.rws.nl/def/bkn/vkunstwerk-stichtingsjaar> (<font color="red">http://www.w3.org/2001/XMLSchema#long</font>)<br><b>disk</b>: <https://data.rws.nl/def/disk/tbl_beheerobject-stichtingsjaar> (<font color="red">http://www.w3.org/2001/XMLSchema#long</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/processfunction-prfmanufyear> (<font color="red">http://www.w3.org/2001/XMLSchema#long</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-centraal meldpunt</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-constructiebreedte maximaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-0.0</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-cultuurhistorische waarde</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-cyberclassificatie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-cybersecurity weerstandsniveau</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-doorrijbreedte</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-0.0</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-doorrijhoogte</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#positiveInteger</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-functionele indeling</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-hectometerpositie vaarweg</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#positiveInteger</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-indicator economische einde levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-inspectie-instantie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is CE-gemarkeerd</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is in kritieke toestand</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is uniek</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is vitaal kunstwerk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-kwaliteit</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-lengte</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-0.0</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/processfunction-_prflengte2> (<font color="green">http://www.w3.org/2001/XMLSchema#decimal</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>bkn</b>: <https://data.rws.nl/def/bkn/vkunstwerk-materiaal> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-naam</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>bkn</b>: <https://data.rws.nl/def/bkn/vkunstwerk-objectnaam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>disk</b>: <https://data.rws.nl/def/disk/tbl_beheerobject-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/processfunction-prfdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_beheerobject-omschrijving> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-ontwerplevensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-status</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-status constructieve veiligheid</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-technisch einde levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#gYear</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-toelichtig technisch einde levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-topcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>bkn</b>: <https://data.rws.nl/def/bkn/vkunstwerk-disk_beh_obj_code> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>disk</b>: <https://data.rws.nl/def/disk/tbl_beheerobject-topcode> (<font color="red"></font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/processfunction-_prfdcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vaarweg</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vaarwegtype</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-valt onder DBFM-contract</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Watersysteem</h2>
-<p>Samenhangend geheel van een of meer oppervlaktewaterlichamen en grondwaterlichamen, met bijbehorende bergingsgebieden, waterkeringen en ondersteunende kunstwerken.</p>Breder begrip: https://data.rws.nl/def/otl/Systeem
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-</table>
-
-<h2>Watertapinstallatie</h2>
-<p>Installatie voor het distribueren van drinkwater, bedrijfswater, stoom of condens, vanaf de hoofd- of dienstvoeding tot aan de verbruikspunten</p>Breder begrip: https://data.rws.nl/def/otl/Installatie
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwjaar</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#gYear</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufyear> (<font color="red">http://www.w3.org/2001/XMLSchema#long</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum oplevering</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is internet facing</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Waterveiligheid</h2>
-<p>Voorkomen en waar nodig beperken van overstromingen, wateroverlast en waterschaarste, in samenhang met bescherming en verbetering van de chemische en ecologische kwaliteit van watersystemen en vervuiling van maatschappelijke functies door watersystemen.</p>Breder begrip: https://data.rws.nl/def/otl/Veiligheid
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-naam</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Waterwegvergunning</h2>
-<p></p>Breder begrip: https://data.rws.nl/def/otl/Vergunning-doc
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-</table>
-
-<h2>Weer</h2>
-<p>Gegevens over de weersomstandigheden.</p>Breder begrip: https://w3id.org/nen2660/term#ObjectState
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-temperatuur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-weertype</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-zicht</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#positiveInteger</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Weerhut</h2>
-<p>Goed geventileerde hut, wit geschilderd, gebruikt om metereologische instrumenten (o.a. thermometers) af te schermen van directe zonnestraling</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Weg</h2>
-<p>Voor verkeersdoeleinden bestemd gebied, in lengte- en dwarsrichting begrensd door weggrenzen, welke afhankelijk van de materie kunnen zijn: - onderhoudsgrenzen; - eigendomsgrenzen; - beheergrenzen. Deze grenzen kunnen tegelijk voorkomen en kunnen dan al dan niet samenvallen.</p>Breder begrip: https://data.rws.nl/def/otl/Infrawerk
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS-concept</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-VoorloopWegnummer</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-categorie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-centraal meldpunt</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-constructievorm</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-cyberclassificatie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-cybersecurity weerstandsniveau</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is gevalideerd binnen</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is gevalideerd buiten</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-lengte</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-0.0</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/processfunction-_prflengte2> (<font color="green">http://www.w3.org/2001/XMLSchema#decimal</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal1</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal2</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-naam</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_beheerobject-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/processfunction-prfdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_beheerobject-omschrijving> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-onderdeel van netwerkschakel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#IRI</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/processfunction-_prfpartofnetwerkschakel> (<font color="green"></font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-wegdeelletter</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-wegnummer</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Weg-tijddiagram</h2>
-<p>Geeft de volgorde en de doorlopen weg van bewegingen ten opzichte van de tijd weer. Tevens worden de standen van de uitvoerorganen weergegeven.</p>Breder begrip: https://data.rws.nl/def/otl/Werking-doc
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-</table>
-
-<h2>Wegbaan</h2>
-<p>Gebied op de weg, in lengterichting begrensd door een beginraai en een eindraai, en in dwarsrichting begrensd 1) door twee opeenvolgende overgangen verhard/onverhard of 2) door een overgang verhard/onverhard en een weggrens.</p>Breder begrip: https://data.rws.nl/def/otl/Weglink
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-baanpositie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-beginafstand</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-eindafstand</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-hectometerletter</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-lengte</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-0.0</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-oppervlakte</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-rijbaanrichting</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Wegconstructie</h2>
-<p>Geheel van verbeterde ondergrond, aardebaan en verharding.</p>Breder begrip: https://data.rws.nl/def/otl/Hoofdconstructie
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwjaar</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#gYear</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Wegdeel</h2>
-<p>Kleinste functioneel onafhankelijk stukje van een NEN 3610 Weg met gelijkblijvende homogene eigenschappen en relaties en primair bedoeld voor gebruik door weg- spoor- en vliegverkeer te land.</p>Breder begrip: https://data.rws.nl/def/otl/Weglink
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-</table>
-
-<h2>WegdeelGPP</h2>
-<p>Kleinste functioneel onafhankelijk stukje van een Weg met gelijkblijvende, homogene akoestische eigenschappen en relaties en primair bedoeld voor het representeren van akoestische eigenschappen van wegverkeer op rijkswegen of provinciale wegen</p>Breder begrip: https://data.rws.nl/def/otl/Wegdeel
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-rijlijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Wegennetwerk</h2>
-<p>Verzameling van samenhangende weglinks en -nodes.</p>Breder begrip: https://data.rws.nl/def/otl/Transportnetwerk
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-</table>
-
-<h2>Wegjunctie</h2>
-<p></p>Breder begrip: https://data.rws.nl/def/otl/Wegnode
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-</table>
-
-<h2>Wegkantsysteem</h2>
-<p>Systeem langs de weg dat: gegevens over de passages van voertuigen op van te voren bepaalde rijstrookpunten inwint, bewerkt en beschikbaar stelt aan externe systemen (Monitoring); op basis van opdrachten van externe systemen en de lokale verkeerssituatie de bestuurders van passerende voertuigen door middel van beeldsignalen op vaste locaties informeert, waarschuwt, geleidt en stuurt (Signalering).</p>Breder begrip: https://data.rws.nl/def/otl/Installatie
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-CI-nummer</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
 </tr>
 <tr style="vertical-align:top">
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
@@ -6604,70 +303,6 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 <tr style="vertical-align:top">
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-kilometer tot</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-kilometer van</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-locatie tot</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-locatie van</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 materiaal1</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 http://www.w3.org/2001/XMLSchema#string</td>
@@ -6700,38 +335,6 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 <tr style="vertical-align:top">
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-objectsleutel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-offset routenetwerk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 omschrijving</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 http://www.w3.org/2001/XMLSchema#string</td>
@@ -6748,57 +351,9 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 <tr style="vertical-align:top">
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-route5Key</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-status</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 theoretische levensduur</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 </td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
@@ -6828,24 +383,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Wegknoop</h2>
-<p></p>Breder begrip: https://data.rws.nl/def/otl/Transportnode
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-</table>
+## Ladder
 
-<h2>Wegkruipplek</h2>
-<p>Kunstmatige voorziening, een soort kelder of andere(kleine) ruimte waarin dieren (o.a. vleermuizen) kunnen schuilen/wegkruipen in het geval van een dreigend gevaar</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+Constructie die bestaat uit twee bomen en daartussen een reeks van sporten voor het overbruggen van hoogteverschillen.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -6919,292 +464,6 @@ http://www.w3.org/ns/shacl#Literal</td>
 </td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 </td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal1</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal2</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Weglink</h2>
-<p>Relatie tussen twee wegnodes die een directe verbinding in het wegennetwerk voorstelt.</p>Breder begrip: https://data.rws.nl/def/otl/Transportlink
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-</table>
-
-<h2>Wegmarkering</h2>
-<p>Op of in het oppervlak van de verharding aangebracht (verkeers)teken ter geleiding, waarschuwing, regeling of informatie van het wegverkeer.</p>Breder begrip: https://data.rws.nl/def/otl/AanvullendeVoorziening
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS-concept</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwjaar</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#gYear</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufyear> (<font color="red">http://www.w3.org/2001/XMLSchema#long</font>)</td>
 </tr>
 <tr style="vertical-align:top">
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
@@ -7224,9 +483,57 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 <tr style="vertical-align:top">
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 discipline</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 </td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
@@ -7253,6 +560,38 @@ http://www.w3.org/ns/shacl#Literal</td>
 </td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 </td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
 </tr>
 <tr style="vertical-align:top">
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
@@ -7288,6 +627,22 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 <tr style="vertical-align:top">
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 omschrijving</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 http://www.w3.org/2001/XMLSchema#string</td>
@@ -7320,6 +675,22 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 <tr style="vertical-align:top">
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 vervult faunavoorzieningsfunctie</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 http://www.w3.org/2001/XMLSchema#boolean</td>
@@ -7336,165 +707,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Wegment</h2>
-<p></p>Breder begrip: https://data.rws.nl/def/otl/Weglink
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-</table>
+## Ladderbaan
 
-<h2>Wegsegment luchtkwaliteit</h2>
-<p>Kleinste functioneel onafhankelijk stukje van een Weg met gelijkblijvende, homogene akoestische eigenschappen en relaties en primair bedoeld voor het representeren van luchtkwaliteit eigenschappen van wegverkeer op rijkswegen of provinciale wegen</p>Breder begrip: https://data.rws.nl/def/otl/Wegdeel
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-berekende luchtkwaliteit</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
+Verticale kabelgoot voor het ondersteunen en/ of beschermen van kabels  
 
-<h2>Wegstrook</h2>
-<p>Gedeelte van een baan, in lengterichting begrensd door een begin- en een eindraai, en in dwarsrichting begrensd door: 1) ofwel twee opeenvolgende zichtbare overgangen in materie, 2) ofwel twee opeenvolgende zichtbare kniklijnen, 3) ofwel een zichtbare overgang in materie en een naastgelegen zichtbare kniklijn, 4) ofwel - ingeval asstreep en deelstrepen ontbreken, een zichtbare overgang in materie en de denkbeeldige lijn ter plaatse van het midden van de verharding van een enkelbaansweg of fietspad bestemd voor en voldoende breed voor verkeer in twee rijrichtingen.</p>Breder begrip: https://data.rws.nl/def/otl/Weglink
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum ingebruikname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitgebruikname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-lengte</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-0.0</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-strookpositie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
 
-<h2>Wegvak</h2>
-<p>Een deel van een weg waarbij de weg in lengterichting is opgedeeld in één of meerdere delen (vakken).</p>Breder begrip: https://data.rws.nl/def/otl/Weglink
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-rijlijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Weide</h2>
-<p>Stuk grasland waar vee op graast.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -7747,1036 +967,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Weigh In Motion</h2>
-<p>Installatie aangebracht in en/of naast de verharding van een weg die het gewicht van voertuigen vaststelt en registreert terwijl het voertuig in beweging is.</p>Breder begrip: https://data.rws.nl/def/otl/Installatie
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-CI-nummer</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS-concept</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwjaar</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#gYear</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum oplevering</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is internet facing</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-kilometer van</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-locatie van</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal1</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal2</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-objectsleutel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-offset routenetwerk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-route5Key</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-status</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
+## Lager
 
-<h2>Werk-spreekverbinding</h2>
-<p>Installatie dat ervoor zorgt dat tijdens onderhoud twee of meerdere personen met elkaar in direct contact staan</p>Breder begrip: https://data.rws.nl/def/otl/Installatie
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwjaar</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#gYear</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum oplevering</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is internet facing</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
+Component dat ervoor zorgt dat de delen van de omvattende constructie goed ten opzichte van elkaar kunnen bewegen door het minimaliseren van de wrijving.  
 
-<h2>Werkconditie</h2>
-<p>In beperkte betekenis alle zichtbare, hoorbare en op andere wijze waarneembare (fysieke) omstandigheden waaronder wordt gewerkt, de mate waarin deze de arbeid minder aangenaam maken, alsmede de tijd gedurende welke onder deze omstandigheden moet worden gewerkt (bijvoorbeeld verlichting, klimaat, atmosfeer, lawaai, terperatuur en straling alsmede de zwaarte van het werk, de lichaamshouding, het persoonlijk risico en eventueel de eentonigheid van het werk, de monotonie). In brede betekenis alle factoren die voor de beleving van de werksituatie van belang zijn zoals de arbeidsvoorwaarden, fysieke omstandigheden (zie hierboven), en de taak inhoudelijke, arbeidsorganisatorische en ergonomische aspecten van de werksituatie.</p>Breder begrip: https://w3id.org/nen2660/term#ActivityState
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-toelichting</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
 
-<h2>Werking</h2>
-<p></p>Breder begrip: https://data.rws.nl/def/otl/Vastlegging-doc
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-</table>
-
-<h2>Werkinstructie</h2>
-<p>Een document dat instructies bevat hoe een bepaalde onderhoudstaak uitgevoerd moet worden op een (groep van) asset(s).</p>Breder begrip: https://data.rws.nl/def/otl/Instructie-doc
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-</table>
-
-<h2>Werkorder</h2>
-<p>Een werkorder is de opdracht van RWS naar Opdrachtnemers. Een werkorder kan verschillende type opdrachten bevatten, bijvoorbeeld inspecties.</p>Breder begrip: https://data.rws.nl/def/otl/Rechtsbetrekking
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-betreft volgwerk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datumtijd administratief gereed</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#dateTime</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datumtijd contractueel gereed</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#dateTime</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datumtijd technisch gereed</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#dateTime</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datumtijd uitgifte</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#dateTime</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-geplande einddatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-geplande startdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-reden uitstel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vakgroep</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Werkpakket</h2>
-<p>Een werkpakket is een combinatie van geplande onderhoudsmaatregelen die samen uitgevoerd worden. De reden is dat door het samen uitvoeren de stremming beperkt kan worden.</p>Breder begrip: https://data.rws.nl/def/otl/SocialeActiviteit
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Werkpakkettenstructuur</h2>
-<p>Hiërarchische weergave van alle activiteiten die nodig zijn om het projectresultaat te realiseren. </p>Breder begrip: https://data.rws.nl/def/otl/Samenhang-doc
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-</table>
-
-<h2>Werkplek Maatregel</h2>
-<p>Beheersmaatregel die genomen wordt om de risico's die betrekking hebben tot de werkplek te minimaliseren/ elimineren.</p>Breder begrip: https://data.rws.nl/def/otl/VeiligheidBeheersmaatregel
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Werkvergunning</h2>
-<p>Vergunning voor de uitvoering van gevaarlijke werkzaamheden en voor de uitvoering van gewoonlijk ongevaarlijke werkzaamheden die in combinatie met andere werkzaamheden ernstige risico's met zich mee kunnen brengen.</p>Breder begrip: https://data.rws.nl/def/otl/Rechtsbetrekking
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-betreft bezoek</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datumtijd aangevraagd</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#dateTime</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datumtijd afgesloten</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#dateTime</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datumtijd bekrachtigd</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#dateTime</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datumtijd verlengd</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#dateTime</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datumtijd voorbereiding gereed</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#dateTime</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is kortlopend</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is langlopend</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Werkvergunning</h2>
-<p></p>Breder begrip: https://data.rws.nl/def/otl/Vergunning-doc
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-</table>
-
-<h2>Werkwijzebeschrijving</h2>
-<p>Een werkwijzebeschrijving (WWB) is een handreiking waarin vaak terugkerende activiteiten worden beschreven.</p>Breder begrip: https://data.rws.nl/def/otl/Instructie-doc
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-</table>
-
-<h2>Werkzaamheid</h2>
-<p>Een activiteit betreft object- of areaalgerichte onderdelen van het werk, welke noodzakelijk zijn voor het verhelpen van vooraf gedefinieerde problemen of het upgraden van het kwaliteitsniveau dat noodzakelijk is voor het goed vervullen van de functies.</p>Breder begrip: https://w3id.org/nen2660/term#PhysicalActivity
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datumtijd einde</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#dateTime</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datumtijd start</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#dateTime</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-naam</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Werpaccommodatie</h2>
-<p>Betonnen ring die enerzijds het atletiekonderdeel discuswerpen faciliteert en anderzijds een heuvel vormt die het honkbal faciliteert.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -9029,9 +1227,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Wervelventiel</h2>
-<p>Installatiedeel voor het afremmen van de stroomsnelheid van het afvalwater binnen een riolering.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Lamellenafscheider
+
+Installatiedeel voor het verwijderen van vaste deeltjes (vuil en slib) die zich in het hemelwater bevinden.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -9284,1153 +1487,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Wet</h2>
-<p>Besluit van de centrale overheid bevattende een bindende (rechts)regel voor het uitvoeren en vormgeven van processen, handelingen, gedragingen, producten en/of diensten.</p>Breder begrip: https://data.rws.nl/def/otl/Besluit-doc
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-</table>
+## Landbouwgebied
 
-<h2>Wettelijk Beoordeling Instrumentarium (WBI-toets)</h2>
-<p>Wettelijke toets voor primaire keringen.</p>Breder begrip: https://data.rws.nl/def/otl/Inspectiemethode
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
+Gebied waarin een geheel van economische activiteiten plaats vindt waarbij het natuurlijke milieu wordt aangepast ten behoeve van de productie van planten en dieren voor menselijk gebruik doormiddel van akkerbouw, veeteelt en tuinbouw.  
 
-<h2>Wettelijk Risico</h2>
-<p>Project risico m.b.t. wettelijke verplichtingen.</p>Breder begrip: https://data.rws.nl/def/otl/ProjectRisico
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-risiconiveau</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-toelichting</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
 
-<h2>Wettelijke overeenkomst</h2>
-<p></p>Breder begrip: https://data.rws.nl/def/otl/Overeenkomst-doc
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-</table>
-
-<h2>Wide Area Network</h2>
-<p>Een netwerk dat is samengesteld uit Local Area Networks (LAN) en/of Hosts welke over een redelijk groot oppervlak zoals een land of een continent verdeeld. Het omvat een verzameling machines om gebruikersprogramma's op te laten draaien. Deze machines worden hosts genoemd. (WAN)</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Wiel</h2>
-<p>Cilindrisch object dat onderdeel is van een installatie en wordt gebruikt om andere installatiedelen te (bege)leiden.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Wielstel</h2>
-<p>Stelsel van wielen die aan een as zitten en zorgen voor een lage weerstand bij het voortrollen van bijvoorbeeld een sluisdeur.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Windmeter</h2>
-<p>Meetinstrument dat de windsnelheid en de windrichting meet</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Windmolen</h2>
-<p>Molen die bewegingsenergie van de lucht (wind) omzet in rotatie-energie van de wieken voor het opwekken van elektrische energie</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -10683,9 +1747,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Windverband</h2>
-<p>Stabiliteitverband dat ter verstijving in een vlak van een constructie aangebracht kan worden. Vaak betreft het hier een diagonaal verband in een rechthoekig frame.</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Landbouwgrond
+
+Geografisch stuk grond ten behoeve van landbouwkundige activiteiten om te komen tot gewassen die geschikt zijn voor menselijke consumptie.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -10699,22 +1768,6 @@ http://www.w3.org/ns/shacl#Literal</td>
 <tr style="vertical-align:top">
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS-concept</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 http://www.w3.org/2001/XMLSchema#string</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
@@ -10855,229 +1908,6 @@ http://www.w3.org/ns/shacl#Literal</td>
 </td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 <b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal1</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal2</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
-
-<h2>Wingebied</h2>
-<p>Gebied waar waterwinning plaatsvindt ten behoeve van drinkwater</p>Breder begrip: https://data.rws.nl/def/otl/AanvullendeVoorziening
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS-concept</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-beheerregime</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwjaar</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#gYear</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufyear> (<font color="red">http://www.w3.org/2001/XMLSchema#long</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
 </tr>
 <tr style="vertical-align:top">
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
@@ -11097,7 +1927,7 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 <tr style="vertical-align:top">
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal1</td>
+merk</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 http://www.w3.org/2001/XMLSchema#string</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
@@ -11109,39 +1939,7 @@ http://www.w3.org/ns/shacl#Literal</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 </td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal2</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-muteerder</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
 </tr>
 <tr style="vertical-align:top">
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
@@ -11161,41 +1959,25 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 <tr style="vertical-align:top">
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-oppervlakte</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-subcategorie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 theoretische levensduur</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 </td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
@@ -11225,9 +2007,34 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Wiptoestel</h2>
-<p>Speeltoestel waarop kinderen kunnen wippen</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Landelijke tunnelstandaard
+
+  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ontwerprichtlijn-doc](https://data.rws.nl/def/otl/Ontwerprichtlijn-doc)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+</table>
+
+## Landhoofd
+
+Constructiedeel (foutief: grondlichaam) dat zorgt voor steun en overgang van het grondlichaam naar bijvoorbeeld een brug of sluis  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -11241,6 +2048,22 @@ http://www.w3.org/ns/shacl#Literal</td>
 <tr style="vertical-align:top">
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+RWS-concept</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 http://www.w3.org/2001/XMLSchema#string</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
@@ -11284,7 +2107,7 @@ http://www.w3.org/ns/shacl#Literal</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 </td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
+<b>kerngis</b>: <https://data.rws.nl/def/kerngis/vkunstwerk-datumaanleg> (<font color="red">http://www.w3.org/2001/XMLSchema#dateTime</font>)</td>
 </tr>
 <tr style="vertical-align:top">
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
@@ -11396,7 +2219,39 @@ http://www.w3.org/ns/shacl#Literal</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 </td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>kerngis</b>: <https://data.rws.nl/def/kerngis/vkunstwerk-materiaal> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal1</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal2</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
 </tr>
 <tr style="vertical-align:top">
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
@@ -11428,7 +2283,7 @@ http://www.w3.org/ns/shacl#Literal</td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
 </td>
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>kerngis</b>: <https://data.rws.nl/def/kerngis/vkunstwerk-objecttekst> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
 </tr>
 <tr style="vertical-align:top">
 <td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
@@ -11480,9 +2335,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Wisselstrook</h2>
-<p>Rijstrook die, afhankelijk van het verkeersaanbod, afwisselend wordt bestemd voor verkeer in een van beide rijrichtingen.</p>Breder begrip: https://data.rws.nl/def/otl/Verkeersstrook
-<h3>Kenmerken</h3>
+## Landschapsplan
+
+  
+
+Breder begrip: [https://data.rws.nl/def/otl/Plan-doc](https://data.rws.nl/def/otl/Plan-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -11493,75 +2353,16 @@ http://www.w3.org/ns/shacl#Literal</td>
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
 </tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum ingebruikname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitgebruikname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-lengte</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#decimal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-0.0</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-strookpositie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
 </table>
 
-<h2>Woelbak</h2>
-<p>Betonnen kelder met schotten, in het bovenhoofd van een schutsluis die voorkomt dat het water tijdens het schutten aan de hoge zijde wordt ingelaten en met grote kracht naar binnen stroomt</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Landverkeerssein
+
+Armatuur met een of meer lichtbronnen die de (verkeers)situatie met een (verkeers)teken op de weg weergeeft  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -11862,9 +2663,730 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Wrijfgording</h2>
-<p>Horizontale balk bevestigd aan bijvoorbeeld het steunpunt van een brug, de wand en het hoofd van een sluis ter bescherming van de constructie tegen aanvaringen.</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Langsligger
+
+Balk tussen de dwarsdragers, of van oplegging tot oplegging, voor het dragen van het dek van het kunstwerk  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+RWS-concept</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal1</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal2</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Leerdoel
+
+Datgene dat wordt nagestreefd te bereiken middels een training en/of oefening.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Doelstelling](https://data.rws.nl/def/otl/Doelstelling)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is behaald</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Legenda
+
+Bijlage. Uitleg over de betekenis van gebruikte kaartsymbolen.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Gebruiksaanwijzing-doc](https://data.rws.nl/def/otl/Gebruiksaanwijzing-doc)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+</table>
+
+## Legitimatiebewijs
+
+Een document waarmee iemand kan aantonen dat hij ergens terecht aanspraak op maakt, bijvoorbeeld reisrecht (OV-chipkaart), bevoegdheid tot toezicht of opsporing (politielegitimatiebewijs) of recht op toegang (rijkspas). Een legitimatiebewijs zegt iets over de rol van een persoon, niet perse iets over de identiteit van een persoon. (hvo)  
+
+Breder begrip: [https://data.rws.nl/def/otl/Verklaring-doc](https://data.rws.nl/def/otl/Verklaring-doc)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+</table>
+
+## Leidam
+
+Dam, min of meer in de stroomrichting van een rivier of langs de kust, ter geleiding van de stroming om de schurende werking te beheersen.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Hoofdconstructie](https://data.rws.nl/def/otl/Hoofdconstructie)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+beheerregime</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwjaar</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#gYear</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufyear> (<font color="red">http://www.w3.org/2001/XMLSchema#long</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+lengte</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#decimal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+0.0</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmlengte> (<font color="green">http://www.w3.org/2001/XMLSchema#decimal</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+subcategorie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Leiding
+
+Buis of kabel bestemd voor voortgeleiding van energie, materie of data.  
+
+Breder begrip: [https://data.rws.nl/def/otl/AanvullendeVoorziening](https://data.rws.nl/def/otl/AanvullendeVoorziening)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwjaar</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#gYear</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufyear> (<font color="red">http://www.w3.org/2001/XMLSchema#long</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Leidingentekening
+
+Tekening waarop de loop van leidingen in de ruimte weegegeven is.  
+
+Breder begrip: [https://data.rws.nl/def/otl/RuimtelijkeIndeling-doc](https://data.rws.nl/def/otl/RuimtelijkeIndeling-doc)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+</table>
+
+## Leidingnetwerk
+
+Geheel van aan elkaar gekoppelde brandblusleidingen gemonteerd aan het plafond van een tunnelbuis.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -12117,9 +3639,186 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Wrijfschort</h2>
-<p>Horizontale en verticale balken die boven de waterspiegel is bevestigd aan een constructie ter preventie van aanvaarschades.</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Leidingschema (elektrotechniek lijngebonden)
+
+Een leidingschema geeft op overzichtelijke wijze de kabelverbindingen, met bijbehorende kabelnummers, weer tussen de diverse kasten. Daarbij zijn de aantallen en type kabels goed te onderscheiden.   
+
+Breder begrip: [https://data.rws.nl/def/otl/Configuratieschema-doc](https://data.rws.nl/def/otl/Configuratieschema-doc)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+</table>
+
+## Leidingschema (elektrotechniek objectgebonden)
+
+Een leidingschema geeft, per deelinstallatie, op overzichtelijke wijze de kabelverbindingen, met bijbehorende kabelnummers, weer tussen de diverse onderdelen binnen een deelinstallatie (bijvoorbeeld tussen hoofdverdelers en onderverdelers, tussen onderverdelers en apparatenkasten en tussen verbruikers en verdelers c.q. apparatenkasten) en de kabelverbindingen vanuit andere deelinstallaties van en naar de desbetreffende deelinstallatie.   
+
+Breder begrip: [https://data.rws.nl/def/otl/Configuratieschema-doc](https://data.rws.nl/def/otl/Configuratieschema-doc)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+</table>
+
+## Leikade
+
+Grondlichaam (deels de oude dijk) om de waterafvoer bij hoogwater te geleiden en in de richting van de loop van de rivier aangebracht.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Hoofdconstructie](https://data.rws.nl/def/otl/Hoofdconstructie)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwjaar</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#gYear</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufyear> (<font color="red">http://www.w3.org/2001/XMLSchema#long</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Lekdetector
+
+Detector waarbij met behulp van een infrarood warmtecamera de oorzaak van de lekkage precies kan worden opgespoord  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -12372,9 +4071,394 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Wrijfstijl</h2>
-<p>Verticale balk bevestigd aan bijvoorbeeld het steunpunt van een brug, de wand of het hoofd van een sluis ter bescherming van de constructie tegen aanvaringen.</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Lengteprofiel
+
+Dwarsdoorsnede genomen langs de belangrijkste organisatorische as van een bouwwerk of voorwerp.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Constructietekening-doc](https://data.rws.nl/def/otl/Constructietekening-doc)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+</table>
+
+## Leren
+
+Het zich eigen maken van nieuwe, of het aanpassen van bestaande, kennis, gedrag, vaardigheden, procedures, inzichten of waarden, en kan het synthetiseren (samenvoegen) van verschillende soorten informatie inhouden.  
+
+Breder begrip: [https://w3id.org/nen2660/term#MentalActivity](https://w3id.org/nen2660/term#MentalActivity)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+</table>
+
+## Leuning
+
+Constructie aangebracht op een muur of wand die steun biedt en beschermt tegen vallen bij hoogteverschil  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+RWS-concept</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+constructievorm</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+functionele eigenschap</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal1</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal2</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Leuningafwerking
+
+Geheel van beschermende, decoratieve en stroefheidsverhogende middelen die mogelijk gebruikt kunnen worden voor de afwerking van een leuning.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -12627,9 +4711,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Wrijvingswerk</h2>
-<p>Netwerk van horizontale en verticale balken aan het steunpunt van een brug, de wand of het hoofd van een sluis ter bescherming van de constructie tegen aanvaringen.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Leuningband
+
+Installatiedeel dat de meebewegende handleuning van een roltrap vormt  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -12881,5 +4970,5204 @@ http://www.w3.org/ns/shacl#Literal</td>
 </td>
 </tr>
 </table>
-  </body>
-</html>
+
+## Leuningconstructie
+
+DEF-2139 Niet gedefinieerd  
+
+Breder begrip: [https://data.rws.nl/def/otl/AanvullendeVoorziening](https://data.rws.nl/def/otl/AanvullendeVoorziening)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+RWS-concept</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwjaar</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#gYear</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufyear> (<font color="red">http://www.w3.org/2001/XMLSchema#long</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal1</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal2</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Levenscycluskostenraming
+
+Document waarin de resultaten van de kostenraming voor de realisatiefase en de kasreeks van een IPM-project is vastgelegd. Hierbij wordt gebruik gemaakt van methodieken als LCC (Lifecycle costs) en SKK (Standaard Systematiek voor Kostenraming).  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderzoeksrapport-doc](https://data.rws.nl/def/otl/Onderzoeksrapport-doc)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+</table>
+
+## Levensduur
+
+De maximale periode waarop een kapitaalgoed kan worden ingezet. De grens wordt bepaald door techniek, politiek of wetgeving. De economische levensduur geeft aan hoe lang een kapitaalgoed in de boeken staat.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Systeemaspect](https://data.rws.nl/def/otl/Systeemaspect)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+score</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#decimal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+toelichting</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Leverancier
+
+Organisatie die een product of dienst levert.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ondernemer](https://data.rws.nl/def/otl/Ondernemer)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+naam</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Leverbaarheid
+
+Inzicht in de termijn dat het onderdeel nog leverbaar is door de leverancier/derde en de snelheid waarmee het geleverd kan worden. Deze twee kenmerken zijn van belang bij vervangingen die moeten plaatsvinden.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Systeemaspect](https://data.rws.nl/def/otl/Systeemaspect)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+score</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#decimal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+toelichting</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Liaison BT
+
+De liaison BT is de verbinder tussen het Crisisteam Rijkswaterstaat en het gemeentelijk dan wel regionaal beleidsteam van de Veiligheidsregio. Dit is een multidisciplinair team met vertegenwoordigers uit betrokken (crisis)organisaties. De vaste bezetting van het BT bestaat uit vertegenwoordigers van de algemene kolom: Politie, Brandweer, Gemeente en GHOR (Geneeskundige Hulporganisatie in de Regio). Naast deze vaste bezetting kunnen er liaisons aansluiten vanuit de functionele kolom (waar RWS onder valt). Denk aan een havenbedrijf of een waterschap.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Crisisrol](https://data.rws.nl/def/otl/Crisisrol)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+naam</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Liaison ROT
+
+De liaison ROT is de verbinder tussen Rijkswaterstaat en het Regionaal Operationeel Team van de Veiligheidsregio. Dit is een multidisciplinair team met vertegenwoordigers uit betrokken (crisis)organisaties. De vaste bezetting van het ROT bestaat uit vertegenwoordigers van de algemene kolom: Politie, Brandweer, Gemeente en GHOR (Geneeskundige Hulporganisatie in de Regio). Naast deze vaste bezetting kunnen er liaisons aansluiten vanuit de functionele kolom (waar RWS onder valt). Denk aan een havenbedrijf of een waterschap.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Crisisrol](https://data.rws.nl/def/otl/Crisisrol)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+naam</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Licentie
+
+  
+
+Breder begrip: [https://data.rws.nl/def/otl/Beschikking-doc](https://data.rws.nl/def/otl/Beschikking-doc)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+</table>
+
+## Lichtgroepenkast
+
+Kast waarin schakelaars en beveiligingen zijn opgenomen.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Lichtkoepel
+
+Koepelvormig raam dat meestal, tijdens een aanbouw, is aangebracht in een plat dak om meer lichtinval in de ruimte te realiseren.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Lichtopstand
+
+Lichtbaken voor het geleiden van scheepvaartverkeer geplaatst op het hoogste punt van een krib.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Lichtstraat
+
+Geheel van een of meerdere aan elkaar bevestigde horizontaal of diagonaal geplaatste ramen inclusief sponningen, bevestigingsmaterialen en ophogingen die meestal, tijdens een aanbouw, zijn aangebracht in een plat dak om meer lichtinval in de ruimte te realiseren.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Liftdeur
+
+Deur van een lift, bestaande uit een component van een etagedeur en een liftkooideur  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Liftinstallatie
+
+Installatie voor verticaal transport van personen of goederen, bestaande uit een liftkooi die in een liftschacht langs leiders bewogen wordt en op vaste plaatsen stopt.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Installatie](https://data.rws.nl/def/otl/Installatie)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwjaar</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#gYear</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufyear> (<font color="red">http://www.w3.org/2001/XMLSchema#long</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum oplevering</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is internet facing</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Lijnafwatering
+
+Rioolleiding aan de bovenkant voorzien van een opening voor de afvoer van afvalwater.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Lijnorganisatie-eenheid
+
+Organisatie-eenheid met een (redelijk) permanent karakter, die onder leiding staat van een lijnmanager.  
+
+Breder begrip: [https://data.rws.nl/def/otl/OrganisatieEenheid](https://data.rws.nl/def/otl/OrganisatieEenheid)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+</table>
+
+## Local Area Network
+
+Netwerk dat is samengesteld uit computers/ werkstations op een relatief klein oppervlak zodat gebruikers toegang hebben tot dezelfde hard- en software  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Locatie
+
+Positie of punt in de ruimte, uitgedrukt relatief ten opzichte van een ander punt of ding.  
+
+Breder begrip: [https://data.rws.nl/def/otl/RuimtelijkeLocatiereferentie](https://data.rws.nl/def/otl/RuimtelijkeLocatiereferentie)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+toelichting</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Locatiereferentie
+
+Karakterisering van de locatie van een entiteit in een ruimte-tijd t.o.v. een locatie-referentiesysteem.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Grootheid](https://data.rws.nl/def/otl/Grootheid)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+</table>
+
+## Logische tekening
+
+Geeft inzicht in de totale netwerkconfiguratie en het vinden van de relevante fysieke tekeningen voor aanpassingen van het netwerk. In een logische overzichtstekening worden verwijzingen opgenomen naar andere logische (locatie-)tekeningen. Met deze tekeningen dient de samenhang tussen (deel)installaties inzichtelijk te worden.   
+
+Breder begrip: [https://data.rws.nl/def/otl/Samenhang-doc](https://data.rws.nl/def/otl/Samenhang-doc)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+</table>
+
+## Loopbrug
+
+Brug voor voetgangers die een verbinding realiseert tussen schepen en de wal.  
+
+Breder begrip: [https://data.rws.nl/def/otl/AanvullendeVoorziening](https://data.rws.nl/def/otl/AanvullendeVoorziening)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwjaar</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#gYear</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufyear> (<font color="red">http://www.w3.org/2001/XMLSchema#long</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Loopkat
+
+Werktuig waaraan een takel hangt en dat langs een geleidingsrail voortbeweegt om lasten tussen twee vaste punten te vervoeren.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Loopplank
+
+Plank bedoeld voor dieren om aan ter plaatse van een Fauna Uitstap Plaats (FUP) aan wal te komen.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Looppoort
+
+Toegangshek dat om een verticale as draait en dient als afsluitbare doorgang in een muur of terreinafscheiding.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+RWS-concept</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal1</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal2</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Looproute
+
+Volgorde waarop een verzameling assets bezocht wordt ten behoeve van efficiënt onderhoud.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Binnenpad](https://data.rws.nl/def/otl/Binnenpad)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Loopstrook
+
+Smalle geleidestrook bestemd voor fauna om een barrière (een weg, water e.d.) te kunnen passeren.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+RWS-concept</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal1</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal2</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Luchtdroger
+
+Toestel voor het drogen van lucht  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Luchtinlaat
+
+Opening voor het toelaten of inzuigen van lucht  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Luchtkanaal
+
+Installatiedeel in de vorm van een gat of kanaal ten behoeve van ventilatie of om de doorstroming van lucht te bevorderen  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Luchtkwaliteitsmeting
+
+Beheersmaatregel waarbij wordt gemeten of enerzijds er voldoende zuurstof is en anderzijds er teveel giftige stoffen zijn rondom de werkomgeving.  
+
+Breder begrip: [https://data.rws.nl/def/otl/VeiligheidBeheersmaatregel](https://data.rws.nl/def/otl/VeiligheidBeheersmaatregel)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Luidspreker
+
+Installatiedeel voor het verspreiden en versterken van geluid  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Luik
+
+Horizontale opneembare plaat met scharnieren en handgrepen om een ruimte af te sluiten  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+RWS-concept</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal1</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal2</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+

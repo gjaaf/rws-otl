@@ -1,43 +1,20 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>RWS kernregistraties</title>
-    <script
-      src="https://www.w3.org/Tools/respec/respec-w3c"
-      class="remove"
-      defer
-    ></script>
-    <script class="remove">
-      // All config options at https://respec.org/docs/
-      var respecConfig = {
-        specStatus: "ED",
-        editors: [{ name: "Gert-Jan Aaftink", url: "https://gjaaf.github.io" }],
-        github: "https://github.com/gjaaf/rws-otl",
-        shortName: "RWS OTL",
-        xref: "web-platform",
-        group: "RWS CIO Office",
-      };
-    </script>
-  </head>
-  <body>
-    <section id="abstract">
-      <p>Dit is de RWS OTL documentatie met verwijzing naar de BOM-R entries en de kernregistraties.</p>
-    </section>
-    <section id="sotd">
-      <p>STATUS: Dit is een <i>proof of technology</i>.</p>
-    </section>
-    <section class="informative">
-      <h2>OTL objecten per initiaal</h2>
-      <p>Dit is de OTL documentatie voor elementen beginnend met een bepaalde Initiaal</p>
-      <aside class="note" title="A useful note">
-        <p>Dit document maakt deel uit van de totale OTL documentatie. Alle <a href="otl-bom-kr.html">OTL elementen</a>, de BOM-R elemenenten en de Kernregistraties hebben elke een aparte overzichtspagina.</p>
-      </aside>
-    </section>
+---
+title: OTL-concepten (K)
+parent: OTL-concepten (alfabetisch)
+nav_order: 1
+---
 
-<h2>KWh-metering</h2>
-<p>Apparaat voor de meting van elektrische arbeid in de eenheid kilowattuur.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Introductie
+Deze pagina bevat een overzicht van alle OTL-concepten beginnend met de letter 'K'.
+## Overzicht
+## KWh-metering
+
+Apparaat voor de meting van elektrische arbeid in de eenheid kilowattuur.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -290,264 +267,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kaapstander</h2>
-<p>Wiel op een verticale as met een ketting eraan om zware lasten te verplaatsen.</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
+## Kaapstander
 
-<h2>Kaart</h2>
-<p>Object dat wordt gebruikt om toegang te autoriseren tot deuren die aangesloten zijn op een toegangssysteem</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+Wiel op een verticale as met een ketting eraan om zware lasten te verplaatsen.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -800,9 +527,274 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kabel</h2>
-<p>Geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van energie of data.</p>Breder begrip: https://data.rws.nl/def/otl/AanvullendeVoorziening
-<h3>Kenmerken</h3>
+## Kaart
+
+Object dat wordt gebruikt om toegang te autoriseren tot deuren die aangesloten zijn op een toegangssysteem  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Kabel
+
+Geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van energie of data.  
+
+Breder begrip: [https://data.rws.nl/def/otl/AanvullendeVoorziening](https://data.rws.nl/def/otl/AanvullendeVoorziening)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -911,9 +903,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kabel en leiding</h2>
-<p>Buis of kabel bestemd voor voortgeleiding van energie, materie of data.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Kabel en leiding
+
+Buis of kabel bestemd voor voortgeleiding van energie, materie of data.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -1166,9 +1163,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kabelberekening</h2>
-<p>Berekening van o.a. de benodigde aderdoorsnede, de kortsluitstroom, spanningsverlies en de selectiviteit voor sterkstroomkabels in elektrotechnische installaties zoals in de procesindustrie, gebouw- en openbare verlichting. </p>Breder begrip: https://data.rws.nl/def/otl/Berekeningsrapport-doc
-<h3>Kenmerken</h3>
+## Kabelberekening
+
+Berekening van o.a. de benodigde aderdoorsnede, de kortsluitstroom, spanningsverlies en de selectiviteit voor sterkstroomkabels in elektrotechnische installaties zoals in de procesindustrie, gebouw- en openbare verlichting.   
+
+Breder begrip: [https://data.rws.nl/def/otl/Berekeningsrapport-doc](https://data.rws.nl/def/otl/Berekeningsrapport-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -1181,9 +1183,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kabeldraagconstructie</h2>
-<p>Constructie ter bevestiging, bescherming en/of ondersteuning van kabels en/ of leidingen.</p>Breder begrip: https://data.rws.nl/def/otl/AanvullendeVoorziening
-<h3>Kenmerken</h3>
+## Kabeldraagconstructie
+
+Constructie ter bevestiging, bescherming en/of ondersteuning van kabels en/ of leidingen.  
+
+Breder begrip: [https://data.rws.nl/def/otl/AanvullendeVoorziening](https://data.rws.nl/def/otl/AanvullendeVoorziening)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -1292,9 +1299,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kabelgoot</h2>
-<p>Gesloten omhulsel met een verwijderbaar deksel die kabels of draden afschermt en geleidt</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Kabelgoot
+
+Gesloten omhulsel met een verwijderbaar deksel die kabels of draden afschermt en geleidt  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -1595,9 +1607,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kabellijst</h2>
-<p>Een lijst met daarop alle voorkomende kabels van (een gedeelte) van een elektrische installatie bij voorkeur op (alfa-)numerieke volgorde. (WP)</p>Breder begrip: https://data.rws.nl/def/otl/Samenstelling-doc
-<h3>Kenmerken</h3>
+## Kabellijst
+
+Een lijst met daarop alle voorkomende kabels van (een gedeelte) van een elektrische installatie bij voorkeur op (alfa-)numerieke volgorde. (WP)  
+
+Breder begrip: [https://data.rws.nl/def/otl/Samenstelling-doc](https://data.rws.nl/def/otl/Samenstelling-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -1610,9 +1627,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kabellooptekening</h2>
-<p>Tekening waarop de loop van kabels wordt weergeven. Zie ook bij leidingschema. (WP)</p>Breder begrip: https://data.rws.nl/def/otl/RuimtelijkeIndeling-doc
-<h3>Kenmerken</h3>
+## Kabellooptekening
+
+Tekening waarop de loop van kabels wordt weergeven. Zie ook bij leidingschema. (WP)  
+
+Breder begrip: [https://data.rws.nl/def/otl/RuimtelijkeIndeling-doc](https://data.rws.nl/def/otl/RuimtelijkeIndeling-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -1625,9 +1647,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kabelnummerlijst</h2>
-<p>Een kabelnummerlijst dient te worden vervaardigd voor het weergeven van alle kabels. De informatie in de kabelnummerlijst dient 1:1 te zijn met de kabels gebruikt in de kabellooptekening installatietekening. Dit dient op een geautomatiseerde manier gerealiseerd te worden. </p>Breder begrip: https://data.rws.nl/def/otl/Samenhang-doc
-<h3>Kenmerken</h3>
+## Kabelnummerlijst
+
+Een kabelnummerlijst dient te worden vervaardigd voor het weergeven van alle kabels. De informatie in de kabelnummerlijst dient 1:1 te zijn met de kabels gebruikt in de kabellooptekening installatietekening. Dit dient op een geautomatiseerde manier gerealiseerd te worden.   
+
+Breder begrip: [https://data.rws.nl/def/otl/Samenhang-doc](https://data.rws.nl/def/otl/Samenhang-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -1640,9 +1667,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kabelplan</h2>
-<p>Een tekening waarop de loop van kabels wordt weergeven. Een kabelplan geeft per kabelsectie aan wat de aansluitingen (naar wegkantstations of andere kasten) zijn, terwijl tevens bijzonderheden van de kabel aangemerkt worden. Onder aansluitingen wordt in dit verband verstaan de adertoewijzing van de verschillende communicatiekabels. plaats/ruimte?</p>Breder begrip: https://data.rws.nl/def/otl/Samenhang-doc
-<h3>Kenmerken</h3>
+## Kabelplan
+
+Een tekening waarop de loop van kabels wordt weergeven. Een kabelplan geeft per kabelsectie aan wat de aansluitingen (naar wegkantstations of andere kasten) zijn, terwijl tevens bijzonderheden van de kabel aangemerkt worden. Onder aansluitingen wordt in dit verband verstaan de adertoewijzing van de verschillende communicatiekabels. plaats/ruimte?  
+
+Breder begrip: [https://data.rws.nl/def/otl/Samenhang-doc](https://data.rws.nl/def/otl/Samenhang-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -1655,9 +1687,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kabels en Leidingen</h2>
-<p>Kokervormige constructie die ervoor dient om kabels en buisleidingen door te voeren.</p>Breder begrip: https://data.rws.nl/def/otl/AanvullendeVoorziening
-<h3>Kenmerken</h3>
+## Kabels en Leidingen
+
+Kokervormige constructie die ervoor dient om kabels en buisleidingen door te voeren.  
+
+Breder begrip: [https://data.rws.nl/def/otl/AanvullendeVoorziening](https://data.rws.nl/def/otl/AanvullendeVoorziening)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -1766,9 +1803,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kabelspaninrichting</h2>
-<p>Component dat er voor zorgt dat een draagkabel de juiste spanning blijft behouden</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Kabelspaninrichting
+
+Component dat er voor zorgt dat een draagkabel de juiste spanning blijft behouden  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -2021,9 +2063,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kabeltender</h2>
-<p>Constructie bestaande uit verschillende aan elkaar aangesloten schakels die bewegende kabels beschermen door ze in een rupsbeweging te begeleiden.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Kabeltender
+
+Constructie bestaande uit verschillende aan elkaar aangesloten schakels die bewegende kabels beschermen door ze in een rupsbeweging te begeleiden.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -2276,9 +2323,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kabeltrommel</h2>
-<p>Installatiedeel van een aandrijvingswerk dat, al dan niet met tussenkomst van een reductie, een staalkabel op spanning brengt door een roterende trommel.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Kabeltrommel
+
+Installatiedeel van een aandrijvingswerk dat, al dan niet met tussenkomst van een reductie, een staalkabel op spanning brengt door een roterende trommel.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -2531,9 +2583,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kade</h2>
-<p>Beschoeide of gemetselde constructie langs de oever waar schepen kunnen aanleggen</p>Breder begrip: https://data.rws.nl/def/otl/Kunstwerk
-<h3>Kenmerken</h3>
+## Kade
+
+Beschoeide of gemetselde constructie langs de oever waar schepen kunnen aanleggen  
+
+Breder begrip: [https://data.rws.nl/def/otl/Kunstwerk](https://data.rws.nl/def/otl/Kunstwerk)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -3154,9 +3211,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kadeput</h2>
-<p>Put op een aanlegplaats voor schepen</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Kadeput
+
+Put op een aanlegplaats voor schepen  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -3409,9 +3471,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kader</h2>
-<p>Verplicht te hanteren norm of werkwijze, gericht op het beheersen van grote risico's voor RWS. Alleen met voorafgaand akkoord van de DG of proceseigenaar mag de kadergebruiker ervan afwijken.</p>Breder begrip: https://data.rws.nl/def/otl/Afspraak-doc
-<h3>Kenmerken</h3>
+## Kader
+
+Verplicht te hanteren norm of werkwijze, gericht op het beheersen van grote risico's voor RWS. Alleen met voorafgaand akkoord van de DG of proceseigenaar mag de kadergebruiker ervan afwijken.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Afspraak-doc](https://data.rws.nl/def/otl/Afspraak-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -3424,9 +3491,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kader duurzaamheid</h2>
-<p></p>Breder begrip: https://data.rws.nl/def/otl/Kader-doc
-<h3>Kenmerken</h3>
+## Kader duurzaamheid
+
+  
+
+Breder begrip: [https://data.rws.nl/def/otl/Kader-doc](https://data.rws.nl/def/otl/Kader-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -3439,9 +3511,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kader industriële automatisering</h2>
-<p></p>Breder begrip: https://data.rws.nl/def/otl/Kader-doc
-<h3>Kenmerken</h3>
+## Kader industriële automatisering
+
+  
+
+Breder begrip: [https://data.rws.nl/def/otl/Kader-doc](https://data.rws.nl/def/otl/Kader-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -3454,9 +3531,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kader technische innovaties</h2>
-<p></p>Breder begrip: https://data.rws.nl/def/otl/Kader-doc
-<h3>Kenmerken</h3>
+## Kader technische innovaties
+
+  
+
+Breder begrip: [https://data.rws.nl/def/otl/Kader-doc](https://data.rws.nl/def/otl/Kader-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -3469,9 +3551,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kalenderstaat</h2>
-<p>Lijst of tekening waarop per (hei)paal de zakking voor een bepaald aantal slagen wordt aangegeven.</p>Breder begrip: https://data.rws.nl/def/otl/Meetrapport-doc
-<h3>Kenmerken</h3>
+## Kalenderstaat
+
+Lijst of tekening waarop per (hei)paal de zakking voor een bepaald aantal slagen wordt aangegeven.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Meetrapport-doc](https://data.rws.nl/def/otl/Meetrapport-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -3484,9 +3571,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kanaal</h2>
-<p>Gegraven grote waterloop die dient voor scheepvaart en of watertransport.</p>Breder begrip: https://data.rws.nl/def/otl/Watersysteem
-<h3>Kenmerken</h3>
+## Kanaal
+
+Gegraven grote waterloop die dient voor scheepvaart en of watertransport.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Watersysteem](https://data.rws.nl/def/otl/Watersysteem)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -3675,9 +3767,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kapiteel</h2>
-<p>Bovenstuk van een kolom die de kracht van een draagvlak kan overbrengen.</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Kapiteel
+
+Bovenstuk van een kolom die de kracht van een draagvlak kan overbrengen.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -3930,9 +4027,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kapvergunning</h2>
-<p></p>Breder begrip: https://data.rws.nl/def/otl/Vergunning-doc
-<h3>Kenmerken</h3>
+## Kapvergunning
+
+  
+
+Breder begrip: [https://data.rws.nl/def/otl/Vergunning-doc](https://data.rws.nl/def/otl/Vergunning-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -3945,9 +4047,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kast</h2>
-<p>Object met een permanent karakter dat dient om iets in te bergen en te beschermen.</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Kast
+
+Object met een permanent karakter dat dient om iets in te bergen en te beschermen.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -4280,9 +4387,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kathodische bescherminstallatie</h2>
-<p>Installatie ten behoeve van corrosiebestrijding dat berust op het principe van potentiaalverlaging van het te beschermen object.</p>Breder begrip: https://data.rws.nl/def/otl/Installatie
-<h3>Kenmerken</h3>
+## Kathodische bescherminstallatie
+
+Installatie ten behoeve van corrosiebestrijding dat berust op het principe van potentiaalverlaging van het te beschermen object.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Installatie](https://data.rws.nl/def/otl/Installatie)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -4423,9 +4535,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Keerelement</h2>
-<p>Constructiedeel, dat door vorm, gewicht en fundering zonder verankering iets kan keren.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Keerelement
+
+Constructiedeel, dat door vorm, gewicht en fundering zonder verankering iets kan keren.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -4678,9 +4795,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Keermuur</h2>
-<p>Muur die door vorm, gewicht en fundering zonder verankering de grond keert.</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Keermuur
+
+Muur die door vorm, gewicht en fundering zonder verankering de grond keert.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -4981,9 +5103,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Keerplaats</h2>
-<p>Plaats waar de vaarweg is verbreed zodat schepen de gelegenheid hebben om te keren.</p>Breder begrip: https://data.rws.nl/def/otl/AanvullendeVoorziening
-<h3>Kenmerken</h3>
+## Keerplaats
+
+Plaats waar de vaarweg is verbreed zodat schepen de gelegenheid hebben om te keren.  
+
+Breder begrip: [https://data.rws.nl/def/otl/AanvullendeVoorziening](https://data.rws.nl/def/otl/AanvullendeVoorziening)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -5220,9 +5347,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Keersluis</h2>
-<p>Een sluis die als voornaamste doel het keren van hoogwater heeft.</p>Breder begrip: https://data.rws.nl/def/otl/Sluis
-<h3>Kenmerken</h3>
+## Keersluis
+
+Een sluis die als voornaamste doel het keren van hoogwater heeft.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Sluis](https://data.rws.nl/def/otl/Sluis)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -5939,9 +6071,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Keerwand</h2>
-<p>Grondkerende constructie van beton met L-vormige doorsnede.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Keerwand
+
+Grondkerende constructie van beton met L-vormige doorsnede.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -6194,9 +6331,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kegelstuk</h2>
-<p>Bovenste constructiedeel van een prefab betonnen rioolput wat direct op de schachtopbouw is aangebracht en een sponning bevat voor de deksel zodat de put toegankelijk is.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Kegelstuk
+
+Bovenste constructiedeel van een prefab betonnen rioolput wat direct op de schachtopbouw is aangebracht en een sponning bevat voor de deksel zodat de put toegankelijk is.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -6449,9 +6591,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kelder</h2>
-<p>Bouwkundige constructie of ruimte onder de begane grond</p>Breder begrip: https://data.rws.nl/def/otl/AanvullendeVoorziening
-<h3>Kenmerken</h3>
+## Kelder
+
+Bouwkundige constructie of ruimte onder de begane grond  
+
+Breder begrip: [https://data.rws.nl/def/otl/AanvullendeVoorziening](https://data.rws.nl/def/otl/AanvullendeVoorziening)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -6640,9 +6787,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kerende constructie</h2>
-<p>Verticaal in de grond geplaatste wand die grondkerend en/of waterkerend is.</p>Breder begrip: https://data.rws.nl/def/otl/Hoofdconstructie
-<h3>Kenmerken</h3>
+## Kerende constructie
+
+Verticaal in de grond geplaatste wand die grondkerend en/of waterkerend is.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Hoofdconstructie](https://data.rws.nl/def/otl/Hoofdconstructie)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -6831,9 +6983,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kerf</h2>
-<p>Inkeping in een duin.</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Kerf
+
+Inkeping in een duin.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -7086,9 +7243,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Keringschuif</h2>
-<p>Schuif toegepast in een stormvloedkering voor het keren van extreem hoge waterstanden.</p>Breder begrip: https://data.rws.nl/def/otl/Hoofdconstructie
-<h3>Kenmerken</h3>
+## Keringschuif
+
+Schuif toegepast in een stormvloedkering voor het keren van extreem hoge waterstanden.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Hoofdconstructie](https://data.rws.nl/def/otl/Hoofdconstructie)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -7213,9 +7375,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kesp</h2>
-<p>Balk die als draagconstructie is aangebracht over een aantal funderingspalen</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Kesp
+
+Balk die als draagconstructie is aangebracht over een aantal funderingspalen  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -7516,9 +7683,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Ketel</h2>
-<p>Installatiedeel bestaande uit een ketellichaam en een brander, die verbrandingswarmte op water overbrengt.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Ketel
+
+Installatiedeel bestaande uit een ketellichaam en een brander, die verbrandingswarmte op water overbrengt.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -7771,9 +7943,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Ketting</h2>
-<p>Aantal ringen of schakels die met elkaar zijn verbonden en die gezamenlijk een langwerpige verbinding vormen</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Ketting
+
+Aantal ringen of schakels die met elkaar zijn verbonden en die gezamenlijk een langwerpige verbinding vormen  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -8026,9 +8203,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kettingoog</h2>
-<p>Ijzeren of metalen ring die bevestigd is aan een afmeervoorzieining zodat schepen hier kunnen afmeren</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Kettingoog
+
+Ijzeren of metalen ring die bevestigd is aan een afmeervoorzieining zodat schepen hier kunnen afmeren  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -8281,9 +8463,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kettingoverbrenging</h2>
-<p>Constructiedeel waarbij mechanische energie wordt overgebracht doormiddel van een ketting</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Kettingoverbrenging
+
+Constructiedeel waarbij mechanische energie wordt overgebracht doormiddel van een ketting  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -8536,9 +8723,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kettingtand</h2>
-<p>Tandvormig installatiedeel dat is bevestigd aan een roterende band of ketting voor het opscheppen van grove vaste delen uit het influent (afvalwater).</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Kettingtand
+
+Tandvormig installatiedeel dat is bevestigd aan een roterende band of ketting voor het opscheppen van grove vaste delen uit het influent (afvalwater).  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -8791,9 +8983,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kettingverankering</h2>
-<p>Beugelvormige ring die bevestigd is aan een afmeervoorzieining zodat schepen hier kunnen afmeren</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Kettingverankering
+
+Beugelvormige ring die bevestigd is aan een afmeervoorzieining zodat schepen hier kunnen afmeren  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -9046,9 +9243,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Keukenblok</h2>
-<p>Geheel bestaande uit een aanrecht, ingebouwde spoelbak en kastjes.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Keukenblok
+
+Geheel bestaande uit een aanrecht, ingebouwde spoelbak en kastjes.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -9301,9 +9503,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Keukeninrichting</h2>
-<p>Samenstel van bouwdelen die zich in een keuken bevinden zoals keukenblok en keukeninstallatie die gezamenlijk de keuken vormen</p>Breder begrip: https://data.rws.nl/def/otl/AanvullendeVoorziening
-<h3>Kenmerken</h3>
+## Keukeninrichting
+
+Samenstel van bouwdelen die zich in een keuken bevinden zoals keukenblok en keukeninstallatie die gezamenlijk de keuken vormen  
+
+Breder begrip: [https://data.rws.nl/def/otl/AanvullendeVoorziening](https://data.rws.nl/def/otl/AanvullendeVoorziening)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -9412,9 +9619,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Keukeninstallatie</h2>
-<p>Geheel van installaties, apparaten en toestellen die gebruikt worden voor de verwerking van voedingsmiddelen.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Keukeninstallatie
+
+Geheel van installaties, apparaten en toestellen die gebruikt worden voor de verwerking van voedingsmiddelen.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -9667,9 +9879,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Keuring</h2>
-<p>Een formele en gedisciplineerde beoordelingstechniek waarbij een asset wordt onderzocht op kwaliteit en functionaliteit m.b.t. veiligheid.</p>Breder begrip: https://data.rws.nl/def/otl/VeiligheidBeheersmaatregel
-<h3>Kenmerken</h3>
+## Keuring
+
+Een formele en gedisciplineerde beoordelingstechniek waarbij een asset wordt onderzocht op kwaliteit en functionaliteit m.b.t. veiligheid.  
+
+Breder begrip: [https://data.rws.nl/def/otl/VeiligheidBeheersmaatregel](https://data.rws.nl/def/otl/VeiligheidBeheersmaatregel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -9730,9 +9947,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Keuringsmethode</h2>
-<p>De wijze waarop een keuring wordt uitgevoerd.</p>Breder begrip: https://data.rws.nl/def/otl/Methode
-<h3>Kenmerken</h3>
+## Keuringsmethode
+
+De wijze waarop een keuring wordt uitgevoerd.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Methode](https://data.rws.nl/def/otl/Methode)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -9745,9 +9967,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Keuringsplan</h2>
-<p>Beschrijft de verschillende onderdelen van een uit te voeren project en geeft onder andere aan waarop deze onderdelen dienen te worden gekeurd. / Een beknopte maar volledige opsomming van keuringsitems vanuit de overeenkomst, normeringen, aanbevelingen, richtlijnen en/of aanvullende ontwerpeisen om zodoende aan te tonen, dat het gevraagde is geleverd of is uitgevoerd. In het keuringsplan vindt op detailniveau de verificatie van de eisen plaats ter uiteindelijke validatie van het product.</p>Breder begrip: https://data.rws.nl/def/otl/Plan-doc
-<h3>Kenmerken</h3>
+## Keuringsplan
+
+Beschrijft de verschillende onderdelen van een uit te voeren project en geeft onder andere aan waarop deze onderdelen dienen te worden gekeurd. / Een beknopte maar volledige opsomming van keuringsitems vanuit de overeenkomst, normeringen, aanbevelingen, richtlijnen en/of aanvullende ontwerpeisen om zodoende aan te tonen, dat het gevraagde is geleverd of is uitgevoerd. In het keuringsplan vindt op detailniveau de verificatie van de eisen plaats ter uiteindelijke validatie van het product.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Plan-doc](https://data.rws.nl/def/otl/Plan-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -9760,9 +9987,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Keuringsrapport</h2>
-<p>Verslag van een gestandaardiseerde keuring waarmee wordt aangetoond dat een object voldoet aan (vooraf) gestelde eisen. Resulteert in een certificaat.</p>Breder begrip: https://data.rws.nl/def/otl/Rapport-doc
-<h3>Kenmerken</h3>
+## Keuringsrapport
+
+Verslag van een gestandaardiseerde keuring waarmee wordt aangetoond dat een object voldoet aan (vooraf) gestelde eisen. Resulteert in een certificaat.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Rapport-doc](https://data.rws.nl/def/otl/Rapport-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -9775,9 +10007,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Keuzedocument voorkeursvarianten</h2>
-<p></p>Breder begrip: https://data.rws.nl/def/otl/Besluitenlijst-doc
-<h3>Kenmerken</h3>
+## Keuzedocument voorkeursvarianten
+
+  
+
+Breder begrip: [https://data.rws.nl/def/otl/Besluitenlijst-doc](https://data.rws.nl/def/otl/Besluitenlijst-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -9790,264 +10027,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kinderspeelplaats</h2>
-<p>Terreindeel dat is ingericht voor kinderen om buiten te spelen.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
+## Kinderspeelplaats
 
-<h2>Kist</h2>
-<p>Afsluitbare opslagplaats om bijvoorbeld lucht te herbergen voor het realiseren van opwaartse druk.</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+Terreindeel dat is ingericht voor kinderen om buiten te spelen.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -10300,9 +10287,274 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Klanteis</h2>
-<p>Verzameling van behoeften en randvoorwaarden van de belanghebbenden.</p>Breder begrip: https://data.rws.nl/def/otl/Eis
-<h3>Kenmerken</h3>
+## Kist
+
+Afsluitbare opslagplaats om bijvoorbeld lucht te herbergen voor het realiseren van opwaartse druk.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Klanteis
+
+Verzameling van behoeften en randvoorwaarden van de belanghebbenden.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Eis](https://data.rws.nl/def/otl/Eis)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -10411,9 +10663,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Klanteisenspecificatie</h2>
-<p>Document dat de klanteisen specificeert in termen van probleemdefinitie, projectdoelstellingen, system of interest en bijbehorende eisen en wensen per klant. </p>Breder begrip: https://data.rws.nl/def/otl/Specificatie-doc
-<h3>Kenmerken</h3>
+## Klanteisenspecificatie
+
+Document dat de klanteisen specificeert in termen van probleemdefinitie, projectdoelstellingen, system of interest en bijbehorende eisen en wensen per klant.   
+
+Breder begrip: [https://data.rws.nl/def/otl/Specificatie-doc](https://data.rws.nl/def/otl/Specificatie-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -10426,9 +10683,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Klantvraag</h2>
-<p>Verzameling van door stakeholders geuite behoeften, verwachtingen of randvoorwaarden (tijd, geld, etc.) voortkomend uit het vervullen van hun rol in relatie tot een project.</p>Breder begrip: https://data.rws.nl/def/otl/Eis
-<h3>Kenmerken</h3>
+## Klantvraag
+
+Verzameling van door stakeholders geuite behoeften, verwachtingen of randvoorwaarden (tijd, geld, etc.) voortkomend uit het vervullen van hun rol in relatie tot een project.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Eis](https://data.rws.nl/def/otl/Eis)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -10473,9 +10735,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Klemmenstrooktekening</h2>
-<p>Een schema waarop te zien is waar welke ader op welke klem wordt aangesloten.</p>Breder begrip: https://data.rws.nl/def/otl/Configuratieschema-doc
-<h3>Kenmerken</h3>
+## Klemmenstrooktekening
+
+Een schema waarop te zien is waar welke ader op welke klem wordt aangesloten.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Configuratieschema-doc](https://data.rws.nl/def/otl/Configuratieschema-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -10488,9 +10755,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Klep</h2>
-<p>Constructiedeel dat de doorstroming van een medium tegenhoudt of vertraagt</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Klep
+
+Constructiedeel dat de doorstroming van een medium tegenhoudt of vertraagt  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -10743,9 +11015,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Klepconstructie</h2>
-<p>Klep inclusief toebehoren waarmee de doorlaat van water in een waterbuis wordt geregeld doormiddel van roterend deel (de klep).</p>Breder begrip: https://data.rws.nl/def/otl/Hoofdconstructie
-<h3>Kenmerken</h3>
+## Klepconstructie
+
+Klep inclusief toebehoren waarmee de doorlaat van water in een waterbuis wordt geregeld doormiddel van roterend deel (de klep).  
+
+Breder begrip: [https://data.rws.nl/def/otl/Hoofdconstructie](https://data.rws.nl/def/otl/Hoofdconstructie)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -10870,9 +11147,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Klepketting</h2>
-<p>Ketting voor het overdragen van mechanische energie met specifieke ophangpunten aan de uiteinden</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Klepketting
+
+Ketting voor het overdragen van mechanische energie met specifieke ophangpunten aan de uiteinden  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -11125,9 +11407,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Klimaatinstallatie</h2>
-<p>Installatie om het klimaat in een afgesloten constructie te regelen.</p>Breder begrip: https://data.rws.nl/def/otl/Installatie
-<h3>Kenmerken</h3>
+## Klimaatinstallatie
+
+Installatie om het klimaat in een afgesloten constructie te regelen.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Installatie](https://data.rws.nl/def/otl/Installatie)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -11268,9 +11555,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Klimplantconstructie</h2>
-<p>Constructie ter ondersteuning van klimplanten.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Klimplantconstructie
+
+Constructie ter ondersteuning van klimplanten.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -11523,9 +11815,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Klimtoestel</h2>
-<p>Speeltoestel om te klimmen.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Klimtoestel
+
+Speeltoestel om te klimmen.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -11778,9 +12075,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Knelbeveiliging</h2>
-<p>Installatiedeel dat beknelling door bewegende delen voorkomt doormiddel van detectie</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Knelbeveiliging
+
+Installatiedeel dat beknelling door bewegende delen voorkomt doormiddel van detectie  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -12033,9 +12335,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Knooppunt</h2>
-<p>Plaats waar staven samenkomen en voor een verbinding zorgen.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Knooppunt
+
+Plaats waar staven samenkomen en voor een verbinding zorgen.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -12288,9 +12595,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Koelmachine</h2>
-<p>Machine waarmee door cyclische verdamping en condensatie van een koelmiddel warmte aan een ruimte kan worden onttrokken</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Koelmachine
+
+Machine waarmee door cyclische verdamping en condensatie van een koelmiddel warmte aan een ruimte kan worden onttrokken  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -12543,9 +12855,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kogelvanger</h2>
-<p>Constructiedeel op een schietbaan om kogels op te vangen</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Kogelvanger
+
+Constructiedeel op een schietbaan om kogels op te vangen  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -12798,9 +13115,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Koker</h2>
-<p>Langwerpige ronde buis ter bescherming en/of ter geleiding van iets.</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Koker
+
+Langwerpige ronde buis ter bescherming en/of ter geleiding van iets.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -13053,9 +13375,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kolk</h2>
-<p>Constructie bestemd om het hemelwater dat op de verharding valt in te zamelen en af te voeren.</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Kolk
+
+Constructie bestemd om het hemelwater dat op de verharding valt in te zamelen en af te voeren.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -13356,9 +13683,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kolom</h2>
-<p>Verticale constructie die kan dienen als drager.</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Kolom
+
+Verticale constructie die kan dienen als drager.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -13675,9 +14007,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Koninklijk besluit</h2>
-<p></p>Breder begrip: https://data.rws.nl/def/otl/Voorschrift-doc
-<h3>Kenmerken</h3>
+## Koninklijk besluit
+
+  
+
+Breder begrip: [https://data.rws.nl/def/otl/Voorschrift-doc](https://data.rws.nl/def/otl/Voorschrift-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -13690,264 +14027,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kooi</h2>
-<p>Deel van de personenlift bestemd voor het opnemen van personen en/of goederen die moeten worden vervoerd.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
+## Kooi
 
-<h2>Koppeling</h2>
-<p>Verbinding bestaande uit een samenstel van mechanische componenten waarmee twee of meer delen van een machine met elkaar kunnen worden verbonden om vermogen (rotatie en koppel) over te brengen van een aandrijvende as naar een aangedreven as</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+Deel van de personenlift bestemd voor het opnemen van personen en/of goederen die moeten worden vervoerd.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -14200,9 +14287,274 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kosten</h2>
-<p>Post die aan de debetzijde (in min) van het resultaat geboekt worden.</p>Breder begrip: https://data.rws.nl/def/otl/FinancieleGrootheid
-<h3>Kenmerken</h3>
+## Koppeling
+
+Verbinding bestaande uit een samenstel van mechanische componenten waarmee twee of meer delen van een machine met elkaar kunnen worden verbonden om vermogen (rotatie en koppel) over te brengen van een aandrijvende as naar een aangedreven as  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Kosten
+
+Post die aan de debetzijde (in min) van het resultaat geboekt worden.  
+
+Breder begrip: [https://data.rws.nl/def/otl/FinancieleGrootheid](https://data.rws.nl/def/otl/FinancieleGrootheid)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -14279,9 +14631,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kozijn</h2>
-<p>Raamwerk bestaande uit een onder- en bovendorpel en twee of meer stijlen waar een raam, deur of ander element in kan worden aangebracht.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Kozijn
+
+Raamwerk bestaande uit een onder- en bovendorpel en twee of meer stijlen waar een raam, deur of ander element in kan worden aangebracht.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -14534,9 +14891,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kozijnwerk</h2>
-<p>Samenstel van bouwdelen die gezamenlijk het kozijn vormen zoals bijvoorbeeld het kozijn zelf, de beglazing en de deur</p>Breder begrip: https://data.rws.nl/def/otl/AanvullendeVoorziening
-<h3>Kenmerken</h3>
+## Kozijnwerk
+
+Samenstel van bouwdelen die gezamenlijk het kozijn vormen zoals bijvoorbeeld het kozijn zelf, de beglazing en de deur  
+
+Breder begrip: [https://data.rws.nl/def/otl/AanvullendeVoorziening](https://data.rws.nl/def/otl/AanvullendeVoorziening)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -14645,9 +15007,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kraan</h2>
-<p>Installatiedeel waarmee de stroming van een vloeistof of gas in een leiding geregeld kan worden</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Kraan
+
+Installatiedeel waarmee de stroming van een vloeistof of gas in een leiding geregeld kan worden  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -14900,9 +15267,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kraanrail</h2>
-<p>Rail waarover een kraan of een groot takelwerktuig, zich voortbeweegt.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Kraanrail
+
+Rail waarover een kraan of een groot takelwerktuig, zich voortbeweegt.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -15155,9 +15527,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kraanrailfundering</h2>
-<p>Fundatie van een kraanrail.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Kraanrailfundering
+
+Fundatie van een kraanrail.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -15410,9 +15787,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kracht</h2>
-<p>Natuurkundige grootheid die, uitgeoefend op een lichaam, daarin een spanning of druk doet ontstaan, of die het lichaam van beweging doet veranderen, doet versnellen.</p>Breder begrip: https://data.rws.nl/def/otl/Overdrachtstype
-<h3>Kenmerken</h3>
+## Kracht
+
+Natuurkundige grootheid die, uitgeoefend op een lichaam, daarin een spanning of druk doet ontstaan, of die het lichaam van beweging doet veranderen, doet versnellen.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Overdrachtstype](https://data.rws.nl/def/otl/Overdrachtstype)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -15425,9 +15807,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Krib</h2>
-<p>Dam die haaks of schuin op de oever staat en de oever, kribvakken en uiterwaarden beschermt tegen uitspoeling door de de waterstroom te beheersen.</p>Breder begrip: https://data.rws.nl/def/otl/Hoofdconstructie
-<h3>Kenmerken</h3>
+## Krib
+
+Dam die haaks of schuin op de oever staat en de oever, kribvakken en uiterwaarden beschermt tegen uitspoeling door de de waterstroom te beheersen.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Hoofdconstructie](https://data.rws.nl/def/otl/Hoofdconstructie)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -15616,9 +16003,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kribbaken</h2>
-<p>Vast markeringsvoorwerp dat een gevaarlijk punt (kribkop, strekdam of ondiepte) markeert.</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Kribbaken
+
+Vast markeringsvoorwerp dat een gevaarlijk punt (kribkop, strekdam of ondiepte) markeert.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -15871,9 +16263,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kribvak</h2>
-<p>Oever of rivierbodem tussen twee kribben in.</p>Breder begrip: https://data.rws.nl/def/otl/Hoofdconstructie
-<h3>Kenmerken</h3>
+## Kribvak
+
+Oever of rivierbodem tussen twee kribben in.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Hoofdconstructie](https://data.rws.nl/def/otl/Hoofdconstructie)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -16062,9 +16459,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kruin</h2>
-<p>Hoogste punt in het dwarsprofiel van een dijklichaam, krib of een terp.</p>Breder begrip: https://data.rws.nl/def/otl/Hoofdconstructie
-<h3>Kenmerken</h3>
+## Kruin
+
+Hoogste punt in het dwarsprofiel van een dijklichaam, krib of een terp.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Hoofdconstructie](https://data.rws.nl/def/otl/Hoofdconstructie)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -16189,9 +16591,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kruispuntschets</h2>
-<p>Schetsmatige weergave van een kruispunt of wegsituatie waarop aangegeven staat waar de bewegwijzeringsborden zich bevinden. </p>Breder begrip: https://data.rws.nl/def/otl/Overzichtstekening-doc
-<h3>Kenmerken</h3>
+## Kruispuntschets
+
+Schetsmatige weergave van een kruispunt of wegsituatie waarop aangegeven staat waar de bewegwijzeringsborden zich bevinden.   
+
+Breder begrip: [https://data.rws.nl/def/otl/Overzichtstekening-doc](https://data.rws.nl/def/otl/Overzichtstekening-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -16204,264 +16611,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Krukstang</h2>
-<p>Stang die onderdeel is van een instalatie en zorgt voor de aandrijving van de installatie.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-QR-code</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-barcode</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-bouwdatum</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-2100-12-31</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-1594-01-01</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum inbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-datum uitbedrijfname</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#date</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-discipline</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-garantietermijn</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is faalkanskritisch</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-is wisseldeel</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-materiaal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-merk</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-theoretische levensduur</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#duration</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-type</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-vervult faunavoorzieningsfunctie</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#boolean</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
+## Krukstang
 
-<h2>Kunstobject</h2>
-<p>Object dat is gemaakt door een kunstenaar zijnde beeldende kunst.</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+Stang die onderdeel is van een instalatie en zorgt voor de aandrijving van de installatie.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -16714,9 +16871,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kunststofsportveld</h2>
-<p>Sportveld waarvan de toplaag is vervaardigd is uit kunststof.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Kunstobject
+
+Object dat is gemaakt door een kunstenaar zijnde beeldende kunst.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -16969,9 +17131,274 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kunstwerk</h2>
-<p>Een Kunstwerk is een constructie van enige omvang van hout, steen, metaal of ander materiaal, die op de plaats van bestemming hetzij direct hetzij indirect met de grond verbonden is, hetzij direct of indirect steun vindt in of op de grond, bedoeld om ter plaatse te functioneren. Een kunstwerk is niet bestemd en/of ingericht voor menselijk verblijf, arbeid, installaties of handel. De constructie is in dezelfde tijd gecreëerd.</p>Breder begrip: https://w3id.org/nen2660/term#DiscreteObject
-<h3>Kenmerken</h3>
+## Kunststofsportveld
+
+Sportveld waarvan de toplaag is vervaardigd is uit kunststof.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+QR-code</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+barcode</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmbcid> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+bouwdatum</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+2100-12-31</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+1594-01-01</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum inbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+datum uitbedrijfname</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#date</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+discipline</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+garantietermijn</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is faalkanskritisch</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+is wisseldeel</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmexchangepart> (<font color="red">http://www.w3.org/2001/XMLSchema#short</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+materiaal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>disk</b>: <https://data.rws.nl/def/disk/tbl_is_onderdeel-isonderdeeltypeid>/<https://data.rws.nl/def/disk/tbl_is_onderdeeltype-materiaalid>/<https://data.rws.nl/def/disk/tbl_materiaal-naam> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)<br><b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-_eqmmatid>/<https://data.rws.nl/def/ultimo/material-matdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+merk</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmmanufid>/<https://data.rws.nl/def/ultimo/vendor-vdrdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+<b>ultimo</b>: <https://data.rws.nl/def/ultimo/equipment-eqmdescr> (<font color="green">http://www.w3.org/2001/XMLSchema#string</font>)</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+theoretische levensduur</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#duration</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+type</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+vervult faunavoorzieningsfunctie</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#boolean</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## Kunstwerk
+
+Een Kunstwerk is een constructie van enige omvang van hout, steen, metaal of ander materiaal, die op de plaats van bestemming hetzij direct hetzij indirect met de grond verbonden is, hetzij direct of indirect steun vindt in of op de grond, bedoeld om ter plaatse te functioneren. Een kunstwerk is niet bestemd en/of ingericht voor menselijk verblijf, arbeid, installaties of handel. De constructie is in dezelfde tijd gecreëerd.  
+
+Breder begrip: [https://w3id.org/nen2660/term#DiscreteObject](https://w3id.org/nen2660/term#DiscreteObject)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -17480,9 +17907,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kwaliteit</h2>
-<p></p>Breder begrip: https://data.rws.nl/def/otl/Concepttype
-<h3>Kenmerken</h3>
+## Kwaliteit
+
+  
+
+Breder begrip: [https://data.rws.nl/def/otl/Concepttype](https://data.rws.nl/def/otl/Concepttype)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -17495,9 +17927,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kwaliteitsnorm</h2>
-<p></p>Breder begrip: https://data.rws.nl/def/otl/Norm-doc
-<h3>Kenmerken</h3>
+## Kwaliteitsnorm
+
+  
+
+Breder begrip: [https://data.rws.nl/def/otl/Norm-doc](https://data.rws.nl/def/otl/Norm-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -17510,9 +17947,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kwaliteitwaarde</h2>
-<p>De objectivering van een waarde van een kwaliteit met een complexe waarde zoals een eenvoudige waarde sec gecombineerd met andere metadata of alleen een combinatie van eenvoudige waarden.</p>Breder begrip: https://data.rws.nl/def/otl/Objectificatie
-<h3>Kenmerken</h3>
+## Kwaliteitwaarde
+
+De objectivering van een waarde van een kwaliteit met een complexe waarde zoals een eenvoudige waarde sec gecombineerd met andere metadata of alleen een combinatie van eenvoudige waarden.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Objectificatie](https://data.rws.nl/def/otl/Objectificatie)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -17525,9 +17967,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kwantiteitwaarde</h2>
-<p>De objectivering van een waarde van een hoeveelheid (typisch met een grootheid en een eenheid) met een complexe waarde zoals een eenvoudige waarde sec gecombineerd met andere metadata of alleen een combinatie van eenvoudige waarden.</p>Breder begrip: https://data.rws.nl/def/otl/Objectificatie
-<h3>Kenmerken</h3>
+## Kwantiteitwaarde
+
+De objectivering van een waarde van een hoeveelheid (typisch met een grootheid en een eenheid) met een complexe waarde zoals een eenvoudige waarde sec gecombineerd met andere metadata of alleen een combinatie van eenvoudige waarden.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Objectificatie](https://data.rws.nl/def/otl/Objectificatie)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -17540,9 +17987,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kwelder</h2>
-<p>Buitendijks gebied dat is aangeslibd, doorgaans begroeid en met (gewone) vloed niet meer onder water loopt.</p>Breder begrip: https://data.rws.nl/def/otl/AanvullendeVoorziening
-<h3>Kenmerken</h3>
+## Kwelder
+
+Buitendijks gebied dat is aangeslibd, doorgaans begroeid en met (gewone) vloed niet meer onder water loopt.  
+
+Breder begrip: [https://data.rws.nl/def/otl/AanvullendeVoorziening](https://data.rws.nl/def/otl/AanvullendeVoorziening)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -17715,9 +18167,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kwelkade</h2>
-<p>In het direct aan de dijk grenzende achterland aangebrachte kade om afstromen van kwelwater te verminderen waarmee wordt getracht het optreden van pipingverschijnselen te voorkomen alsmede wateroverlast binnendijks tijdens hoge rivierafvoeren te beperken.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Kwelkade
+
+In het direct aan de dijk grenzende achterland aangebrachte kade om afstromen van kwelwater te verminderen waarmee wordt getracht het optreden van pipingverschijnselen te voorkomen alsmede wateroverlast binnendijks tijdens hoge rivierafvoeren te beperken.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -17970,9 +18427,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kwelscherm</h2>
-<p>Een ondoorlatende, in de regel verticale, constructie voor verlenging van de kwelweg.</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Kwelscherm
+
+Een ondoorlatende, in de regel verticale, constructie voor verlenging van de kwelweg.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -18225,9 +18687,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Kwetsbaarheid</h2>
-<p>Eigenschap die een aanvaller de mogelijkheid biedt een cyberaanval uit te voeren of een eigenschap die kan leiden tot uitval. Dit kan zich voordoen in een digitale dienst, proces of systeem, maar ook in de samenleving als geheel of in een specifieke organisatie.</p>Breder begrip: https://data.rws.nl/def/otl/Systeemaspect
-<h3>Kenmerken</h3>
+## Kwetsbaarheid
+
+Eigenschap die een aanvaller de mogelijkheid biedt een cyberaanval uit te voeren of een eigenschap die kan leiden tot uitval. Dit kan zich voordoen in een digitale dienst, proces of systeem, maar ook in de samenleving als geheel of in een specifieke organisatie.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Systeemaspect](https://data.rws.nl/def/otl/Systeemaspect)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -18255,5 +18722,4 @@ http://www.w3.org/ns/shacl#Literal</td>
 </td>
 </tr>
 </table>
-  </body>
-</html>
+

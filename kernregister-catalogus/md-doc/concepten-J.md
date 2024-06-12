@@ -1,43 +1,20 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>RWS kernregistraties</title>
-    <script
-      src="https://www.w3.org/Tools/respec/respec-w3c"
-      class="remove"
-      defer
-    ></script>
-    <script class="remove">
-      // All config options at https://respec.org/docs/
-      var respecConfig = {
-        specStatus: "ED",
-        editors: [{ name: "Gert-Jan Aaftink", url: "https://gjaaf.github.io" }],
-        github: "https://github.com/gjaaf/rws-otl",
-        shortName: "RWS OTL",
-        xref: "web-platform",
-        group: "RWS CIO Office",
-      };
-    </script>
-  </head>
-  <body>
-    <section id="abstract">
-      <p>Dit is de RWS OTL documentatie met verwijzing naar de BOM-R entries en de kernregistraties.</p>
-    </section>
-    <section id="sotd">
-      <p>STATUS: Dit is een <i>proof of technology</i>.</p>
-    </section>
-    <section class="informative">
-      <h2>OTL objecten per initiaal</h2>
-      <p>Dit is de OTL documentatie voor elementen beginnend met een bepaalde Initiaal</p>
-      <aside class="note" title="A useful note">
-        <p>Dit document maakt deel uit van de totale OTL documentatie. Alle <a href="otl-bom-kr.html">OTL elementen</a>, de BOM-R elemenenten en de Kernregistraties hebben elke een aparte overzichtspagina.</p>
-      </aside>
-    </section>
+---
+title: OTL-concepten (J)
+parent: OTL-concepten (alfabetisch)
+nav_order: 1
+---
 
-<h2>Jaloezie</h2>
-<p>Reguleerbaar zonwerend installatiedeel dat bestaat uit dunne horizontale stroken of latjes die kantelbaar zijn.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Introductie
+Deze pagina bevat een overzicht van alle OTL-concepten beginnend met de letter 'J'.
+## Overzicht
+## Jaloezie
+
+Reguleerbaar zonwerend installatiedeel dat bestaat uit dunne horizontale stroken of latjes die kantelbaar zijn.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -290,9 +267,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Juk</h2>
-<p>Constructiedeel met of voor een schanierend deel (balans) voor het verdelen van een of twee lasten.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Juk
+
+Constructiedeel met of voor een schanierend deel (balans) voor het verdelen van een of twee lasten.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -545,9 +527,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Juridische Rol</h2>
-<p>Rol tussen twee of meer personen of rechtelijke entiteiten in het kader van recht of rechtsleer.</p>Breder begrip: https://data.rws.nl/def/otl/SocialeRol
-<h3>Kenmerken</h3>
+## Juridische Rol
+
+Rol tussen twee of meer personen of rechtelijke entiteiten in het kader van recht of rechtsleer.  
+
+Breder begrip: [https://data.rws.nl/def/otl/SocialeRol](https://data.rws.nl/def/otl/SocialeRol)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -559,5 +546,4 @@ http://www.w3.org/ns/shacl#Literal</td>
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
 </tr>
 </table>
-  </body>
-</html>
+

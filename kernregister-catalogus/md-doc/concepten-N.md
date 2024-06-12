@@ -1,43 +1,20 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>RWS kernregistraties</title>
-    <script
-      src="https://www.w3.org/Tools/respec/respec-w3c"
-      class="remove"
-      defer
-    ></script>
-    <script class="remove">
-      // All config options at https://respec.org/docs/
-      var respecConfig = {
-        specStatus: "ED",
-        editors: [{ name: "Gert-Jan Aaftink", url: "https://gjaaf.github.io" }],
-        github: "https://github.com/gjaaf/rws-otl",
-        shortName: "RWS OTL",
-        xref: "web-platform",
-        group: "RWS CIO Office",
-      };
-    </script>
-  </head>
-  <body>
-    <section id="abstract">
-      <p>Dit is de RWS OTL documentatie met verwijzing naar de BOM-R entries en de kernregistraties.</p>
-    </section>
-    <section id="sotd">
-      <p>STATUS: Dit is een <i>proof of technology</i>.</p>
-    </section>
-    <section class="informative">
-      <h2>OTL objecten per initiaal</h2>
-      <p>Dit is de OTL documentatie voor elementen beginnend met een bepaalde Initiaal</p>
-      <aside class="note" title="A useful note">
-        <p>Dit document maakt deel uit van de totale OTL documentatie. Alle <a href="otl-bom-kr.html">OTL elementen</a>, de BOM-R elemenenten en de Kernregistraties hebben elke een aparte overzichtspagina.</p>
-      </aside>
-    </section>
+---
+title: OTL-concepten (N)
+parent: OTL-concepten (alfabetisch)
+nav_order: 1
+---
 
-<h2>NBD specificatiestaat</h2>
-<p>Gestandaardiseerde wettelijk vastgestelde ontwerpbeschrijving van een bewegwijzeringsbord volgens het Kader Wegontwerpproces van Rijkswaterstaat, uitgevoerd door  de Nationale Bewegwijzeringsdienst (NBD), getekend door de minister.</p>Breder begrip: https://data.rws.nl/def/otl/Uitvoeringseisen-doc
-<h3>Kenmerken</h3>
+## Introductie
+Deze pagina bevat een overzicht van alle OTL-concepten beginnend met de letter 'N'.
+## Overzicht
+## NBD specificatiestaat
+
+Gestandaardiseerde wettelijk vastgestelde ontwerpbeschrijving van een bewegwijzeringsbord volgens het Kader Wegontwerpproces van Rijkswaterstaat, uitgevoerd door  de Nationale Bewegwijzeringsdienst (NBD), getekend door de minister.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Uitvoeringseisen-doc](https://data.rws.nl/def/otl/Uitvoeringseisen-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -50,9 +27,14 @@
 </tr>
 </table>
 
-<h2>NEN 1010-rapportage</h2>
-<p>De bevindingen van een NEN 1010 opleveringsinspectie worden opgenomen in een inspectierapport. Het inspectierapport biedt inzicht in de staat en de veiligheid van de installatie ten tijde van oplevering.</p>Breder begrip: https://data.rws.nl/def/otl/Inspectierapport-doc
-<h3>Kenmerken</h3>
+## NEN 1010-rapportage
+
+De bevindingen van een NEN 1010 opleveringsinspectie worden opgenomen in een inspectierapport. Het inspectierapport biedt inzicht in de staat en de veiligheid van de installatie ten tijde van oplevering.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Inspectierapport-doc](https://data.rws.nl/def/otl/Inspectierapport-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -65,9 +47,14 @@
 </tr>
 </table>
 
-<h2>NEN 3140-rapportage</h2>
-<p>De bevindingen van een NEN 3140 inspectie worden opgenomen in een rapport. Het inspectierapport biedt inzicht in de staat en de veiligheid van de installatie.</p>Breder begrip: https://data.rws.nl/def/otl/Inspectierapport-doc
-<h3>Kenmerken</h3>
+## NEN 3140-rapportage
+
+De bevindingen van een NEN 3140 inspectie worden opgenomen in een rapport. Het inspectierapport biedt inzicht in de staat en de veiligheid van de installatie.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Inspectierapport-doc](https://data.rws.nl/def/otl/Inspectierapport-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -80,40 +67,14 @@
 </tr>
 </table>
 
-<h2>NEN 5717:2009 Inspectie</h2>
-<p>Vooronderzoek naar verontreinigde stoffen in water.</p>Breder begrip: https://data.rws.nl/def/otl/Inspectiemethode
-<h3>Kenmerken</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
-<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-omschrijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/2001/XMLSchema#string</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-http://www.w3.org/ns/shacl#Literal</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-</td>
-</tr>
-</table>
+## NEN 5717:2009 Inspectie
 
-<h2>NEN 5720:2009 Inspectie</h2>
-<p>Inspectie naar verontreinigde stoffen in water.</p>Breder begrip: https://data.rws.nl/def/otl/Inspectiemethode
-<h3>Kenmerken</h3>
+Vooronderzoek naar verontreinigde stoffen in water.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Inspectiemethode](https://data.rws.nl/def/otl/Inspectiemethode)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -142,9 +103,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>NEN-EN-689 meting</h2>
-<p>Meting van de inhalatieblootstelling van chemische stoffen.</p>Breder begrip: https://data.rws.nl/def/otl/Inspectiemethode
-<h3>Kenmerken</h3>
+## NEN 5720:2009 Inspectie
+
+Inspectie naar verontreinigde stoffen in water.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Inspectiemethode](https://data.rws.nl/def/otl/Inspectiemethode)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -173,9 +139,50 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>NEN1010</h2>
-<p>Een NEN 1010 keuring is een opleverinspectie. De inspectie is erop gericht dat elektrotechnische laagspanningsinstallaties op een veilige manier worden aangelegd, aangepast en gebruikt. Belangrijke pijlers van de NEN 1010 keuring zijn: het voorkomen van risico's op brand en elektrische schokken.</p>Breder begrip: https://data.rws.nl/def/otl/Keuringsmethode
-<h3>Kenmerken</h3>
+## NEN-EN-689 meting
+
+Meting van de inhalatieblootstelling van chemische stoffen.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Inspectiemethode](https://data.rws.nl/def/otl/Inspectiemethode)  
+
+### Kenmerken
+{:.no_toc}
+<table style="vertical-align: top;">
+<tr style="vertical-align:top">
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Gegevenstype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Max. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Min. waarde</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Waardetype</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Keuzelijst</th>
+<th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
+</tr>
+<tr style="vertical-align:top">
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+omschrijving</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/2001/XMLSchema#string</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+http://www.w3.org/ns/shacl#Literal</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
+</td>
+</tr>
+</table>
+
+## NEN1010
+
+Een NEN 1010 keuring is een opleverinspectie. De inspectie is erop gericht dat elektrotechnische laagspanningsinstallaties op een veilige manier worden aangelegd, aangepast en gebruikt. Belangrijke pijlers van de NEN 1010 keuring zijn: het voorkomen van risico's op brand en elektrische schokken.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Keuringsmethode](https://data.rws.nl/def/otl/Keuringsmethode)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -188,9 +195,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>NEN3140</h2>
-<p>NEN 3149 keuring is een inspectie door een gecertificeerde inspecteur die controleert of de bestaande elektrische laagspanningsinstallaties voldoet aan de (wettelijk verplichte) eisen. De inspectie bestaat uit een visuele inspectie en uit een inspectie door meting en beproeving.</p>Breder begrip: https://data.rws.nl/def/otl/Keuringsmethode
-<h3>Kenmerken</h3>
+## NEN3140
+
+NEN 3149 keuring is een inspectie door een gecertificeerde inspecteur die controleert of de bestaande elektrische laagspanningsinstallaties voldoet aan de (wettelijk verplichte) eisen. De inspectie bestaat uit een visuele inspectie en uit een inspectie door meting en beproeving.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Keuringsmethode](https://data.rws.nl/def/otl/Keuringsmethode)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -203,9 +215,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>NL-BSB certificaat</h2>
-<p>Verklaring die aangeeft dat bouwstoffen voldoen aan de eisen van het Besluit bodemkwaliteit, voorheen het Bouwstoffenbesluit.</p>Breder begrip: https://data.rws.nl/def/otl/Certificaat-doc
-<h3>Kenmerken</h3>
+## NL-BSB certificaat
+
+Verklaring die aangeeft dat bouwstoffen voldoen aan de eisen van het Besluit bodemkwaliteit, voorheen het Bouwstoffenbesluit.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Certificaat-doc](https://data.rws.nl/def/otl/Certificaat-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -218,9 +235,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Naamplaatlijst</h2>
-<p>Tekening van de graveerplaat of sticker ten behoeve van componentcodering.</p>Breder begrip: https://data.rws.nl/def/otl/Markeringstekening-doc
-<h3>Kenmerken</h3>
+## Naamplaatlijst
+
+Tekening van de graveerplaat of sticker ten behoeve van componentcodering.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Markeringstekening-doc](https://data.rws.nl/def/otl/Markeringstekening-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -233,9 +255,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Nalevingsschakel geluid</h2>
-<p>Doorvertaling van netwerkschakel ten behoeve van toetsen geluidproductieplafond.</p>Breder begrip: https://data.rws.nl/def/otl/RuimtelijkOppervlak
-<h3>Kenmerken</h3>
+## Nalevingsschakel geluid
+
+Doorvertaling van netwerkschakel ten behoeve van toetsen geluidproductieplafond.  
+
+Breder begrip: [https://data.rws.nl/def/otl/RuimtelijkOppervlak](https://data.rws.nl/def/otl/RuimtelijkOppervlak)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -264,9 +291,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Natuur Beheersmaatregel</h2>
-<p>Activiteit die moet worden uitgevoerd om een doelstelling te bereiken m.b.t.  natuur.</p>Breder begrip: https://data.rws.nl/def/otl/Beheersmaatregel
-<h3>Kenmerken</h3>
+## Natuur Beheersmaatregel
+
+Activiteit die moet worden uitgevoerd om een doelstelling te bereiken m.b.t.  natuur.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Beheersmaatregel](https://data.rws.nl/def/otl/Beheersmaatregel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -359,9 +391,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Natuurgebied</h2>
-<p>Veelal beschermd uitgestrekt terrein met unieke eigenschappen qua flora, fauna, geologische of landschappelijke gesteldheid (biodiversiteit) en door een extreem lage bevolkingsdichtheid nauwelijks wordt beinvloed door menselijk gedrag.</p>Breder begrip: https://data.rws.nl/def/otl/Infrawerk
-<h3>Kenmerken</h3>
+## Natuurgebied
+
+Veelal beschermd uitgestrekt terrein met unieke eigenschappen qua flora, fauna, geologische of landschappelijke gesteldheid (biodiversiteit) en door een extreem lage bevolkingsdichtheid nauwelijks wordt beinvloed door menselijk gedrag.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Infrawerk](https://data.rws.nl/def/otl/Infrawerk)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -502,9 +539,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Nautische Veiligheid</h2>
-<p>Veiligheid van het transport over zee en de binnenvaart.</p>Breder begrip: https://data.rws.nl/def/otl/Veiligheid
-<h3>Kenmerken</h3>
+## Nautische Veiligheid
+
+Veiligheid van het transport over zee en de binnenvaart.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Veiligheid](https://data.rws.nl/def/otl/Veiligheid)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -549,9 +591,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Nautofoon</h2>
-<p>Op de wal of een boei geplaatst instrument, dat met een bepaalde regelmaat een krachtig geluidssein ten gehore brengt ter geleiding van scheepvaart in geval van slecht weer.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Nautofoon
+
+Op de wal of een boei geplaatst instrument, dat met een bepaalde regelmaat een krachtig geluidssein ten gehore brengt ter geleiding van scheepvaart in geval van slecht weer.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -804,9 +851,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Nautofooninstallatie</h2>
-<p>Installatie, ook wel misthoorn genoemd, die doormiddel van akoestische signalen schepen helpt navigeren bij slecht zicht.</p>Breder begrip: https://data.rws.nl/def/otl/Installatie
-<h3>Kenmerken</h3>
+## Nautofooninstallatie
+
+Installatie, ook wel misthoorn genoemd, die doormiddel van akoestische signalen schepen helpt navigeren bij slecht zicht.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Installatie](https://data.rws.nl/def/otl/Installatie)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -947,9 +999,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Net</h2>
-<p>Geheel van touwwerk dat in verschillende sporten wordt gebruikt. Bijvoorbeeld een volleybalnet</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Net
+
+Geheel van touwwerk dat in verschillende sporten wordt gebruikt. Bijvoorbeeld een volleybalnet  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -1202,9 +1259,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Netaansluiting</h2>
-<p>SATO-object voor de aansluiting van het object op het hoofdstroomnet.</p>Breder begrip: https://data.rws.nl/def/otl/Installatie
-<h3>Kenmerken</h3>
+## Netaansluiting
+
+SATO-object voor de aansluiting van het object op het hoofdstroomnet.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Installatie](https://data.rws.nl/def/otl/Installatie)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -1345,9 +1407,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Netwerk</h2>
-<p>Verzameling van samenhangende netwerkelementen (nodes en links).</p>Breder begrip: https://w3id.org/nen2660/term#SpatialRegion
-<h3>Kenmerken</h3>
+## Netwerk
+
+Verzameling van samenhangende netwerkelementen (nodes en links).  
+
+Breder begrip: [https://w3id.org/nen2660/term#SpatialRegion](https://w3id.org/nen2660/term#SpatialRegion)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -1376,9 +1443,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Netwerkknoop</h2>
-<p>Netwerkelement dat het begin- of eindpunt vormt van een of meer netwerklinks.</p>Breder begrip: https://w3id.org/nen2660/term#SpatialRegion
-<h3>Kenmerken</h3>
+## Netwerkknoop
+
+Netwerkelement dat het begin- of eindpunt vormt van een of meer netwerklinks.  
+
+Breder begrip: [https://w3id.org/nen2660/term#SpatialRegion](https://w3id.org/nen2660/term#SpatialRegion)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -1391,9 +1463,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Netwerkpad</h2>
-<p>Eindige, afwisselende opeenvolging van netwerknodes en netwerklinks, zodanig dat elk Link onmiddelijk voorafgegaan en opgevolgd wordt door de twee Nodes die deze Link begrenzen, en waarin geen enkele Node wordt herhaald, behalve (mogelijk) de eerste en de laatste.</p>Breder begrip: https://w3id.org/nen2660/term#SpatialRegion
-<h3>Kenmerken</h3>
+## Netwerkpad
+
+Eindige, afwisselende opeenvolging van netwerknodes en netwerklinks, zodanig dat elk Link onmiddelijk voorafgegaan en opgevolgd wordt door de twee Nodes die deze Link begrenzen, en waarin geen enkele Node wordt herhaald, behalve (mogelijk) de eerste en de laatste.  
+
+Breder begrip: [https://w3id.org/nen2660/term#SpatialRegion](https://w3id.org/nen2660/term#SpatialRegion)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -1406,9 +1483,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Netwerkschakel</h2>
-<p>Deel van een netwerk, bestaande uit een aaneengesloten keten van beheerobjecten binnen één netwerkcategorie, die samen een voor de gebruiker relevante functie vervullen.</p>Breder begrip: https://w3id.org/nen2660/term#SpatialRegion
-<h3>Kenmerken</h3>
+## Netwerkschakel
+
+Deel van een netwerk, bestaande uit een aaneengesloten keten van beheerobjecten binnen één netwerkcategorie, die samen een voor de gebruiker relevante functie vervullen.  
+
+Breder begrip: [https://w3id.org/nen2660/term#SpatialRegion](https://w3id.org/nen2660/term#SpatialRegion)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -1437,449 +1519,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h3>Kernregistraties</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-</table>
+## Netwerkschakelplan
 
-<h3>Kernregistraties</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-</table>
+Plan dat voor een specifieke netwerkschakel beschrijft welke ontwikkelingen worden verwacht, welke functie- en aspecteisen er gesteld worden, en welke ambities er gelden.   
 
-<h3>Kernregistraties</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-</table>
+Breder begrip: [https://data.rws.nl/def/otl/Beleidsdocument-doc](https://data.rws.nl/def/otl/Beleidsdocument-doc)  
 
-<h3>Kernregistraties</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-</table>
-
-<h3>Kernregistraties</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-</table>
-
-<h3>Kernregistraties</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-</table>
-
-<h3>Kernregistraties</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-</table>
-
-<h3>Kernregistraties</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-</table>
-
-<h3>Kernregistraties</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-</table>
-
-<h3>Kernregistraties</h3>
-<table style="vertical-align: top;">
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS - WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Registratie beschijving</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-Netwerkschakels</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gemaakt door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">
-Gepubliceerd door</td>
-<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">
-RWS WVL</td>
-</tr>
-<tr style="vertical-align:top">
-<td> </td></tr>
-</table>
-
-<h2>Netwerkschakelplan</h2>
-<p>Plan dat voor een specifieke netwerkschakel beschrijft welke ontwikkelingen worden verwacht, welke functie- en aspecteisen er gesteld worden, en welke ambities er gelden. </p>Breder begrip: https://data.rws.nl/def/otl/Beleidsdocument-doc
-<h3>Kenmerken</h3>
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -1892,9 +1539,14 @@ RWS WVL</td>
 </tr>
 </table>
 
-<h2>Netwerkverbinding</h2>
-<p>Relatie tussen twee nodes die een directe verbinding in het netwerk voorstelt.</p>Breder begrip: https://w3id.org/nen2660/term#SpatialRegion
-<h3>Kenmerken</h3>
+## Netwerkverbinding
+
+Relatie tussen twee nodes die een directe verbinding in het netwerk voorstelt.  
+
+Breder begrip: [https://w3id.org/nen2660/term#SpatialRegion](https://w3id.org/nen2660/term#SpatialRegion)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -1907,9 +1559,14 @@ RWS WVL</td>
 </tr>
 </table>
 
-<h2>Nevengeul</h2>
-<p>Vrijwel parallel aan de hoofdstroom gelegen geul die gemaakt is om het hoogwater af te voeren dat niet veilig door de hoofdstroom kan worden afgevoerd</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Nevengeul
+
+Vrijwel parallel aan de hoofdstroom gelegen geul die gemaakt is om het hoogwater af te voeren dat niet veilig door de hoofdstroom kan worden afgevoerd  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -2162,9 +1819,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Nivelleerschuif</h2>
-<p>Schuif om water in en uit een sluis te laten</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Nivelleerschuif
+
+Schuif om water in en uit een sluis te laten  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -2417,9 +2079,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Nooddouche-installatie</h2>
-<p>Veiligheidshulpmiddel voor het afspoelen van personen</p>Breder begrip: https://data.rws.nl/def/otl/Installatie
-<h3>Kenmerken</h3>
+## Nooddouche-installatie
+
+Veiligheidshulpmiddel voor het afspoelen van personen  
+
+Breder begrip: [https://data.rws.nl/def/otl/Installatie](https://data.rws.nl/def/otl/Installatie)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -2560,9 +2227,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Noodhandbediening</h2>
-<p>Werktuig om een bewegingswerk handmatig aan te drijven om een object bij calamiteiten of storingen weer in een veilige toestand te krijgen</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Noodhandbediening
+
+Werktuig om een bewegingswerk handmatig aan te drijven om een object bij calamiteiten of storingen weer in een veilige toestand te krijgen  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -2815,9 +2487,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Noodprocedure</h2>
-<p>Specifieke bedieninstructie voor de uitvoering van een noodprocedure</p>Breder begrip: https://data.rws.nl/def/otl/Bedieninstructie-doc
-<h3>Kenmerken</h3>
+## Noodprocedure
+
+Specifieke bedieninstructie voor de uitvoering van een noodprocedure  
+
+Breder begrip: [https://data.rws.nl/def/otl/Bedieninstructie-doc](https://data.rws.nl/def/otl/Bedieninstructie-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -2830,9 +2507,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Noodstop</h2>
-<p>Knop of hendel voor het onderbreken van een machine of installatie bij een plotselinge bedreigende situatie.</p>Breder begrip: https://data.rws.nl/def/otl/Onderdeel
-<h3>Kenmerken</h3>
+## Noodstop
+
+Knop of hendel voor het onderbreken van een machine of installatie bij een plotselinge bedreigende situatie.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Onderdeel](https://data.rws.nl/def/otl/Onderdeel)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -3085,9 +2767,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Noodstroominstallatie roterend</h2>
-<p>Noodstroominstallatie die met behulp van een noodstroomaggregaat elektriciteit opwekt en automatisch in werking treedt zodra de netspanning uitvalt</p>Breder begrip: https://data.rws.nl/def/otl/Installatie
-<h3>Kenmerken</h3>
+## Noodstroominstallatie roterend
+
+Noodstroominstallatie die met behulp van een noodstroomaggregaat elektriciteit opwekt en automatisch in werking treedt zodra de netspanning uitvalt  
+
+Breder begrip: [https://data.rws.nl/def/otl/Installatie](https://data.rws.nl/def/otl/Installatie)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -3228,9 +2915,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Noodstroominstallatie statisch</h2>
-<p>Noodstroominstallatie die voor een bepaalde tijd met behulp van statische componenten automatisch zorgdraagt voor de levering van elektriciteit bij (gedeeltelijke) uitval van de primaire voeding.</p>Breder begrip: https://data.rws.nl/def/otl/Installatie
-<h3>Kenmerken</h3>
+## Noodstroominstallatie statisch
+
+Noodstroominstallatie die voor een bepaalde tijd met behulp van statische componenten automatisch zorgdraagt voor de levering van elektriciteit bij (gedeeltelijke) uitval van de primaire voeding.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Installatie](https://data.rws.nl/def/otl/Installatie)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -3371,9 +3063,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Noodtelefoon</h2>
-<p>Apparaat dat onderdeel is van een intercominstallatie en bedoeld is om in noodsituaties contact op te nemen met een medewerker in een centrale.</p>Breder begrip: https://data.rws.nl/def/otl/Ongeclassificeerd
-<h3>Kenmerken</h3>
+## Noodtelefoon
+
+Apparaat dat onderdeel is van een intercominstallatie en bedoeld is om in noodsituaties contact op te nemen met een medewerker in een centrale.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Ongeclassificeerd](https://data.rws.nl/def/otl/Ongeclassificeerd)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -3626,9 +3323,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Norm</h2>
-<p>Vrijwillige afspraak tussen belanghebbende partijen over een product, dienst of proces.</p>Breder begrip: https://data.rws.nl/def/otl/Afspraak-doc
-<h3>Kenmerken</h3>
+## Norm
+
+Vrijwillige afspraak tussen belanghebbende partijen over een product, dienst of proces.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Afspraak-doc](https://data.rws.nl/def/otl/Afspraak-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -3641,9 +3343,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Nota</h2>
-<p>Document dat een in de regel formele uiteenzetting over een bepaald onderwerp bevat. </p>Breder begrip: https://data.rws.nl/def/otl/Verslag-doc
-<h3>Kenmerken</h3>
+## Nota
+
+Document dat een in de regel formele uiteenzetting over een bepaald onderwerp bevat.   
+
+Breder begrip: [https://data.rws.nl/def/otl/Verslag-doc](https://data.rws.nl/def/otl/Verslag-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -3656,9 +3363,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Nulinspectie</h2>
-<p>De nulinspectie, die zorgt voor de vastlegging van de in het beheerobject opgenomen bouwdelen, de uitwerking van een initiële risicoanalyse en het initiële IHP.</p>Breder begrip: https://data.rws.nl/def/otl/Inspectie
-<h3>Kenmerken</h3>
+## Nulinspectie
+
+De nulinspectie, die zorgt voor de vastlegging van de in het beheerobject opgenomen bouwdelen, de uitwerking van een initiële risicoanalyse en het initiële IHP.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Inspectie](https://data.rws.nl/def/otl/Inspectie)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -3911,9 +3623,14 @@ http://www.w3.org/ns/shacl#Literal</td>
 </tr>
 </table>
 
-<h2>Nulinspectierapport</h2>
-<p>Bij nieuwbouw van een object, of bij grote renovatie van een bestaand object, moet na afloop een 0-inspectie gedaan worden. Deze omvat een complete inspectie van het object, het opgestelde beheer en onderhoudsplan helpt hierbij. Op basis daarvan wordt een compleet IHP opgesteld.</p>Breder begrip: https://data.rws.nl/def/otl/Inspectierapport-doc
-<h3>Kenmerken</h3>
+## Nulinspectierapport
+
+Bij nieuwbouw van een object, of bij grote renovatie van een bestaand object, moet na afloop een 0-inspectie gedaan worden. Deze omvat een complete inspectie van het object, het opgestelde beheer en onderhoudsplan helpt hierbij. Op basis daarvan wordt een compleet IHP opgesteld.  
+
+Breder begrip: [https://data.rws.nl/def/otl/Inspectierapport-doc](https://data.rws.nl/def/otl/Inspectierapport-doc)  
+
+### Kenmerken
+{:.no_toc}
 <table style="vertical-align: top;">
 <tr style="vertical-align:top">
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">Kenmerk</th>
@@ -3925,5 +3642,4 @@ http://www.w3.org/ns/shacl#Literal</td>
 <th style="padding: 5px 20px;font-weight: bold; vertical-align: top; background-color: rgba(211,211,211,0.2);">BMS</th>
 </tr>
 </table>
-  </body>
-</html>
+
