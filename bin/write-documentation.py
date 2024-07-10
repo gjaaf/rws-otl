@@ -436,11 +436,11 @@ def main():
                                                     + wrap_td(krs["conformsto"])
                                                 )
                                                 krs_row_data = krs_row_data + wrap_tr(row)
-                                                service_block = wrap_table(krs_row_data)
-                                        row = row + service_block
-                                        row_data = row_data + wrap_tr(row)
+                                                #service_block = wrap_table(krs_row_data)
+                                        #row = row + service_block
+                                        #row_data = row_data + wrap_tr(row)
                                         row = ""
-                                        table_data = wrap_table(row_data)
+                                        table_data = wrap_table(row_data + krs_row_data)
                                         section = section + wrap_h3("Kernregistraties")
                                         section = section + table_data
                                         output.write(section)
