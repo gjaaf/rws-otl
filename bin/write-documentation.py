@@ -437,7 +437,7 @@ def main():
                                                 krs_row_data = krs_row_data + wrap_tr(row)
                                         row = ""
                                         table_data = wrap_table(
-                                            '<colgroup><col width="33%"><col width="34%"><col width="33%"></colgroup>' + row_data + krs_row_data
+                                            '<colgroup><col width="20%"><col width="20%"><col width="60%"></colgroup>' + row_data + krs_row_data
                                             )
                                         section = section + wrap_h3("Kernregistraties")
                                         section = section + table_data
