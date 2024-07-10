@@ -393,18 +393,15 @@ def main():
                                     if entry["resource"].toPython() == kr["otl"]:
                                         print("found: " + kr["otl"] + " = " + entry["resource"].toPython())
                                         row = row + wrap_tdfc("Registratie beschijving")
-                                        row = row + wrap_td(kr["title"])
-                                        row = row + wrap_td("")
+                                        row = row + wrap_td(kr["title"], span=2)
                                         row_data = row_data + wrap_tr(row)
                                         row = ""
                                         row = row + wrap_tdfc("Gemaakt door")
-                                        row = row + wrap_td(kr["creatorname"])
-                                        row = row + wrap_td("")
+                                        row = row + wrap_td(kr["creatorname"], span=2)
                                         row_data = row_data + wrap_tr(row)
                                         row = ""
                                         row = row + wrap_tdfc("Gepubliceerd door")
-                                        row = row + wrap_td(kr["publishername"])
-                                        row = row + wrap_td("")
+                                        row = row + wrap_td(kr["publishername"], span=2)
                                         row_data = row_data + wrap_tr(row)
                                         row = ""
                                         row = row + wrap_tdfc("Service resource")
@@ -421,13 +418,10 @@ def main():
                                                     '<a href="' + krs["endpoint"] + '">' + krs["endpoint"] + "</a>"
                                                 )
                                                 krs_row_data = krs_row_data + wrap_tr(row)
-                                                row = wrap_tdfc("")
-                                                row = row + wrap_tdfc("service Naam") + wrap_td(krs["title"])
+                                                row = wrap_tdfc("service Naam", span=2) + wrap_td(krs["title"])
                                                 krs_row_data = krs_row_data + wrap_tr(row)
-                                                row = wrap_tdfc("")
                                                 row = (
-                                                    row
-                                                    + wrap_tdfc("service Beschrijving")
+                                                    wrap_tdfc("service Beschrijving", span=2)
                                                     + wrap_td(
                                                         '<a href="'
                                                         + krs["endpointdescr"]
@@ -437,10 +431,8 @@ def main():
                                                     )
                                                 )
                                                 krs_row_data = krs_row_data + wrap_tr(row)
-                                                row = wrap_tdfc("")
                                                 row = (
-                                                    row
-                                                    + wrap_tdfc("service volgt standaard")
+                                                    wrap_tdfc("service volgt standaard", span=2)
                                                     + wrap_td(krs["conformsto"])
                                                 )
                                                 krs_row_data = krs_row_data + wrap_tr(row)
@@ -783,22 +775,22 @@ def wrap_th(wrap_str):
     return return_str
 
 
-def wrap_td(wrap_str):
+def wrap_td(wrap_str, span=1):
     if not isinstance(wrap_str, str):
         wrap_str = ""
     return_str = (
-        '<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">\n'
+        f'<td colspan="{span}" style="{"text-align: right; " if span>1 else ""}padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">\n'
         + wrap_str
         + "</td>\n"
     )
     return return_str
 
 
-def wrap_tdfc(wrap_str):
+def wrap_tdfc(wrap_str, span=1):
     if not isinstance(wrap_str, str):
         wrap_str = ""
     return_str = (
-        '<td style="padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">\n'
+        f'<td colspan="{span}" style="{"text-align: right; " if span>1 else ""}padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">\n'
         + wrap_str
         + "</td>\n"
     )
