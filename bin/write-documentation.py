@@ -449,6 +449,10 @@ def main():
                                         section = section + wrap_h3("Kernregistraties")
                                         section = section + table_data
                                         output.write(section)
+
+                                        md_section += f"### Kernregistraties\n{{:.no_toc}}\n{table_data}\n"
+                                        output.write(section)  # Kernregistraties
+                                        md_output.write(md_section)
                     else:
                         output.write(line)
     print("- Stage 3")
