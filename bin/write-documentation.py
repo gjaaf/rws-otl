@@ -414,14 +414,14 @@ def main():
                                                 row = wrap_tdfc("")
                                                 if krs["endpoint"] == None:
                                                     continue
-                                                row = wrap_tdfc("service endpoint") + wrap_td(
+                                                row = wrap_tdfc("service endpoint", span=2, align="right") + wrap_td(
                                                     '<a href="' + krs["endpoint"] + '">' + krs["endpoint"] + "</a>"
                                                 )
                                                 krs_row_data = krs_row_data + wrap_tr(row)
-                                                row = wrap_tdfc("service Naam", span=2) + wrap_td(krs["title"])
+                                                row = wrap_tdfc("service Naam", span=2, align="right") + wrap_td(krs["title"])
                                                 krs_row_data = krs_row_data + wrap_tr(row)
                                                 row = (
-                                                    wrap_tdfc("service Beschrijving", span=2)
+                                                    wrap_tdfc("service Beschrijving", span=2, align="right")
                                                     + wrap_td(
                                                         '<a href="'
                                                         + krs["endpointdescr"]
@@ -432,7 +432,7 @@ def main():
                                                 )
                                                 krs_row_data = krs_row_data + wrap_tr(row)
                                                 row = (
-                                                    wrap_tdfc("service volgt standaard", span=2)
+                                                    wrap_tdfc("service volgt standaard", span=2, align="right")
                                                     + wrap_td(krs["conformsto"])
                                                 )
                                                 krs_row_data = krs_row_data + wrap_tr(row)
@@ -775,22 +775,22 @@ def wrap_th(wrap_str):
     return return_str
 
 
-def wrap_td(wrap_str, span=1):
+def wrap_td(wrap_str, span=1, align="left"):
     if not isinstance(wrap_str, str):
         wrap_str = ""
     return_str = (
-        f'<td colspan="{span}" style="{"text-align: right; " if span>1 else ""}padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">\n'
+        f'<td colspan="{span}" style="text-align: {align}; padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.5);">\n'
         + wrap_str
         + "</td>\n"
     )
     return return_str
 
 
-def wrap_tdfc(wrap_str, span=1):
+def wrap_tdfc(wrap_str, span=1, align="left"):
     if not isinstance(wrap_str, str):
         wrap_str = ""
     return_str = (
-        f'<td colspan="{span}" style="{"text-align: right; " if span>1 else ""}padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">\n'
+        f'<td colspan="{span}" style="text-align: {align}; padding: 10px 20px; vertical-align: top; background-color: rgba(211,211,211,0.2);">\n'
         + wrap_str
         + "</td>\n"
     )
