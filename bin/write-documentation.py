@@ -394,14 +394,17 @@ def main():
                                         print("found: " + kr["otl"] + " = " + entry["resource"].toPython())
                                         row = row + wrap_tdfc("Registratie beschijving")
                                         row = row + wrap_td(kr["title"])
+                                        row = row + wrap_td("")
                                         row_data = row_data + wrap_tr(row)
                                         row = ""
                                         row = row + wrap_tdfc("Gemaakt door")
                                         row = row + wrap_td(kr["creatorname"])
+                                        row = row + wrap_td("")
                                         row_data = row_data + wrap_tr(row)
                                         row = ""
                                         row = row + wrap_tdfc("Gepubliceerd door")
                                         row = row + wrap_td(kr["publishername"])
+                                        row = row + wrap_td("")
                                         row_data = row_data + wrap_tr(row)
                                         row = ""
                                         row = row + wrap_tdfc("Service resource")
@@ -411,17 +414,17 @@ def main():
                                         for krs in krs_results_sorted:
                                             if krs["kr"].toPython() == kr["kr"]:
                                                 print(krs)
-                                                row = "<td> </td>"
+                                                row = wrap_tdfc("")
                                                 if krs["endpoint"] == None:
                                                     continue
                                                 row = wrap_tdfc("service endpoint") + wrap_td(
                                                     '<a href="' + krs["endpoint"] + '">' + krs["endpoint"] + "</a>"
                                                 )
                                                 krs_row_data = krs_row_data + wrap_tr(row)
-                                                row = "<td> </td>"
+                                                row = wrap_tdfc("")
                                                 row = row + wrap_tdfc("service Naam") + wrap_td(krs["title"])
                                                 krs_row_data = krs_row_data + wrap_tr(row)
-                                                row = "<td> </td>"
+                                                row = wrap_tdfc("")
                                                 row = (
                                                     row
                                                     + wrap_tdfc("service Beschrijving")
@@ -434,7 +437,7 @@ def main():
                                                     )
                                                 )
                                                 krs_row_data = krs_row_data + wrap_tr(row)
-                                                row = "<td> </td>"
+                                                row = wrap_tdfc("")
                                                 row = (
                                                     row
                                                     + wrap_tdfc("service volgt standaard")
