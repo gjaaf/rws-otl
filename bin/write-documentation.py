@@ -384,7 +384,6 @@ def main():
                                 section = section + table_data
                                 md_section += f"### Kenmerken\n{{:.no_toc}}\n{table_data}\n"
                                 output.write(section)  # Kenmerken
-                                md_output.write(md_section)
                                 # start of kernregistratie
                                 row_data = ""
                                 section = ""
@@ -442,8 +441,8 @@ def main():
                                         section = section + table_data
                                         output.write(section)
                                         md_section += f"### Kernregistraties\n{{:.no_toc}}\n{table_data}\n"
-                                        output.write(section)  # Kernregistraties
-                                        md_output.write(md_section)
+
+                                md_output.write(md_section)
                     else:
                         output.write(line)
     print("- Stage 3")
