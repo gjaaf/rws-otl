@@ -392,16 +392,16 @@ def main():
                                 for kr in kr_results_sorted:
                                     if entry["resource"].toPython() == kr["otl"]:
                                         print("found: " + kr["otl"] + " = " + entry["resource"].toPython())
-                                        row = row + wrap_tdfc("Registratie beschijving")
-                                        row = row + wrap_td(kr["title"], width=30)
+                                        row = row + wrap_tdfc("Registratie beschijving", width=30)
+                                        row = row + wrap_td(kr["title"])
                                         row_data = row_data + wrap_tr(row)
                                         row = ""
-                                        row = row + wrap_tdfc("Gemaakt door")
-                                        row = row + wrap_td(kr["creatorname"], width=30)
+                                        row = row + wrap_tdfc("Gemaakt door", width=30)
+                                        row = row + wrap_td(kr["creatorname"])
                                         row_data = row_data + wrap_tr(row)
                                         row = ""
-                                        row = row + wrap_tdfc("Gepubliceerd door")
-                                        row = row + wrap_td(kr["publishername"], width=30)
+                                        row = row + wrap_tdfc("Gepubliceerd door", width=30)
+                                        row = row + wrap_td(kr["publishername"])
                                         row_data = row_data + wrap_tr(row)
                                         row = ""
                                         row = row + wrap_tdfc("Service resource")
