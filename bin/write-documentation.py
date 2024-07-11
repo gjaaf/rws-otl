@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# process bom, otl and kr. Create Respec files.
+# Verwerk BOM, OTL en kernregistratie tot een documentatie in de vorm van een set Markdown-bestanden.
 
 from rdflib import ConjunctiveGraph
 from urllib.parse import quote, unquote
@@ -12,7 +12,7 @@ import json
 
 def main():
     """
-    Verwerk BOM, OTL en kernregistratie tot een documentatie in de vorm van een set Respec-bestanden.
+    Verwerk BOM, OTL en kernregistratie tot een documentatie in de vorm van een set Markdown-bestanden.
     """
     start_time = time.time()
     args = parse_args()
@@ -241,10 +241,6 @@ def main():
     initials = ""
 
     with open(
-        f'{args["root"]}/kernregister-catalogus/respec-documentatie/templates/otl-bomr-kr.template', "r"
-    ) as otl_bom_kr_template, open(
-        f'{args["root"]}/kernregister-catalogus/respec-documentatie/otl-bom-kr.html', "w"
-    ) as file, open(
         f'{args["root"]}/kernregister-catalogus/md-doc/otl-list.md', "w"
     ) as md_otl_list:
 
@@ -254,199 +250,183 @@ def main():
             "\n## Introductie\nDeze pagina bevat een alfabetisch overzicht van alle OTL-concepten.\n## Alfabetisch overzicht\n"
         )
 
-        for line in otl_bom_kr_template:
-            if line == "[INSERT-OTL-OBJECTS]\n":
-                prev_initial = ""
-                section = ""
-                for entry in results_array:
-                    entry_str = entry["label"]
-                    initial = entry_str[0:1]
-                    initials = initials + initial
-                    if initial != prev_initial:
-                        skip_initial_comma = 1
-                        if section != "":
-                            md_otl_list.write(f"### {prev_initial}\n")
-                            md_otl_list.write(f"{section}\n")
-                            section = wrap_h3(prev_initial) + section
-                            section = wrap_section(section)
-                            file.write(section)
-                            section = ""
-                    if skip_initial_comma == 1:
-                        skip_initial_comma = 0
-                    else:
-                        section = section + (", ")
-                    section = section + wrap_href(entry_str, initial)
-                    prev_initial = initial
-                section = wrap_h3(prev_initial) + section
-                section = wrap_section(section)
-                file.write(section)
+        prev_initial = ""
+        section = ""
+        for entry in results_array:
+            entry_str = entry["label"]
+            initial = entry_str[0:1]
+            initials = initials + initial
+            if initial != prev_initial:
+                skip_initial_comma = 1
+                if section != "":
+                    md_otl_list.write(f"### {prev_initial}\n")
+                    md_otl_list.write(f"{section}\n")
+                    section = wrap_h3(prev_initial) + section
+                    section = wrap_section(section)
+                    section = ""
+            if skip_initial_comma == 1:
+                skip_initial_comma = 0
             else:
-                file.write(line)
+                section = section + (", ")
+            section = section + wrap_href(entry_str, initial)
+            prev_initial = initial
+        section = wrap_h3(prev_initial) + section
+        section = wrap_section(section)
 
     # Laad mapping data
     with open(f"{args['root']}/mapping.json", "r", encoding="utf-8") as mapping_file:
         mapping_data = json.load(mapping_file)
 
     print("- Stage 2")
-    with open(
-        f'{args["root"]}/kernregister-catalogus/respec-documentatie/templates/Elements.template', "r"
-    ) as elements_template:
-        for char in distinct_initials:
-            print("Writing file: " + char)
-            filename = f'{args["root"]}/kernregister-catalogus/respec-documentatie/Elements_' + char + ".html"
-            md_filename = f'{args["root"]}/kernregister-catalogus/md-doc/concepten-' + char + ".md"
-            with open(filename, "w") as output, open(md_filename, "w") as md_output:
-                # Voorbereiding markdown file
-                md_output.write(
-                    f"---\ntitle: OTL-concepten ({char})\nparent: OTL-concepten (alfabetisch)\nnav_order: 1\n---\n"
-                )
-                md_output.write(
-                    f"\n## Introductie\nDeze pagina bevat een overzicht van alle OTL-concepten beginnend met de letter '{char}'.\n## Overzicht\n"
-                )
 
-                elements_template.seek(0)
-                for line in elements_template:
-                    if line == "[INSERT-OTL-OBJECTS]\n":
-                        for entry in results_array:
-                            entry_str = entry["label"]
-                            defi = entry["definition"]
-                            brdr = entry["broader"].toPython()
-                            initial = entry_str[0:1]
-                            section = ""
-                            md_section = ""
+    for char in distinct_initials:
+        print("Writing file: " + char)
+        md_filename = f'{args["root"]}/kernregister-catalogus/md-doc/concepten-' + char + ".md"
+        with open(md_filename, "w") as md_output:
+            # Voorbereiding markdown file
+            md_output.write(
+                f"---\ntitle: OTL-concepten ({char})\nparent: OTL-concepten (alfabetisch)\nnav_order: 1\n---\n"
+            )
+            md_output.write(
+                f"\n## Introductie\nDeze pagina bevat een overzicht van alle OTL-concepten beginnend met de letter '{char}'.\n## Overzicht\n"
+            )
 
-                            if initial == char:
-                                md_section += f"## {entry_str}\n\n"
-                                md_section += f"{defi}  \n\n"
-                                md_section += f"Breder begrip: [{brdr}]({brdr})  \n\n"
-                                section = section + wrap_h2(entry_str)
-                                section = section + wrap_p(defi)
-                                section = section + "Breder begrip: " + brdr
-                                if args["verbose"]:
-                                    print("Resource: " + get_last_word(entry["resource"].toPython()))
-                                patroon_data = ""
-                                row_data = ""
-                                for pattern in patroon_results_sorted:
-                                    if get_last_word(pattern["res"]) == get_last_word(entry["resource"].toPython()):
-                                        patroon_data = ""
-                                        patroon_data = patroon_data + wrap_td(pattern["name"])
-                                        if args["verbose"]:
-                                            print("patroon: " + pattern["name"])
-                                        if not pattern["datatype"]:
-                                            datatype = ""
-                                        else:
-                                            datatype = pattern["datatype"]
-                                        patroon_data = patroon_data + wrap_td(unquote(quote(datatype)))
-                                        patroon_data = patroon_data + wrap_td(pattern["minexclusive"])
-                                        patroon_data = patroon_data + wrap_td(pattern["maxexclusive"])
-                                        patroon_data = patroon_data + wrap_td(unquote(quote(pattern["nodekind"])))
-                                        patroon_data = patroon_data + wrap_td("")  # Keuzelijst
+            for entry in results_array:
+                entry_str = entry["label"]
+                defi = entry["definition"]
+                brdr = entry["broader"].toPython()
+                initial = entry_str[0:1]
+                section = ""
+                md_section = ""
 
-                                        try:
-                                            bms_data = []
-                                            bms_props = mapping_data[str(entry_str)][pattern["resource"][36:]]
-                                            for bms in bms_props:
-                                                name = bms_props[bms]['name-bms']
-                                                if name == "ultimo":
-                                                    name = "ultimo"
-                                                elif name == "disk":
-                                                    name = "Disk"
-                                                elif name == "bkn":
-                                                    name = "BKN"
-                                                elif name == "kerngis":
-                                                    name = "Kerngis"
+                if initial == char:
+                    md_section += f"## {entry_str}\n\n"
+                    md_section += f"{defi}  \n\n"
+                    md_section += f"Breder begrip: [{brdr}]({brdr})  \n\n"
+                    section = section + wrap_h2(entry_str)
+                    section = section + wrap_p(defi)
+                    section = section + "Breder begrip: " + brdr
+                    if args["verbose"]:
+                        print("Resource: " + get_last_word(entry["resource"].toPython()))
+                    patroon_data = ""
+                    row_data = ""
+                    for pattern in patroon_results_sorted:
+                        if get_last_word(pattern["res"]) == get_last_word(entry["resource"].toPython()):
+                            patroon_data = ""
+                            patroon_data = patroon_data + wrap_td(pattern["name"])
+                            if args["verbose"]:
+                                print("patroon: " + pattern["name"])
+                            if not pattern["datatype"]:
+                                datatype = ""
+                            else:
+                                datatype = pattern["datatype"]
+                            patroon_data = patroon_data + wrap_td(unquote(quote(datatype)))
+                            patroon_data = patroon_data + wrap_td(pattern["minexclusive"])
+                            patroon_data = patroon_data + wrap_td(pattern["maxexclusive"])
+                            patroon_data = patroon_data + wrap_td(unquote(quote(pattern["nodekind"])))
+                            patroon_data = patroon_data + wrap_td("")  # Keuzelijst
 
-                                                if bms_props[bms]["datatype-bms"] == bms_props[bms]["datatype-otl"]:
-                                                    bms_data.append(
-                                                        f"<b>{bms}</b>: {name} (<font color=\"green\">{bms_props[bms]['datatype-bms']}</font>)"
-                                                    )
-                                                else:
-                                                    bms_data.append(
-                                                        f"<b>{bms}</b>: {name} (<font color=\"red\">{bms_props[bms]['datatype-bms']}</font>)"
-                                                    )
-                                            patroon_data = patroon_data + wrap_td("<br>".join(bms_data))
-                                        except:
-                                            patroon_data = patroon_data + wrap_td("")
+                            try:
+                                bms_data = []
+                                bms_props = mapping_data[str(entry_str)][pattern["resource"][36:]]
+                                for bms in bms_props:
+                                    name = bms_props[bms]['name-bms']
+                                    if name == "ultimo":
+                                        name = "ultimo"
+                                    elif name == "disk":
+                                        name = "Disk"
+                                    elif name == "bkn":
+                                        name = "BKN"
+                                    elif name == "kerngis":
+                                        name = "Kerngis"
 
-                                        patroon_data = wrap_tr(patroon_data)
-                                        row_data = row_data + patroon_data
-                                header = wrap_th("Kenmerk")
-                                header = header + wrap_th("Gegevenstype")
-                                header = header + wrap_th("Max. waarde")
-                                header = header + wrap_th("Min. waarde")
-                                header = header + wrap_th("Waardetype")
-                                header = header + wrap_th("Keuzelijst")
-                                header = header + wrap_th("BMS")
-                                header = wrap_tr(header)
-                                table_data = header + row_data
-                                table_data = wrap_table(table_data)
-                                section = section + wrap_h3("Kenmerken")
-                                section = section + table_data
-                                md_section += f"### Kenmerken\n{{:.no_toc}}\n{table_data}\n"
-                                output.write(section)  # Kenmerken
-                                # start of kernregistratie
-                                row_data = ""
-                                section = ""
-                                row = ""
-                                for kr in kr_results_sorted:
-                                    if entry["resource"].toPython() == kr["otl"]:
-                                        print("found: " + kr["otl"] + " = " + entry["resource"].toPython())
-                                        row = row + wrap_tdfc("Registratie beschijving")
-                                        row = row + wrap_td(kr["title"], span=2)
-                                        row_data = row_data + wrap_tr(row)
-                                        row = ""
-                                        row = row + wrap_tdfc("Gemaakt door")
-                                        row = row + wrap_td(kr["creatorname"], span=2)
-                                        row_data = row_data + wrap_tr(row)
-                                        row = ""
-                                        row = row + wrap_tdfc("Gepubliceerd door")
-                                        row = row + wrap_td(kr["publishername"], span=2)
-                                        row_data = row_data + wrap_tr(row)
-                                        row = ""
-                                        row = row + wrap_tdfc("Service resource")
-                                        krs_row_data = ""
-                                        service_block = ""
-                                        serviceuri = ""
-                                        for krs in krs_results_sorted:
-                                            if krs["kr"].toPython() == kr["kr"]:
-                                                print(krs)
-                                                row = wrap_tdfc("")
-                                                if krs["endpoint"] == None:
-                                                    continue
-                                                row = wrap_tdfc("service endpoint", span=2, align="right") + wrap_td(
-                                                    '<a href="' + krs["endpoint"] + '">' + krs["endpoint"] + "</a>"
-                                                )
-                                                krs_row_data = krs_row_data + wrap_tr(row)
-                                                row = wrap_tdfc("service Naam", span=2, align="right") + wrap_td(krs["title"])
-                                                krs_row_data = krs_row_data + wrap_tr(row)
-                                                row = (
-                                                    wrap_tdfc("service Beschrijving", span=2, align="right")
-                                                    + wrap_td(
-                                                        '<a href="'
-                                                        + krs["endpointdescr"]
-                                                        + '">'
-                                                        + krs["endpointdescr"]
-                                                        + "</a>"
-                                                    )
-                                                )
-                                                krs_row_data = krs_row_data + wrap_tr(row)
-                                                row = (
-                                                    wrap_tdfc("service volgt standaard", span=2, align="right")
-                                                    + wrap_td(krs["conformsto"])
-                                                )
-                                                krs_row_data = krs_row_data + wrap_tr(row)
-                                        row = ""
-                                        table_data = wrap_table(
-                                            '<colgroup><col width="20%"><col width="20%"><col width="60%"></colgroup>' + row_data + krs_row_data
-                                            )
-                                        section = section + wrap_h3("Kernregistraties")
-                                        section = section + table_data
-                                        output.write(section)
-                                        md_section += f"### Kernregistraties\n{{:.no_toc}}\n{table_data}\n"
+                                    if bms_props[bms]["datatype-bms"] == bms_props[bms]["datatype-otl"]:
+                                        bms_data.append(
+                                            f"<b>{bms}</b>: {name} (<font color=\"green\">{bms_props[bms]['datatype-bms']}</font>)"
+                                        )
+                                    else:
+                                        bms_data.append(
+                                            f"<b>{bms}</b>: {name} (<font color=\"red\">{bms_props[bms]['datatype-bms']}</font>)"
+                                        )
+                                patroon_data = patroon_data + wrap_td("<br>".join(bms_data))
+                            except:
+                                patroon_data = patroon_data + wrap_td("")
 
-                                md_output.write(md_section)
-                    else:
-                        output.write(line)
+                            patroon_data = wrap_tr(patroon_data)
+                            row_data = row_data + patroon_data
+                    header = wrap_th("Kenmerk")
+                    header = header + wrap_th("Gegevenstype")
+                    header = header + wrap_th("Max. waarde")
+                    header = header + wrap_th("Min. waarde")
+                    header = header + wrap_th("Waardetype")
+                    header = header + wrap_th("Keuzelijst")
+                    header = header + wrap_th("BMS")
+                    header = wrap_tr(header)
+                    table_data = header + row_data
+                    table_data = wrap_table(table_data)
+                    section = section + wrap_h3("Kenmerken")
+                    section = section + table_data
+                    md_section += f"### Kenmerken\n{{:.no_toc}}\n{table_data}\n"
+                    # start of kernregistratie
+                    row_data = ""
+                    section = ""
+                    row = ""
+                    for kr in kr_results_sorted:
+                        if entry["resource"].toPython() == kr["otl"]:
+                            print("found: " + kr["otl"] + " = " + entry["resource"].toPython())
+                            row = row + wrap_tdfc("Registratie beschijving")
+                            row = row + wrap_td(kr["title"], span=2)
+                            row_data = row_data + wrap_tr(row)
+                            row = ""
+                            row = row + wrap_tdfc("Gemaakt door")
+                            row = row + wrap_td(kr["creatorname"], span=2)
+                            row_data = row_data + wrap_tr(row)
+                            row = ""
+                            row = row + wrap_tdfc("Gepubliceerd door")
+                            row = row + wrap_td(kr["publishername"], span=2)
+                            row_data = row_data + wrap_tr(row)
+                            row = ""
+                            row = row + wrap_tdfc("Service resource")
+                            krs_row_data = ""
+                            service_block = ""
+                            serviceuri = ""
+                            for krs in krs_results_sorted:
+                                if krs["kr"].toPython() == kr["kr"]:
+                                    print(krs)
+                                    row = wrap_tdfc("")
+                                    if krs["endpoint"] == None:
+                                        continue
+                                    row = wrap_tdfc("service endpoint", span=2, align="right") + wrap_td(
+                                        '<a href="' + krs["endpoint"] + '">' + krs["endpoint"] + "</a>"
+                                    )
+                                    krs_row_data = krs_row_data + wrap_tr(row)
+                                    row = wrap_tdfc("service Naam", span=2, align="right") + wrap_td(krs["title"])
+                                    krs_row_data = krs_row_data + wrap_tr(row)
+                                    row = (
+                                        wrap_tdfc("service Beschrijving", span=2, align="right")
+                                        + wrap_td(
+                                            '<a href="'
+                                            + krs["endpointdescr"]
+                                            + '">'
+                                            + krs["endpointdescr"]
+                                            + "</a>"
+                                        )
+                                    )
+                                    krs_row_data = krs_row_data + wrap_tr(row)
+                                    row = (
+                                        wrap_tdfc("service volgt standaard", span=2, align="right")
+                                        + wrap_td(krs["conformsto"])
+                                    )
+                                    krs_row_data = krs_row_data + wrap_tr(row)
+                            row = ""
+                            table_data = wrap_table(
+                                '<colgroup><col width="20%"><col width="20%"><col width="60%"></colgroup>' + row_data + krs_row_data
+                                )
+                            section = section + wrap_h3("Kernregistraties")
+                            section = section + table_data
+                            md_section += f"### Kernregistraties\n{{:.no_toc}}\n{table_data}\n"
+
+                    md_output.write(md_section)
     print("- Stage 3")
 
     query = """
@@ -490,8 +470,6 @@ def main():
 
     initials = ""
     with open(
-        f'{args["root"]}/kernregister-catalogus/respec-documentatie/templates/bomr.template', "r"
-    ) as bomr_template, open(f'{args["root"]}/kernregister-catalogus/respec-documentatie/bomr.html', "w") as file, open(
         f'{args["root"]}/kernregister-catalogus/md-doc/bomr-list.md', "w"
     ) as md_bomr_list:
         # Voorbereiding bomr-list.md
@@ -502,36 +480,30 @@ def main():
             "\n## Introductie\nDeze pagina bevat een alfabetisch overzicht van alle BOM-R-elementen.\n## Alfabetisch overzicht\n"
         )
 
-        for line in bomr_template:
-            if line == "[INSERT-BOMR-OBJECTS]\n":
-                prev_initial = ""
-                section = ""
-                for entry in results_sorted:
-                    entry_str = entry["definition"]
-                    initial = entry_str[0:1]
-                    initials = initials + initial
-                    if initial != prev_initial:
-                        skip_initial_comma = 1
-                        if section != "":
-                            md_bomr_list.write(f"### {prev_initial}\n")
-                            md_bomr_list.write(f"{section}\n")
+        prev_initial = ""
+        section = ""
+        for entry in results_sorted:
+            entry_str = entry["definition"]
+            initial = entry_str[0:1]
+            initials = initials + initial
+            if initial != prev_initial:
+                skip_initial_comma = 1
+                if section != "":
+                    md_bomr_list.write(f"### {prev_initial}\n")
+                    md_bomr_list.write(f"{section}\n")
 
-                            section = wrap_h3(prev_initial) + section
-                            section = wrap_section(section)
-                            file.write(section)
-                            section = ""
-                    if skip_initial_comma == 1:
-                        skip_initial_comma = 0
-                    # else:
-                    #     section = section + (", ")
-                    section = section + wrap_href(entry_str, initial)
-                    section = section + "<br>" + entry["comment"] + "<br><br>"
-                    prev_initial = initial
-                section = wrap_h3(prev_initial) + section
-                section = wrap_section(section)
-                file.write(section)
-            else:
-                file.write(line)
+                    section = wrap_h3(prev_initial) + section
+                    section = wrap_section(section)
+                    section = ""
+            if skip_initial_comma == 1:
+                skip_initial_comma = 0
+            # else:
+            #     section = section + (", ")
+            section = section + wrap_href(entry_str, initial)
+            section = section + "<br>" + entry["comment"] + "<br><br>"
+            prev_initial = initial
+        section = wrap_h3(prev_initial) + section
+        section = wrap_section(section)
 
     print("Stage 4")
 
@@ -589,52 +561,43 @@ def main():
     section = ""
 
     with open(
-        f'{args["root"]}/kernregister-catalogus/respec-documentatie/templates/kr.template', "r"
-    ) as bomr_template, open(f'{args["root"]}/kernregister-catalogus/respec-documentatie/kr.html', "w") as file, open(
         f'{args["root"]}/kernregister-catalogus/md-doc/kr-list.md', "w"
     ) as md_kr_list:
-        for line in bomr_template:
-            if line == "[INSERT-KR-OBJECTS]\n":
+        # Voorbereiding otl-list.md
+        md_kr_list.write("---\ntitle: Kernregistraties\nparent: RWS Kernregistraties\nnav_order: 3\n---\n")
+        md_kr_list.write(
+            "\n## Introductie\nDeze pagina bevat de kernregistraties gecombineerd met de OTL-elementen.\n## Alfabetisch overzicht\n"
+        )
 
-                # Voorbereiding otl-list.md
-                md_kr_list.write("---\ntitle: Kernregistraties\nparent: RWS Kernregistraties\nnav_order: 3\n---\n")
-                md_kr_list.write(
-                    "\n## Introductie\nDeze pagina bevat de kernregistraties gecombineerd met de OTL-elementen.\n## Alfabetisch overzicht\n"
-                )
-
-                for entry in kr_otl_results_sorted:
-                    dataset = entry["dataset"]
-                    title = entry["title"]
-                    if dataset != prev_dataset:
-                        prev_dataset = dataset
-                        prev_serv = ""
-                        services = ""
-                        md_kr_list.write(f"### {title}\n")
-                        md_kr_list.write(f"{section}\n")
-                        section = wrap_h3(title) + section
-                        file.write(section)
-                        keyword_row = wrap_td("Keywords")
-                        keyword_str = ""
-                        for keyw in get_all_keywords(dataset, kr_otl_results_array):
-                            keyword_str = keyword_str + " " + keyw
-                        keyword_row = keyword_row + wrap_td(keyword_str)
-                        keyword_row = wrap_tr(keyword_row)
-                        for serv in get_all_dataservices(dataset, kr_otl_results_array):
-                            if prev_serv != serv:
-                                prev_serv = serv
-                                serv_name = get_dataservice_name(serv, kr_otl_results_array)
-                                serv_url = get_dataservice_url(serv, kr_otl_results_array)
-                                service_row = wrap_td(serv_name)
-                                service_row = service_row + wrap_td(wrap_href_simple(serv, serv_url))
-                                service_row = wrap_tr(service_row)
-                                services = services + service_row
-                        section = wrap_table(keyword_row + services)
-                    section = wrap_section(section)
-                    md_kr_list.write(f"{section}\n")
-                    file.write(section)
-                    section = ""
-            else:
-                file.write(line)
+        for entry in kr_otl_results_sorted:
+            dataset = entry["dataset"]
+            title = entry["title"]
+            if dataset != prev_dataset:
+                prev_dataset = dataset
+                prev_serv = ""
+                services = ""
+                md_kr_list.write(f"### {title}\n")
+                md_kr_list.write(f"{section}\n")
+                section = wrap_h3(title) + section
+                keyword_row = wrap_td("Keywords")
+                keyword_str = ""
+                for keyw in get_all_keywords(dataset, kr_otl_results_array):
+                    keyword_str = keyword_str + " " + keyw
+                keyword_row = keyword_row + wrap_td(keyword_str)
+                keyword_row = wrap_tr(keyword_row)
+                for serv in get_all_dataservices(dataset, kr_otl_results_array):
+                    if prev_serv != serv:
+                        prev_serv = serv
+                        serv_name = get_dataservice_name(serv, kr_otl_results_array)
+                        serv_url = get_dataservice_url(serv, kr_otl_results_array)
+                        service_row = wrap_td(serv_name)
+                        service_row = service_row + wrap_td(wrap_href_simple(serv, serv_url))
+                        service_row = wrap_tr(service_row)
+                        services = services + service_row
+                section = wrap_table(keyword_row + services)
+            section = wrap_section(section)
+            md_kr_list.write(f"{section}\n")
+            section = ""
 
     end_time = time.time()
     run_time = end_time - start_time
