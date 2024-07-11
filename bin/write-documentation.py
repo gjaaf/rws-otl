@@ -366,7 +366,7 @@ def main():
                     table_data = wrap_table(table_data)
                     section = section + wrap_h3("Kenmerken")
                     section = section + table_data
-                    md_section += f"### Kenmerken\n{{:.no_toc}}\n{table_data}\n"
+                    md_section += f"### Kenmerken\n{table_data}\n"
                     # start of kernregistratie
                     row_data = ""
                     section = ""
@@ -424,7 +424,7 @@ def main():
                                 )
                             section = section + wrap_h3("Kernregistraties")
                             section = section + table_data
-                            md_section += f"### Kernregistraties\n{{:.no_toc}}\n{table_data}\n"
+                            md_section += f"### Kernregistraties\n{table_data}\n"
 
                     md_output.write(md_section)
     print("- Stage 3")
