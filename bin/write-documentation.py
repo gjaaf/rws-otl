@@ -368,6 +368,7 @@ def main():
                     section = section + table_data
                     md_section += f"### Kenmerken\n{table_data}\n"
                     # start of kernregistratie
+                    table_data = ""
                     row_data = ""
                     section = ""
                     row = ""
@@ -376,7 +377,7 @@ def main():
                             print("found: " + kr["otl"] + " = " + entry["resource"].toPython())
                             row = row + wrap_tdfc("Registratie beschijving")
                             row = row + wrap_td(kr["title"], span=2)
-                            row_data = row_data + wrap_tr(row)
+                            row_data = wrap_tr(row)
                             row = ""
                             row = row + wrap_tdfc("Gemaakt door")
                             row = row + wrap_td(kr["creatorname"], span=2)
@@ -419,12 +420,15 @@ def main():
                                     )
                                     krs_row_data = krs_row_data + wrap_tr(row)
                             row = ""
-                            table_data = wrap_table(
-                                '<colgroup><col width="20%"><col width="20%"><col width="60%"></colgroup>' + row_data + krs_row_data
-                                )
+                            table_data = table_data + row_data + krs_row_data
                             section = section + wrap_h3("Kernregistraties")
                             section = section + table_data
-                            md_section += f"### Kernregistraties\n{table_data}\n"
+
+                    if table_data != "":
+                        table_data = wrap_table(
+                            '<colgroup><col width="20%"><col width="20%"><col width="60%"></colgroup>' + table_data
+                            )
+                        md_section += f"### Kernregistraties\n{table_data}\n"
 
                     md_output.write(md_section)
     print("- Stage 3")
