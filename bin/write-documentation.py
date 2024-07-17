@@ -366,7 +366,8 @@ def main():
                     table_data = wrap_table(table_data)
                     section = section + wrap_h3("Kenmerken")
                     section = section + table_data
-                    md_section += f"### Kenmerken\n{table_data}\n"
+                    if row_data != "":
+                        md_section += f"### Kenmerken\n{table_data}\n"
                     # start of kernregistratie
                     table_data = ""
                     row_data = ""
